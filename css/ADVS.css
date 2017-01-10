@@ -1,0 +1,143 @@
+.searchLocationsSelectionPanel{width:100%;border:0;}
+
+#radvs .searchLocationsSelectionPanel{border:1px solid #CCC;border-bottom:0;padding:10px 0 0 30px;width:470px;}
+
+.locationListADVS{width:220px;}
+
+#radvs .locationListADVS{width:200px;}
+
+.searchDateSelectionPanel{display:block;clear:left;text-align:left;}
+
+#radvs .searchDateSelectionPanel{border:1px solid #CCC;padding:10px 0 0 30px;width:470px;}
+
+#radvs .ODChange .searchDateSelectionPanel{border-top:0;}
+
+.searchDateSelectionPanel .selector{margin:0 1.5em 1.5em 0;padding:0;list-style-type:none;height:3.4em;float:left;position:relative;white-space:nowrap;}
+
+* html .searchDateSelectionPanel .selector{height:5em;margin-bottom:0;}
+
+html .searchDateSelectionPanel .selector{height:5em;margin-bottom:0;}
+
+.searchDateSelectionPanel .selector li{margin:0 .5em 0 0;padding:0;float:left;}
+
+* html .searchDateSelectionPanel .selector li{float:none;zoom:1;display:inline;}
+
+html .searchDateSelectionPanel .selector li{float:none;zoom:1;display:inline;}
+
+.searchDateSelectionPanel .dayOfWeek{display:block;top:3.8em;left:0;font-size:90%;}
+
+html .searchDateSelectionPanel .dayOfWeek{position:absolute;}
+
+*html .searchDateSelectionPanel .dayOfWeek{position:absolute;}
+
+.ErrorBgrd .dayOfWeek{*top:4.5em;}
+
+.ErrorBgrd ul.time label{*padding-top:.5em;}
+
+html:first-child .ErrorBgrd ul.time label{padding-top:.5em;}
+
+html:first-child .ErrorBgrd ul.date .flexibility label{padding-top:.5em;}
+
+/*.searchDateSelectionPanel .ImgCal{padding-right:1px;}
+
+html .searchDateSelectionPanel .ImgCal{zoom:1;padding:18px 0 0 19px;}*/
+
+.searchDateSelectionPanel .selector label{display:block;font-weight:bold;margin-bottom:.2em;}
+
+.searchDateSelectionPanel{display:inline-table;}
+
+.dateListsDisabled{color:#999;}
+/* Hides from IE-mac \*/
+/* [1526775_0014] */
+
+ * html .searchDateSelectionPanel{height:1%;}
+
+html .searchDateSelectionPanel{height:1%;}
+
+.searchDateSelectionPanel{display:block;}
+
+.tableSearchDiv{background-color:#FFF;border-color:#CCC;border-style:solid solid none;border-width:1px 1px medium;margin-left:25px;margin-top:20px;vertical-align:bottom;width:560px;}
+
+ul#tabnav{border-bottom:1px solid #CCC;font-size:110%;font-weight:bold;list-style-type:none;margin:0;padding-bottom:24px;padding-left:0;}
+
+ul#tabnav li{background-color:#FFF;border:1px solid #CCC;float:left;margin:2px 2px 0 0;}
+
+#tabnav a{color:#000;display:block;padding:3px 13px 4px 10px;text-decoration:none;}
+
+.tableSearchNavHeader{/*border-color:#CCC;border-spacing:1px;border-style:none solid solid;border-width:medium 1px 1px;*/font-weight:bold;margin-bottom:20px;margin-left:25px;width:560px;}
+
+.tableSearchNavHeader td{padding:5px 10px;}
+
+div#rt li.t1,div#ow li.t1,div#md li.t1,div#rtTime li.t1,div#owTime li.t1{border-left:none;padding-left:14px;}
+
+div#rt li.t1,div#ow li.t2,div#md li.t3{border-bottom:1px solid #e8f0f1;background-color:#E8F0F1;margin:2px 2px 0 0;}
+
+div#rtTime li.t1,div#owTime li.t2{border-bottom:1px solid #e8f0f1;background-color:#efefef;margin:2px 2px 0 0;}
+
+div#rtTime li.t1 a,div#owTime li.t2 a{cursor:default;}
+
+div#rt li.t1_selected{border-left:none;padding-left:14px;border-bottom:1px solid #e8f0f1;background-color:#e8f0f1;margin:2px 2px 0 0;}
+
+div#rt li.t1_unselected{border-left:none;padding-left:14px;border-bottom:1px solid #ccc;background-color:#fff;margin:2px 2px 0 0;}
+
+div#rt li.t2_selected{border-bottom:1px solid #e8f0f1;background-color:#e8f0f1;margin:2px 2px 0 0;}
+
+div#rt li.t2_unselected{border-bottom:1px solid #ccc;background-color:#fff;margin:2px 2px 0 0;}
+
+.divTitle{float:right;font-size:160%;font-weight:bold;letter-spacing:.05em;margin-right:5px;margin-top:-24px;}
+
+.tableSearch,.tableSearch2,.tableSearch3{border:1px solid #CCC;margin-left:25px;width:560px;}
+
+.tableSearch{background-color:#E8F0F1;border-top:medium none;}
+
+.tableSearch2{border-top:none;background-color:#EFEFEF;}
+
+.tableSearch3{background-color:#E8F0F1;}
+
+.tableSearchMain,.tableSearchMain3{margin-left:20px;margin-top:5px;width:530px;}
+
+.tableSearchMain td,.tableSearchModify2 td{padding:1px 2px 0 0;}
+
+.tableSearchMain3 td{padding:1px 10px 0 0;}
+
+.tableSearchSelect{background-color:#FFF;/*border:1px solid #CCC;*/}
+
+.profileFields{padding:15px;}
+
+.profileFields .field{line-height:2.2em;clear:both;}
+
+.profileFields .field label,.profileFields .field input{float:left;}
+
+.profileFields .field label{width:12em;}
+
+.profileFields .field input{margin-top:.3em;}
+
+.profileFields .ImgError{float:left;margin-top:.2em;}
+
+.tableSearchSelect td,.tableSearchSelectTT td,.tableSearchSelectModify td{padding:0 11px 0 0;vertical-align:top;}
+
+.tableSearchSelect td.space,.tableSearchSelectTT td.space,.tableSearchSelectModify td.hide{height:5px;}
+
+.tableSearchSelectTT td.hide,.tableSearchSelectModify td.hide{display:none;}
+
+.tableSearchSelectTT td.width{width:65px;}
+
+.tableSeachChoose{background-color:#FFF;border:1px solid #CCC;width:70%;}
+
+.tableSeachChoose td{font-size:110%;padding:2px 2px 2px 8px;vertical-align:middle;}
+
+.tablePU td{padding:5px 12px 2px 12px;color:#666;}
+
+.tableSearchSelect .spellingLabel{font-size:90%;font-weight:normal;letter-spacing:0;}
+
+#radvs .spellingLabel{display:block;margin-left:25px;margin-bottom:1em;}
+
+.tss_flexible{border:1px solid #ccc;border-bottom:none;background-color:#fff;padding:10px 10px 10px 10px;}
+
+.tss_flexible span{position:relative;top:-2px;}
+
+.tss_flexible input{margin:0 3px 0 8px;position:relative;top:3px;}
+
+.lineSeparatorPassenger{border-bottom:1px solid #E8F0F1;}
+
+.flexibleDates{vertical-align:middle;}

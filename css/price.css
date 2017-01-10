@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+.price-title {
+	font-size: 18.0pt;
+	line-height: 115%;
+	font-family: '微软雅黑', 'sans-serif';
+	color: red;
+	font-weight: bold;
+}
+
+.price-p1 {
+	font-size: 14.0pt;
+	line-height: 115%;
+	font-family: "微软雅黑", "sans-serif";
+}
+
+.p-span-1 {
+	font-size: 14.0pt;
+	line-height: 115%;
+	font-family: "微软雅黑", "sans-serif";
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.p-span-2 {
+	font-size: 14.0pt;
+	line-height: 115%;
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
+
+.p-title-1 {
+	  font-size: 14.0pt;
+  line-height: 115%;
+  font-family: "微软雅黑","sans-serif";
+  font-weight: 600;
+  text-align: left;
+  margin-left: 58px;
+  margin-top: 41px;
+}
+
+.p-title {
+	  font-size: 14.0pt;
+  line-height: 115%;
+  font-family: "微软雅黑","sans-serif";
+  font-weight: 600;
+  text-align: left;
+  margin-left: 58px;
+  margin-top: 41px;
+}
+.set-month{
+	  text-align: left;
+  margin-left: 58px;
+  font-size: 14.0pt;
+  line-height: 115%;
+  font-family: "微软雅黑","sans-serif";
+  font-weight: 600;
+}
+.red-price{
+	  color: red;
+  margin-left: 68px;
+}
+.price-href{
+	  color: blue;
+  font-weight: 600;
+  font-size: 13pt;
+}
+.p-price-list{
+	 font-size: 14.0pt;
+  line-height: 20%;
+  font-family: "微软雅黑","sans-serif";
+  font-weight: 600;
+}

@@ -1,0 +1,73 @@
+.container{overflow-x:visible;}
+
+div#tripSum,div#eticket{display:none;}
+
+#conf .container,#conf .container2,#cmtr .container,#cmtr .container2{border:1px solid #CCC;}
+
+.tableQuickLinks{display:none;}
+
+.buttonOption{display:none;}
+
+.buttonOption2{display:none;}
+
+.sectionHolder#barcode{float:left;}
+
+.barCode{float:left;margin-right:10px;height:auto;overflow:none;margin-bottom:10px;}
+
+.barCode img{width:291px;height:136px;}
+
+.barCode_email{float:left;margin-right:10px;}
+
+.barCodeTEXTLegend{display:none;}
+
+a{text-decoration:none;color:#000;}
+
+.page_options{display:none!important;}
+
+.tablePassenger#pax2{display:none;}
+
+.tablePassenger#pax1{display:block!important;}
+
+.tablePassenger .buttonPlain{display:none;}
+
+.tablePassenger a{display:none;}
+
+.tableOptions{display:none;}
+
+.ImgFlightStatus{display:none;}
+
+.conf_expandPanel a.viewHidePrint,.conf_expandPanel span.viewHidePrint{display:none!important;}
+
+.conf_expandPanel a.viewHide,.conf_expandPanel span.viewHide{display:none!important;}
+
+.sectionHolder_conf{display:block!important;}
+
+.eticketHolder{display:block!important;}
+
+.destInfoPanel{display:block!important;}
+
+a.linkOpen{display:none!important;}
+
+a.linkClose{display:none!important;}
+
+.sectionHolder_conf{background-color:#fff;border:none;padding:0;}
+
+.sectionHolder_conf .sectionHolder{background-color:#fff;}
+
+.sectionHolder_conf .div_hr{background-color:#fff;}
+
+.tablePref .buttonPlain{display:none;}
+
+.destInfoPanel#di_o1,.destInfoPanel#di_o2,.destInfoPanel#di_o3{display:none;}
+
+.destInfoPanel#di_c1,.destInfoPanel#di_c2,.destInfoPanel#di_c3{display:block!important;}
+
+.tableNavHeader a{display:none;}
+
+.footerTable{display:none;}
+
+.footerTableCopy{margin:0;}
+
+.container,.container2{margin-bottom:10px;}
+
+.notToPrint{display:none!important;}

@@ -1,0 +1,1441 @@
+.tableSearchDiv {
+	width: 100%;
+	border: 1px solid #fff;
+	border-left: none;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+ul#tabnav {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+ul#tabnav li {
+	border: 1px solid #dbdbdb;
+}
+
+.tableSearchNavHeader {
+	width: 100%; /*background-color:#DBDBDB;*/
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.tableSearchNavHeader td {
+	padding: 10px;
+}
+
+div#rtTime li.t1, div#owTime li.t2 {
+	border-bottom: 1px solid #FBFBFB;
+	background-color: #FBFBFB;
+}
+
+div#rtTime li.t1 a, div#owTime li.t2 a {
+	color: #000;
+}
+
+div#rt li.t1_selected {
+	background: -moz-linear-gradient(top, #FDE90E, #F3970E);
+	background: -o-linear-gradient(left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background: -webkit-gradient(linear, left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background:linear-gradient(to bottom, #FDE90E 0%,
+		#F3970E 100%);
+	border-bottom: 1px solid #FBFBFB;
+	border-left: 1px solid #CCC;
+	padding-left: 14px;
+}
+
+div#rt li.t1_unselected {
+	background-color: #FFF;
+}
+
+div#rt li.t2_selected {
+	 
+	border-bottom: 1px solid #FBFBFB;
+	background: -moz-linear-gradient(top, #FDE90E, #F3970E);
+	background: -o-linear-gradient(left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background: -webkit-gradient(linear, left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background:linear-gradient(to bottom, #FDE90E 0%,
+		#F3970E 100%);
+}
+
+div#rt li.t2_unselected {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.tableSearch, .tableSearch2, .tableSearch3 {
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 30px;
+}
+
+.tableSearch {
+	background-color: #FBFBFB;
+}
+
+.tableSearch2 {
+	background-color: #FBFBFB;
+}
+
+.tableSearchMain, .tableSearchMain3 {
+	width: 465px;
+	margin-right: 15px;
+}
+
+.tableSearchSelect {
+	background-color: #FBFBFB;
+	border: none;
+	/*border-bottom:1px solid #dbdbdb;border-top:1px solid #dbdbdb;*/
+	margin-right: 0;
+}
+
+.tableSeachChoose {
+	background-color: #fbfbfb;
+	border: none;
+}
+
+.tableSeachChoose td {
+	padding: 0 2px 0 5px;
+}
+
+.lineSeparatorPassenger {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.sectionBox {
+	margin: 0 10px 0 25px;
+	background-color: #FFF7E1;
+	border: 1px solid #fcba00;
+}
+
+.tableAvailDetail {
+	border: 1px solid #dbdbdb;
+	width: 100% !important;
+	width: 96%;
+}
+
+.tableAvailDetail th {
+	border-bottom: 1px solid #dbdbdb;
+	padding: 3px 5px;
+}
+
+.tableAvailDetail td {
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #fbfbfb;
+}
+
+.tableAvailDetail td.c_w3 {
+	border-left: 1px dotted #dbdbdb;
+}
+
+.tableAvailDetail td.w5, .tableAvailDetail td.c_w5 {
+	background-color: #f5f5f5;
+	border-left: 1px solid #dbdbdb;
+}
+
+.tableAvailDetail td.c_w5 h2 {
+	color: #0089D9;
+}
+
+.tableAvailDetail td.c_w5 div, .tableAvailDetail td.w5 div {
+	background-color: #f5f5f5;
+}
+
+ul.cara_list1 {
+	list-style-image: url(../img/list_dot.gif);
+}
+
+.tableAvailDetail ul a {
+	color: #000;
+}
+
+.sectionHolderSearch {
+	margin: 0;
+	padding: 20px 20px 0 20px;
+	background-color: #fbfbfb;
+	border: 1px solid #dbdbdb;
+}
+
+.buttonHolder {
+	padding: 10px 10px 10px 0;
+	background-color: #dbdbdb;
+}
+
+.tableClarification th {
+	background-color: #FFF;
+	border: 1px solid #DBDBDB;
+	padding: 2px 5px;
+}
+
+div#CMTcontainer {
+	background: transparent url(../img/cmt/bgBlur.gif) no-repeat left top;
+}
+
+.mainCentreError {
+	background: #fff url(../img/cmt/mainImage_error.gif) repeat-y;
+}
+
+.mainTop {
+	background: #BCCED0 url(../img/cmt/bgLogin-3.gif) repeat;
+}
+
+#login thead th {
+	background: #BCCED0 url(../img/cmt/bgLogin-1.gif) repeat;
+}
+
+#login thead td {
+	background: #BCCED0 url(../img/cmt/bgLogin-2.gif) repeat;
+}
+
+#row span.logo {
+	background: #fff url(../img/cmt/logo_cmt.gif) no-repeat;
+}
+
+div#helpIcon {
+	background: url(../img/cmt/helpIcon.gif) no-repeat right top;
+}
+
+.tableQuickLinks {
+	border: 1px solid #DBDBDB;
+}
+
+.tableQuickLinks th {
+	background-color: #F5F5F5;
+}
+
+.buttonOption a, .buttonOption a:visited {
+	background: transparent url(../img/search_cars.gif) no-repeat left
+		center;
+}
+
+.buttonOption2 a, .buttonOption2 a:visited {
+	background: transparent url(../img/search_hotels.gif) no-repeat left
+		center;
+}
+
+a.linkOpen {
+	background: transparent url(../img/expand.gif) no-repeat 0 2px;
+}
+
+a.linkOpen_right {
+	background: transparent url(../img/expand.gif) no-repeat 100% 3px;
+}
+
+a.linkClose {
+	background: transparent url(../img/collapse.gif) no-repeat 0 2px;
+}
+
+a.linkClose_right {
+	background: transparent url(../img/collapse.gif) no-repeat 100% 3px;
+}
+
+.tableFlightConf {
+	border: 1px solid #dbdbdb;
+}
+
+.tableFlightConf th, .tableTrainConf th {
+	border-bottom: 1px solid #dbdbdb;
+	padding: 5px 10px 5px 5px;
+	font-size: 110%;
+}
+
+.tableFlightConf th.changeFlight, .tableHotelConf th.changeFlight,
+	.tableCarConf th.changeFlight, .tableTrainConf th.changeFlight {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.hr {
+	border-top: 1px solid #dbdbdb;
+}
+
+.tablePref td.bgrd {
+	background-color: #F5F5F5;
+}
+
+.conf_fs_pax th.cfsp_c1 {
+	background: url(../img/block_cmt.gif) 0 50% no-repeat;
+}
+
+.page_options {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+.page_options li a.po_print {
+	background: url(../img/icon_print_htm3.gif) no-repeat;
+}
+
+.page_options li a.po_download {
+	background: transparent url(../img/icon_pda.gif) no-repeat top left;
+}
+
+.page_options li a.po_email {
+	background: transparent url(../img/icon_mail.gif) no-repeat top left;
+}
+
+.page_options li a.po_reservation {
+	background: transparent url(../img/imgBooking.gif) no-repeat top left;
+}
+
+.page_options li a.po_cancel {
+	background: transparent url(../img/imgCancel.gif) no-repeat top left;
+}
+
+ul#conf_tabs {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+#conf_tabs li a, #conf_tabs li a:visited {
+	border: 1px solid #dbdbdb;
+	background: #fff;
+}
+
+#conf_tabs li a:hover {
+	background: #f5f5f5;
+}
+
+div#tripSum ul.conf_tabs_difColor#conf_tabs li#t1 a, div#eticket ul.conf_tabs_difColor#conf_tabs li#t2 a
+	{
+	background: #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.tableError {
+	margin-right: 10px;
+	border: 1px solid #FCBA00;
+	background-color: #FFF7E1;
+}
+
+.tableLogIn {
+	border: 1px solid #dbdbdb;
+}
+
+.ErrorBgrd {
+	background-color: #FFF7E1;
+}
+
+#oneway_table.sectionHolder {
+	background-image: url(../img/fdct_bgrd_arrow.gif);
+}
+
+p#fdct_city_return.fdct_city {
+	background: transparent url(../img/fdct_bgrd_arrow2.gif) no-repeat 95%
+		50%;
+}
+
+.fdct_container {
+	background-image: url(../img/fdct_line.gif);
+}
+
+#fdct_container1.fdct_container {
+	background: transparent url(../img/fdct_bgrd_arrow2.gif) no-repeat 95%
+		50px;
+}
+
+#fdct_container2.fdct_container {
+	background: transparent url(../img/fdct_bgrd_arrow3.gif) no-repeat 95% 0;
+}
+
+.fdff_TFP li.line {
+	background: transparent url(../img/list_dot.gif) no-repeat left center;
+}
+
+.etpArrow {
+	background: transparent url(../img/arrowfdff1.gif) no-repeat scroll 0;
+}
+
+.etpArrow2 {
+	background: transparent url(../img/arrowfdff2.gif) no-repeat scroll 0;
+}
+
+.FPC_calendar td.title {
+	background: url(../img/fpc_cal_bgrd.gif) 0 100% repeat-x;
+}
+
+.fpcImgTabsArrow1 {
+	background-image: url(../img/icon_arrow_flex3.gif);
+}
+
+.fpcImgTabsArrow1Hover {
+	background-image: url(../img/icon_arrow_flex3a.gif);
+}
+
+.fpcImgTabsArrow2 {
+	background-image: url(../img/icon_arrow_flex4.gif);
+}
+
+.fpcImgTabsArrow2Hover {
+	background-image: url(../img/icon_arrow_flex4a.gif);
+}
+
+.tableFPCUpsell li.line {
+	background: transparent url(../img/list_dot.gif) no-repeat scroll left
+		center;
+}
+
+.fpow_bgrd {
+	border-left: none !important;
+}
+
+.summary_info {
+	background: transparent url(../img/plane2.gif) no-repeat top left;
+}
+
+#si_outbound.summary_info {
+	background: transparent url(../img/icon_outbound.gif) no-repeat top left;
+}
+
+#si_return.summary_info {
+	background: transparent url(../img/icon_inbound.gif) no-repeat top left;
+}
+
+.highLight {
+	border: 1px solid #dbdbdb;
+}
+
+#m1.MapNo {
+	background: transparent url(../img/hotelcar/mapNo1.gif) no-repeat scroll
+		left center;
+}
+
+#m2.MapNo {
+	background: transparent url(../img/hotelcar/mapNo2.gif) no-repeat scroll
+		left center;
+}
+
+#m3.MapNo {
+	background: transparent url(../img/hotelcar/mapNo3.gif) no-repeat scroll
+		left center;
+}
+
+#m4.MapNo {
+	background: transparent url(../img/hotelcar/mapNo4.gif) no-repeat scroll
+		left center;
+}
+
+#m5.MapNo {
+	background: transparent url(../img/hotelcar/mapNo5.gif) no-repeat scroll
+		left center;
+}
+
+#m6.MapNo {
+	background: transparent url(../img/hotelcar/mapNo6.gif) no-repeat scroll
+		left center;
+}
+
+#m7.MapNo {
+	background: transparent url(../img/hotelcar/mapNo7.gif) no-repeat scroll
+		left center;
+}
+
+#m8.MapNo {
+	background: transparent url(../img/hotelcar/mapNo8.gif) no-repeat scroll
+		left center;
+}
+
+#m9.MapNo {
+	background: transparent url(../img/hotelcar/mapNo9.gif) no-repeat scroll
+		left center;
+}
+
+#m10.MapNo {
+	background: transparent url(../img/hotelcar/mapNo10.gif) no-repeat
+		scroll left center;
+}
+
+#m11.MapNo {
+	background: transparent url(../img/hotelcar/mapNo11.gif) no-repeat
+		scroll left center;
+}
+
+#m12.MapNo {
+	background: transparent url(../img/hotelcar/mapNo12.gif) no-repeat
+		scroll left center;
+}
+
+#m13.MapNo {
+	background: transparent url(../img/hotelcar/mapNo13.gif) no-repeat
+		scroll left center;
+}
+
+#m14.MapNo {
+	background: transparent url(../img/hotelcar/mapNo14.gif) no-repeat
+		scroll left center;
+}
+
+#m15.MapNo {
+	background: transparent url(../img/hotelcar/mapNo15.gif) no-repeat
+		scroll left center;
+}
+
+.hotelInfoPanel, .hotelPhotoPanel {
+	border: 1px solid #dbdbdb;
+}
+
+.photosMain, .photosThumbs {
+	border: 1px solid #dbdbdb;
+	background: #f5f5f5;
+}
+
+.photosThumbs div.thumbsScroll {
+	background-color: #fff;
+}
+
+.overPic {
+	background: transparent url(../img/hotelcar/photoCorner.gif) no-repeat
+		top left;
+}
+
+#pop_dest.searchPanel {
+	background: #D1E1F8 url(../img/imgSearchPopDest2.gif) no-repeat scroll
+		100% 20%;
+}
+
+.noFlight {
+	background-image: url(../img/icon_noFlight.gif);
+}
+
+.divLegend2 ul li.br {
+	background: transparent url(../img/hotelcar/rates_best.gif) no-repeat
+		top left;
+}
+
+.divLegend2 ul li.sr {
+	background: url(../img/rates.gif) no-repeat;
+}
+
+.best_rates {
+	background: transparent url(../img/hotelcar/rates_best.gif) no-repeat
+		top left;
+}
+
+.mp_expandFlights {
+	border: 1px solid #dbdbdb;
+}
+
+.mp_expandTable {
+	border: 1px solid #dbdbdb;
+}
+
+.mp_expandTable th {
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #f5f5f5;
+}
+
+.mp_holder {
+	border: 1px solid #DBDBDB;
+}
+
+.mp_title {
+	background-color: #999;
+}
+
+.mp_title h3 {
+	color: #fff;
+}
+
+.mp_left {
+	border-right: 1px solid #DBDBDB;
+}
+
+.mp_right {
+	border-left: 1px solid #dbdbdb;
+}
+
+.mp_holder h4 {
+	padding: 7px 5px 7px 25px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.mp_holder .mp_left h4, .mp_holder .mp_ow h4, .mp_holder .mp_multi h4 {
+	background: url(../img/plane2.gif) 1px 50% no-repeat;
+	background-color: #efefef;
+	color: #000;
+}
+
+.mp_holder .mp_right h4 {
+	background: url(../img/plane3.gif) 1px 50% no-repeat;
+	background-color: #efefef;
+	color: #000;
+}
+
+.mpDisplay {
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FBFBFB;
+}
+
+.mpDisplay td.mp_w1 {
+	border-right: 1px solid #dbdbdb;
+}
+
+ul.mpList li.line {
+	background: transparent url(../img/list_dot.gif) no-repeat center center;
+}
+
+.mp_foot {
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #efefef;
+}
+
+.webfarePanel {
+	background: transparent url(../img/webfare_bgrd2.gif) repeat-x 0 100%;
+}
+
+.wf_counter {
+	background: url(../img/fpc_scroll.gif) 15% 0 no-repeat;
+}
+
+#wf_res {
+	background: url(../img/fpc_scroll_stop.gif) no-repeat center center;
+}
+
+.tablePassengerText td, .tablePassengerText2 td {
+	padding: 2px 5px 1px 2px;
+}
+
+.tableNavHeader {
+	background-color: #DBDBDB;
+	border-top: none;
+}
+
+.tableNavHeader td {
+	padding: 10px 10px;
+}
+
+.tableNavHeader a {
+	background: url(../img/AIE/flow1_amigo_buttonBgrd_left_long.gif) 0 0
+		no-repeat;
+	padding: 5px 100px 6px 55px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.buttonPage span {
+	background-color: #0089D9;
+	border: 1px solid #0089D9;
+}
+
+span.buttonEdge.edge2 {
+	background-color: #0089D9;
+}
+
+.buttonPage span a, .buttonPage span a:visited, .buttonPage span a:hover
+	{
+	background-color: #0089D9;
+}
+
+.buttonPage a, .buttonPage a:visited, .buttonPage2 a, .buttonPage2 a:visited,
+	.buttonPlain a, .buttonPlain a:visited, .buttonPlain2 a, .buttonPlain2 a:visited
+	{
+	background: transparent url(../img/buttonBGRD.gif) repeat-x left bottom;
+	background-color: #FFF;
+	font-size: 110%;
+	line-height: 21px;
+}
+
+.buttonHolder .buttonPage a, .tableSearchNavHeader td .buttonPage a,
+	.tableNavHeader td .buttonPage a {
+	background: url(../img/AIE/flow1_amigo_buttonBgrd_right.gif) 0 0
+		no-repeat !important;
+	padding: 5px 10px 8px 10px !important;
+	color: #fff !important;
+	text-decoration: none;
+	border: none !important;
+	line-height: 20px;
+}
+
+.buttonHolder .buttonPage span a, .tableSearchNavHeader td .buttonPage span a,
+	.tableNavHeader td .buttonPage span a {
+	background: transparent url(../img/AIE/flow1_amigo_buttonBgrd_right.gif)
+		no-repeat scroll 100% 0 !important;
+	font-size: 100%;
+}
+
+#tims .tableSearchNavHeader td .buttonPage a, #hots .buttonHolder .buttonPage a,
+	#cars .buttonHolder .buttonPage a, #advs .tableSearchNavHeader td .buttonPage a
+	{
+	background: url(../img/AIE/flow1_amigo_buttonBgrd_right_search.gif) 0 0
+		no-repeat !important;
+}
+
+#tims .tableSearchNavHeader td .buttonPage span a, #hots .buttonHolder .buttonPage span a,
+	#cars .buttonHolder .buttonPage span a, #advs .tableSearchNavHeader td .buttonPage span a
+	{
+	background: url(../img/AIE/flow1_amigo_buttonBgrd_right_search.gif) 100%
+		0 no-repeat !important;
+}
+
+.buttonHolder .buttonPage span, .tableSearchNavHeader td .buttonPage span,
+	.tableNavHeader td .buttonPage span {
+	background: none;
+	padding: 0;
+	border: none;
+}
+
+#rtpl .tableNavHeader a, #sign .tableNavHeader a, #mpro .tableNavHeader a,
+	#rpros .tableNavHeader a, #tool .tableNavHeader a, #anav .tableNavHeader a,
+	#rpror .tableNavHeader a, #cpnr .tableNavHeader a {
+	background: transparent
+		url(../img/AIE/flow1_amigo_buttonBgrd_left_long.gif) no-repeat scroll
+		0 50%;
+	padding-right: 50px;
+}
+
+#addHotel {
+	background: #F7F7E7 url(../img/logo_opodo.gif) no-repeat 95% 50%;
+}
+
+#addHotel a {
+	background: transparent url(../img/icon_newWindow.gif) no-repeat 58% 50%;
+}
+
+.itemNotAvailable {
+	background: url(../img/error3.gif) left center no-repeat;
+}
+
+li.door2 {
+	background: transparent url(../img/hotelcar/icon_2door.gif) no-repeat
+		scroll 0 1px;
+}
+
+li.door4 {
+	background: transparent url(../img/hotelcar/icon_4door.gif) no-repeat
+		scroll 0 1px;
+}
+
+li.manual {
+	background: transparent url(../img/hotelcar/icon_manual.gif) no-repeat
+		scroll 0 1px;
+}
+
+li.aircon {
+	background: transparent url(../img/hotelcar/icon_AIR.gif) no-repeat
+		scroll 0 1px;
+}
+
+li.auto {
+	background: transparent url(../img/hotelcar/icon_automatic.gif)
+		no-repeat scroll 0 1px;
+}
+
+.availPanelExpand, .availPanelCollapse {
+	background-color: #FBFBFB;
+	border: 1px solid #DBDBDB;
+}
+
+#notab.sectionHolderAvail {
+	border-top: none;
+}
+
+.tableAvail ul, .tableAvailDetail ul {
+	list-style-image: url(../img/list_dot.gif);
+}
+
+.tableAvail td.buttonCollapse {
+	background-color: #f5f5f5;
+	border-left: 1px solid #dbdbdb !important;
+}
+
+.tableAvail td.buttonCollapse h1 {
+	color: #0089D9;
+}
+
+div.photoHolder {
+	border: 1px solid #dbdbdb;
+}
+
+.tabsHolder {
+	margin: 20px 0 0;
+}
+
+ul#searchTabs, ul#availTabs {
+	border-bottom: 0 solid #DBDBDB;
+}
+
+.InfoBreakdown .item {
+	background: url(../img/lineDots.gif) 0 80% repeat-x;
+}
+
+.containerModifySearch {
+	border: 1px solid #dbdbdb;
+}
+
+.tableHeaderModify td {
+	background-color: #0089D9;
+	border-bottom: 1px solid #dbdbdb;
+	color: #fff;
+}
+
+.tableSearchSelectModify td.hideLineModify {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.tableInfoText, .tableSignIn {
+	border: 1px solid #DBDBDB;
+	margin-right: 10px;
+}
+
+.borderPurcCon, .tableFareBasis {
+	border: 1px solid #dbdbdb;
+}
+
+ul.popUpMenu {
+	border: 1px solid #dbdbdb;
+}
+
+#pop_head {
+	background-color: #0089D9;
+	border-bottom: 1px solid #DBDBDB;
+	color: #000;
+}
+
+.pricingButton a, .pricingButton a:visited {
+	background: #fff url(../img/buttonBGRD.gif) left bottom repeat-x;
+}
+
+.pricingButton a:hover {
+	background: #fff url(../img/buttonBGRD.gif) left center no-repeat;
+}
+
+a.linkClose {
+	background: url(../img/collapse.gif) no-repeat 0 2px;
+}
+
+a.linkOpen {
+	background: url(../img/expand.gif) no-repeat 0 2px;
+}
+
+.fee {
+	background-image: url(../img/lineDots.gif);
+}
+
+#hotel_price_list .availPanelExpand .tableAvailDetail th {
+	background-color: #0089D9;
+	color: #fff;
+}
+
+.tableAvailDetail td.w3, .tableAvailDetail td.w4 {
+	border-left: 1px dotted #dbdbdb;
+}
+
+.divAvailDetail {
+	padding: 0 !important;
+}
+
+.searchPanel {
+	background-color: #FBFBFB;
+	border: 0 solid #FFF !important;
+	margin: 0;
+	padding: 0;
+}
+
+.searchPanel .searchTitle {
+	margin-top: 12px;
+}
+
+.searchPanel .searchTabs .tabs .tab {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	float: left;
+	margin: 10px 2px 0 0;
+}
+
+.searchPanel .searchTabs .tabs .active {
+	border-bottom: 1px solid #FBFBFB;
+}
+
+.searchPanel .searchTabs .tabs .active a {
+	background-color: #FBFBFB;
+	color: black;
+}
+
+.searchPanel .searchBody {
+	background-color: #FBFBFB;
+	border: 1px solid #DBDBDB;
+}
+
+.searchPanel .popularDestinations {
+	background: #D1E1F8 url(../img/imgSearchPopDest2.gif) no-repeat 100% 20%;
+}
+
+.searchPanel .searchInputs {
+	background-color: #FBFBFB;
+	border: 0 solid #CCC !important;
+	padding-bottom: 0;
+}
+
+.searchPanel .searchInputs .input, .searchPanel .refineSearchInputs .input
+	{
+	background-color: #FBFBFB;
+	border-bottom: 1px solid #DBDBDB;
+	clear: both;
+	padding: 10px 0;
+}
+
+.searchPanel .refineSearchInputs {
+	background-color: #FBFBFB;
+	border: 0 solid #CCC !important;
+	padding: 0 0 0 10px;
+}
+
+.searchPanel .refineSearchInputs .hotelSearchChains {
+	border-top: 1px solid #DBDBDB;
+}
+
+.tableProcessIndicator {
+	border-bottom: 2px solid #0089D9 !important;
+	background-color: #DBDBDB;
+	padding: 5px 10px;
+}
+
+.tablePI td {
+	font-size: 100%;
+}
+
+.imgPIline {
+	background-image: none;
+}
+
+.imgPIline2 {
+	background-image: none;
+}
+
+.imgPI1 {
+	background: url(../img/AIE/flow1_PI_1.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI2 {
+	background: url(../img/AIE/flow1_PI_2.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI3 {
+	background: url(../img/AIE/flow1_PI_3.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI4 {
+	background: url(../img/AIE/flow1_PI_4.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI5 {
+	background: url(../img/AIE/flow1_PI_5.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI6 {
+	background: url(../img/AIE/flow1_PI_6.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI7 {
+	background: url(../img/AIE/flow1_PI_7.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI1b {
+	background: url(../img/AIE/flow1_PI_1b.gif) center no-repeat;
+}
+
+.imgPI2b {
+	background: url(../img/AIE/flow1_PI_2b.gif) center no-repeat;
+}
+
+.imgPI3b {
+	background: url(../img/AIE/flow1_PI_3b.gif) center no-repeat;
+}
+
+.imgPI4b {
+	background: url(../img/AIE/flow1_PI_4b.gif) center no-repeat;
+}
+
+.imgPI5b {
+	background: url(../img/AIE/flow1_PI_5b.gif) center no-repeat;
+}
+
+.imgPI6b {
+	background: url(../img/AIE/flow1_PI_6b.gif) center no-repeat;
+}
+
+.imgPI7b {
+	background: url(../img/AIE/flow1_PI_7b.gif) center no-repeat;
+}
+
+.imgPI1c {
+	background: url(../img/AIE/flow1_PI_1.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI2c {
+	background: url(../img/AIE/flow1_PI_2.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI3c {
+	background: url(../img/AIE/flow1_PI_3.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI4c {
+	background: url(../img/AIE/flow1_PI_4.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI5c {
+	background: url(../img/AIE/flow1_PI_5.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI6c {
+	background: url(../img/AIE/flow1_PI_6.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.imgPI7c {
+	background: url(../img/AIE/flow1_PI_7.gif) center no-repeat;
+	padding-right: 15px;
+}
+
+.arrowSmall {
+	background: transparent url(../img/arrowSmall.gif) no-repeat left center;
+}
+
+.ImgPlane2Sdai {
+	background: transparent url(../img/plane2.gif) no-repeat scroll left
+		center;
+}
+
+.ImgPlane3Sdai {
+	background: transparent url(../img/plane3.gif) no-repeat scroll left
+		center;
+}
+
+.tableFFResultsSD {
+	border: 1px solid #DBDBDB;
+	border-top: none;
+}
+
+.tableFFResultsSD td {
+	background-color: #FBFBFB;
+}
+
+.tableFFResultsSD td.border {
+	border-right: 1px solid #DBDBDB;
+}
+
+.tableFFResultsSD li.line {
+	background: transparent url(../img/list_dot.gif) no-repeat left center;
+}
+
+.divNumbTab {
+	background: transparent url(../img/iconIndbase.gif) no-repeat scroll 0;
+}
+
+.tableFFResultsSD td.select {
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #efefef;
+}
+
+.tabPlane td.plane {
+	background-image: url(../img/Plane.gif);
+}
+
+.ImgSeatOccupied {
+	background: url(../img/OccupiedSeat.gif) no-repeat;
+}
+
+.ImgSeatSelected {
+	background: url(../img/SelectedSeat.gif) no-repeat;
+}
+
+.ImgSeatAvailable {
+	background: url(../img/EmptySeat.gif) no-repeat;
+}
+
+.ImgToilet {
+	background: url(../img/Toilet.gif) no-repeat;
+}
+
+.tabSeatM td.TitleStartWingsLeft {
+	background-image: url(../img/StartLeftWing.gif);
+}
+
+.tabSeatM td.TitleEndWingsLeft {
+	background-image: url(../img/EndLeftWing.gif);
+}
+
+.tabSeatM td.TitleStartWingsRight {
+	background-image: url(../img/StartRightWing.gif);
+}
+
+.tabSeatM td.TitleEndWingsRight {
+	background-image: url(../img/EndRightWing.gif);
+}
+
+.tabSeatM div.UnavailableSeat {
+	background-image: url(../img/OccupiedSeat.gif);
+}
+
+.tabSeatM div.SelectedSeat {
+	background-image: url(../img/SelectedSeat.gif);
+}
+
+.tabSeatM div.AvailableSeat {
+	background-image: url(../img/EmptySeat.gif);
+}
+
+.tabSeatM td.Toilets {
+	background-image: url(../img/Toilet.gif);
+}
+
+.tabSeatM td.LeftWall {
+	background-image: url(../img/LeftWall.gif);
+}
+
+.tabSeatM td.RightWall {
+	background-image: url(../img/RightWall.gif);
+}
+
+.tabSeatM td.ExitWall {
+	background-image: url(../img/ExitWall.gif);
+}
+
+.timetable .tick {
+	list-style-image: url(../img/check.gif);
+}
+
+.tableLogIn3 {
+	border: 1px solid #DBDBDB;
+}
+
+.ImgPlane2Vpai {
+	background: transparent url(../img/plane2.gif) no-repeat scroll left
+		center;
+}
+
+.ImgPlane3Vpai {
+	background: transparent url(../img/plane3.gif) no-repeat scroll left
+		center;
+}
+
+.availHolderVP li.line {
+	background: transparent url(../img/list_dot.gif) no-repeat left center;
+}
+
+#divWait {
+	border: 1px solid #DBDBDB;
+	color: #000;
+}
+
+#divWait p {
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+#divWait p#title, #divWait p#indicator {
+	background-color: #DBDBDB;
+}
+
+#divWait p#title {
+	padding-bottom: 0;
+}
+
+.tableMenu2 {
+	border-bottom: none;
+	margin-bottom: 0;
+	font-size: 95%;
+}
+
+.tableMenu2 td.selected {
+	background-color: #fff;
+}
+
+.tableMenu2 a {
+	padding: 5px 8px;
+}
+
+.tableMenu2 a:hover, a.tableMenuLink3:hover {
+	background-color: #fff;
+}
+
+.divNavMenu {
+	background-color: #999;
+}
+
+.NavMenu {
+	border: none;
+	background-color: none;
+}
+
+.NavMenu td {
+	font-size: 100%;
+}
+
+.NavMenu td.selected {
+	padding: 5px 10px;
+}
+
+.NavMenu a, Navmenu a:visited {
+	padding: 5px 10px;
+	background-color: #999;
+	color: #fff;
+}
+
+.NavMenu a:hover {
+	color: #333;
+	background-color: #E6E6E6;
+}
+
+.footerTable {
+	border-top: 2px solid #0089D9;
+	background-color: none;
+}
+
+.footerTableCopy {
+	background-color: none;
+}
+
+.tableHeader td {
+	padding: 8px 10px 8px 20px;
+	background-color: #0089D9;
+	border-bottom: none;
+	color: #fff;
+}
+
+a.tableHeaderLink, a.tableHeaderLink:visited {
+	color: #fff;
+}
+
+.tableSubHeader td {
+	border-bottom: none;
+	border-top: none;
+	background-color: #0089D9;
+	color: #FFF;
+}
+
+.container, .container2 {
+	margin-top: 1px;
+	margin-bottom: 0;
+	border-top: none;
+	background-color: #fff;
+	padding: 0;
+}
+
+#tims .container {
+	border: none;
+}
+
+#advs .container {
+	border: none;
+}
+
+#cars .container {
+	border: none;
+}
+
+#hots .container {
+	border: none;
+}
+
+.sectionHolderAvail {
+	background-color: #FFF;
+	border: none;
+}
+
+.lineSeparator { /*border-bottom:1px solid #dbdbdb;*/
+	
+}
+
+.strikethrough {
+	color: #0089D9;
+}
+
+.confirmation {
+	margin-right: 10px;
+	border: 1px solid #FCBA00;
+	background-color: #FFF7E1;
+}
+
+.divNumbTab {
+	background: transparent url(../img/iconIndbase.gif) no-repeat top left;
+}
+
+#FDFF .divNumbTab {
+	background: transparent url(../img/iconIndbase.gif) no-repeat scroll 0;
+}
+
+.lineDots {
+	background-image: url(../img/lineDots.gif);
+}
+
+.ImgCal {
+	background: url(../img/cal.gif) no-repeat;
+}
+
+.ImgMag {
+	background: url(../img/mag.gif) no-repeat;
+}
+
+.ImgLookUp {
+	background: url(../img/look_up.gif) no-repeat;
+}
+
+.ImgPlane {
+	background: url(../img/search_flights.gif) no-repeat 5px 0;
+}
+
+.ImgPrint {
+	background: url(../img/icon_print_htm3.gif) left no-repeat;
+}
+
+.ImgBooking {
+	background: url(../img/imgBooking.gif) left no-repeat;
+}
+
+.ImgCancel {
+	background: url(../img/imgCancel.gif) left no-repeat;
+}
+
+.ImgPlate {
+	background: url(../img/imgPlate2.gif) left no-repeat;
+}
+
+.ImgCurreny {
+	background: url(../img/icon_currency.gif) left no-repeat;
+}
+
+.ImgSeats2 {
+	background: url(../img/icon_seats.gif) left no-repeat;
+}
+
+.ImgFlightStatus {
+	background: url(../img/windsock.gif) left no-repeat;
+}
+
+.ImgOutbound {
+	background: url(../img/icon_outbound.gif) left no-repeat;
+}
+
+.ImgReturn {
+	background: url(../img/icon_inbound.gif) left no-repeat;
+}
+
+.ImgCalendar {
+	background: url(../img/icon_pda.gif) left no-repeat;
+}
+
+.ImgEmail {
+	background: url(../img/icon_mail.gif) left no-repeat;
+}
+
+.ImgPassenger {
+	background: url(../img/search_paxGrey.gif) no-repeat 5px 0;
+}
+
+.ImgLogo {
+	background: url(../img/logo.gif) left top no-repeat;
+}
+
+.imgLogo2 {
+	background: transparent url(../img/globe.gif) no-repeat scroll 70% 0;
+}
+
+.ImgPlane2 {
+	background: url(../img/connection_flights.gif) left no-repeat;
+}
+
+.ImgPlane3 {
+	background: url(../img/search_flights2.gif) left no-repeat;
+}
+
+.ImgHotel {
+	background: url(../img/section_hotel.gif) no-repeat 5px 0;
+}
+
+.ImgCar {
+	background: transparent url(../img/section_rentalcar.gif) no-repeat 5px
+		0;
+}
+
+.ImgWarning {
+	background: url(../img/warning.gif) no-repeat;
+}
+
+.ImgError {
+	background: url(../img/error3.gif) no-repeat;
+}
+
+.ImgCheck {
+	background: url(../img/check_green.gif) 0 -1px no-repeat;
+}
+
+.ImgCheck2 {
+	background: url(../img/check.gif) center no-repeat;
+}
+
+.ImgCheck3 {
+	background: url(../img/check3b.gif) 5px no-repeat;
+}
+
+.ImgHelp {
+	background: url(../img/icon_help.gif) left center no-repeat;
+}
+
+.ImgHelp9 {
+	background: url(../img/icon_help9.gif) left center no-repeat;
+}
+
+.ImgPerformance {
+	background: transparent url(../img/performance.gif) no-repeat scroll 0
+		80%;
+}
+
+.ImgArrow2 {
+	background: transparent url(../img/icon_arrow.gif) no-repeat top left;
+}
+
+.ImgArrowUp {
+	background: transparent url(../img/icon_arrow_up.gif) no-repeat 0 3px;
+}
+
+.ImgArrow {
+	background: transparent url(../img/icon_arrow.gif) no-repeat 3px 5px;
+}
+
+.ImgCase {
+	background: transparent url(../img/search_trip.gif) no-repeat 5px 0;
+}
+
+.ImgClock {
+	background: transparent url(../img/imgClock2.gif) no-repeat 5px 2px;
+}
+
+ul#tabnav li.t1_selected, ul#tabnav li.t1_unselected, div#md li.t1, div#rtTime li.t1,
+	div#owTime li.t1 {
+	border-left: 1px solid #DBDBDB;
+}
+
+#mpai .tableNavHeader td a, #sdai .tableNavHeader td a, #ptrav .tableNavHeader td a,
+	#pdel .tableNavHeader td a, #ppay .tableNavHeader td a, #pftrc .tableNavHeader td a,
+	#ppref .tableNavHeader td a, #psign .tableNavHeader td a, #carclar .tableNavHeader td a,
+	#clar .tableNavHeader td a {
+	padding: 5px 130px 6px 55px;
+}
+
+ul#tabnav li.t1_selected a, ul#tabnav li.t2_selected a {
+	color: #000;
+}
+
+#tabnav a, #availTabs a {
+	color: #666;
+}

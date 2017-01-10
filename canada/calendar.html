@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="zh" xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- template name: calendarPopUp -->
+    <title>E-TraveltoChina.com - 日历</title>
+    <!-- PTR03048448 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <base href="http://wftc1.e-travel.com/plnext/AIEADBLADBL/201501232004/static/" />
+    <link rel="stylesheet" type="text/css" href="http://wftc1.e-travel.com/plnext/default/plnext_git_V18.0.2_prod.25_260215/static/css_v2/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://wftc1.e-travel.com/plnext/default/plnext_git_V18.0.2_prod.25_260215/static/css_v2/POPUP_main.css" />
+	<link rel="stylesheet" type="text/css" href="http://wftc1.e-travel.com/plnext/default/plnext_git_V18.0.2_prod.25_260215/static/css_v2/POPUP_Calendar.css" />
+
+
+    <script src="http://wftc1.e-travel.com/plnext/js/WPN_AeRE_v14.2_92M_010811/lib/WDSCore.js"
+        language="JavaScript" type="text/javascript"></script>
+
+    <script src="http://wftc1.e-travel.com/plnext/js/WPN_AeRE_v14.2_92M_010811/ui/PLTGWDSDefinitions.js"
+        language="JavaScript" type="text/javascript"></script>
+
+    <script language="JavaScript" type="text/JavaScript"> 
+<!--
+    function Calendar_pageOnLoad() {
+        Calendar.monthsNames = ["一月 ", "二月 ", "三月 ", "四月 ", "五月 ", "六月 ", "七月 ", "八月 ", "九月 ", "十月 ", "十一月 ", "十二月 ", ""];
+        Calendar.daysNames = ["日", "一", "二", "三", "四", "五", "六"];
+        Calendar.dateListCmp = opener.etravel.datelst;
+        Calendar.grpCmps = opener.etravel.datelst.grpStart;
+        Calendar.dateChoice = opener.etravel.datelst.getDateTimeComposedString(Calendar.grpCmps).substr(0, 8);
+        Calendar.toLaunch = "";
+        Calendar.startWithDay = 0;
+        Calendar.initAvailabilityInterval();
+        Calendar.openCal(0);
+    }
+//-->
+    </script>
+
+    <script src="http://wftc1.e-travel.com/plnext/js/WPN_AeRE_v14.2_92M_010811/ui/Calendar.js"
+        language="JavaScript" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript"> 
+<!--
+
+    var LOCK_CHECK_ENTER = false;
+
+    Netscape = (navigator.appName.substring(0, 3) == "Net");
+    function checkEnter(event) {
+        var code = 0;
+        if (Netscape) {
+            code = event.which;
+        } else {
+            code = window.event.keyCode;
+        }
+        if (code == 13) {
+            var result = false;
+
+            return result;
+        }
+    }
+    document.onkeypress = checkEnter;
+-->
+    </script>
+
+</head>
+<body id="calendarPopUp" onload="javascript:Calendar.pageOnLoad();" onunload="" onkeypress="checkEnter(event);">
+    <div id="customDHTML" style="display: none;">
+        <center>
+            <form name="custom">
+            <table border="1">
+                <tr>
+                    <td>
+                        <b>Requested Segment information 0:</b>
+                    </td>
+                    <td>
+                        beginLocation
+                        <input type="text" name="requestBeginLocationCode_0" id="requestBeginLocationCode_0"
+                            value="" />
+                        <br />
+                        endLocation
+                        <input type="text" name="requestEndLocationCode_0" id="requestEndLocationCode_0"
+                            value="" />
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Requested Segment information 1:</b>
+                    </td>
+                    <td>
+                        beginLocation
+                        <input type="text" name="requestBeginLocationCode_1" id="requestBeginLocationCode_1"
+                            value="" />
+                        <br />
+                        endLocation
+                        <input type="text" name="requestEndLocationCode_1" id="requestEndLocationCode_1"
+                            value="" />
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Number of Traveller :
+                    </td>
+                    <td>
+                        <input type="text" name="nbTrav" id="nbTrav" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cabin :
+                    </td>
+                    <td>
+                        <input type="text" name="cabin" id="cabin" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Language :
+                    </td>
+                    <td>
+                        <input type="text" name="language" id="language" value='' />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Office Id :
+                    </td>
+                    <td>
+                        <input type="text" name="officeId" id="officeId" value="LGA1S38AB" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Agency information:</b>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Agency email :
+                    </td>
+                    <td>
+                        <input type="text" name="AgencyEmail" id="AgencyEmail" value="sales@e-traveltochina.com" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Agency adress :
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        seat preference :
+                    </td>
+                    <td>
+                        <input type="text" name="seatMapSelectionList" id="seatMapSelectionList" value="" /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ext id :
+                    </td>
+                    <td>
+                        <input type="text" name="cust_external_id" id="cust_external_id" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        templateName :
+                    </td>
+                    <td>
+                        <input type="text" name="custom_templateName" id="custom_templateName" value="calendarPopUp" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Portal Environment Variable 1:
+                    </td>
+                    <td>
+                        <input type="text" name="pe_variable1" id="pe_variable1" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Portal Environment Variable 2:
+                    </td>
+                    <td>
+                        <input type="text" name="pe_variable2" id="pe_variable2" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Portal Environment Variable 3:
+                    </td>
+                    <td>
+                        <input type="text" name="pe_variable3" id="pe_variable3" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Portal Environment Variable 4:
+                    </td>
+                    <td>
+                        <input type="text" name="pe_variable4" id="pe_variable4" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Portal Environment Variable 5:
+                    </td>
+                    <td>
+                        <input type="text" name="pe_variable5" id="pe_variable5" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Flex Pricer Mode:
+                    </td>
+                    <td>
+                        <input type="text" name="flex_pricer_mode" id="flex_pricer_mode" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Flex Pricer Page Type:
+                    </td>
+                    <td>
+                        <input type="text" name="flex_pricer_page_type" id="flex_pricer_page_type" value="" />
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </center>
+    </div>
+
+    <script><!--
+
+	        if (window.focus) {
+	            window.focus();
+	        }
+		    //-->
+    </script>
+
+    <div id="div_popup_container" class="divBGRD">
+        <table border="0" cellpadding="0" cellspacing="0" class="tilesCustomHeader">
+            <tr>
+                <td valign="middle">
+                    <img src="img/logo.gif" name="logo" alt="logo" />
+                </td>
+                <td valign="middle" align="right">
+                    <b>e-mail:sales@e-traveltochina.com</b>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="calendarSeparator">
+                </td>
+                <td id="calendar_0" class="calendarTD">
+                </td>
+                <td class="calendarSeparator">
+                </td>
+                <td id="calendar_1" class="calendarTD">
+                </td>
+                <td class="calendarSeparator">
+                </td>
+            </tr>
+        </table>
+        <br />
+        <div class="lineSeparator">
+        </div>
+        <table cellspacing="0" cellpadding="0" class="tablePopUp">
+            <tr>
+                <td class="footer">
+                    <a href="javascript:close()">关闭</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

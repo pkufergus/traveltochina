@@ -1,0 +1,141 @@
+.buttonOption#car A {
+	BACKGROUND-IMAGE: url(../img/hotelcar/section_rentalcar.gif)
+}
+.buttonOption#hotel A {
+	BACKGROUND-IMAGE: url(../img/hotelcar/section_hotel.gif)
+}
+#confSection UL {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+#quickLinks UL {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+#notes UL {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+#quickLinks UL {
+	LIST-STYLE-IMAGE: url(../img/icon_arrow.gif)
+}
+.headerSub#traveller {
+	BACKGROUND-IMAGE: url(../img/section_pax.gif)
+}
+.headerSub#flight {
+	BACKGROUND-IMAGE: url(../img/section_flight.gif)
+}
+.headerSub#car {
+	BACKGROUND-IMAGE: url(../img/hotelcar/search_cars.gif)
+}
+.headerSub#hotel {
+	BACKGROUND-IMAGE: url(../img/hotelcar/section_hotel.gif)
+}
+.searchPanel#pop_dest {
+	BACKGROUND-IMAGE: url(../img/imgSearchPopDest2.gif)
+}
+.availPanelHeader {
+	BACKGROUND-IMAGE: url(../img/hotelcar/imgAvailHeader.gif)
+}
+.photosMain {
+	BACKGROUND-IMAGE: url(../img/hotelcar/bgrdPhoto.gif)
+}
+.photosThumbs {
+	BACKGROUND-IMAGE: url(../img/hotelcar/bgrdPhoto.gif)
+}
+.overPic {
+	BACKGROUND-IMAGE: url(../img/hotelcar/photoCorner.gif)
+}
+.tableAvail UL {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+.tableAvailDetail UL {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+UL.cara_list1 {
+	LIST-STYLE-IMAGE: url(../img/list_dot.gif)
+}
+LI.door4 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_4door.gif)
+}
+LI.door2 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_2door.gif)
+}
+LI.auto {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_automatic.gif)
+}
+LI.manual {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_manual.gif)
+}
+LI.aircon {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_AIR.gif)
+}
+LI.noaircon {
+	BACKGROUND-IMAGE: url(../img/hotelcar/icon_noaircon.gif)
+}
+.spec_rates {
+	BACKGROUND-IMAGE: url(../img/hotelcar/rates.gif)
+}
+.ImgHotel {
+	BACKGROUND-IMAGE: url(../img/hotelcar/section_hotel.gif)
+}
+.ImgCar {
+	BACKGROUND-IMAGE: url(../img/hotelcar/section_rentalcar.gif)
+}
+.MapNo#m1 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo1.gif)
+}
+.MapNo#m2 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo2.gif)
+}
+.MapNo#m3 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo3.gif)
+}
+.MapNo#m4 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo4.gif)
+}
+.MapNo#m5 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo5.gif)
+}
+.MapNo#m6 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo6.gif)
+}
+.MapNo#m7 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo7.gif)
+}
+.MapNo#m8 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo8.gif)
+}
+.MapNo#m9 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo9.gif)
+}
+.MapNo#m10 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo10.gif)
+}
+.MapNo#m11 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo11.gif)
+}
+.MapNo#m12 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo12.gif)
+}
+.MapNo#m13 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo13.gif)
+}
+.MapNo#m14 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo14.gif)
+}
+.MapNo#m15 {
+	BACKGROUND-IMAGE: url(../img/hotelcar/mapNo15.gif)
+}
+.divLegend2 UL LI.sr {
+	BACKGROUND-IMAGE: url(../img/hotelcar/rates.gif)
+}
+.mp_holder .mp_left H4 {
+	BACKGROUND-IMAGE: url(../img/plane2.gif)
+}
+.mp_holder .mp_ow H4 {
+	BACKGROUND-IMAGE: url(../img/plane2.gif)
+}
+.mp_holder .mp_right H4 {
+	BACKGROUND-IMAGE: url(../img/plane3.gif)
+}
+UL.mpList LI.line {
+	BACKGROUND-IMAGE: url(../img/list_dot.gif)
+}

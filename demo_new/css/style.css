@@ -1,0 +1,630 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial,verdana,helvetica,sans-serif; /*line-height: 1.7em;     font-family: Verdana, Arial, Helvetica, sans-serif;     font-size: 11px;*/ /*background: #404040 url(../images/layermo_bg.jpg) no-repeat center top;*/
+}
+img
+{
+    border: 0;
+}
+b
+{
+    font-size: 110%;
+}
+em
+{
+    color: red;
+}
+#maincontainer
+{
+    width: 1240px;
+    margin: 0 auto;
+    background: #f5f8fa;
+}
+#mainmenu
+{
+    background: #f5f8fa;
+	width:240px;
+	text-align:center;
+	background: url(../images/menu_left_bk.jpg) repeat-y;
+	width:100%;
+	
+}
+#content_top
+{
+	background: url(../images/content_top_bk.jpg) no-repeat;
+	height:10px;
+	padding: 0px;
+	margin: 0 px;
+}
+#content_top td 
+{
+	height:10px;
+	padding: 0px;
+	margin: 0 px;
+}
+#content_middle
+{
+	background: url(../images/content_middle_bk.jpg) repeat-y;
+	padding:  0 20px 0 20px;
+	height:1070px;
+}
+#content_middle td
+{
+	padding:  0 5px 0 4px;
+}
+#content_bottom
+{
+	background: url(../images/content_bottom_bk.jpg)  no-repeat;
+	height:13px;
+	padding:  0 5px 0 6px;
+}
+
+#menu_left_top
+{
+    background: #f5f8fa;
+	width:100%;
+	height:40px;
+	text-align:center;
+	background: url(../images/menu_left_top_bk.jpg) no-repeat;
+	
+}
+#menu_left_bottom
+{
+    background: #f5f8fa;
+	width:100%;
+	height:15px;
+	text-align:center;
+	background: url(../images/menu_left_bottom_bk.jpg) no-repeat;
+	
+}
+
+
+#topmenu
+{
+}
+.header_left
+{
+    float: left;
+    width: 300px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+}
+.header_left span
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #99CCFF;
+}
+.header_right
+{
+    float: right;
+    width: 610px;
+    margin: 0px 20px 0px 0px;
+}
+.note
+{
+    color: #666;
+}
+#top_section
+{
+    /*background: url(../images/tm_header4.jpg) no-repeat;*/
+    height: 110px;
+}
+#content_area
+{
+    clear: both;
+    /*background: #f5f8fa;*/
+}
+#content_column
+{
+    float: left; /*	width: 665px; */
+    width: 500px;
+}
+#left_column
+{
+    float: left;
+    width: 165px;
+    line-height: 1.8em;
+}
+#right_column
+{
+    float: right;
+    width: 310px;
+}
+#footer
+{
+    clear: both;
+    width: 100%;
+    color: #71797f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+#footer a
+{
+    color: #71797f;
+}
+#template_preview
+{
+    border: 3px solid #666666;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 3px; /*	width: 954px; height: 500px; */
+    width: 800px;
+    height: 800px;
+}
+#preview_footer
+{
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    background: #F6F6F6;
+    width: 218px;
+    min-height: 228px;
+    text-align: justify;
+}
+#preview_footer_ad
+{
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 250px;
+}
+#preview_footer_right
+{
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    padding: 0px; /*	border: 1px solid #CCCCCC;  	background: #F6F6F6;	*/
+}
+.templatemo_box_one
+{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    width: 814px;
+    border: 4px solid #FF99CC;
+    background: #F8F2EB;
+}
+.border_none_top
+{
+    border: 1px solid #3e9cd9;
+    border-top: 0px;
+    /*background-color: #FFF;*/
+}
+.border
+{
+    /*border: 1px solid #3e9cd9;
+    background-color: #FFF;*/
+}
+
+.line
+{
+    height: 1px;
+    background: #3e9cd9;
+}
+.inner_tube
+{
+    margin: 10px;
+}
+.right_box
+{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.templatemo_clear
+{
+    clear: both;
+    width: 100%;
+    height: 0px;
+    font-size: 0px;
+}
+.templatemo_link_box
+{
+    float: left;
+    width: 150px;
+    line-height: 1.8em;
+    padding: 10px 0px 10px 10px;
+}
+.title
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #009900;
+}
+.subtitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #CC0066;
+}
+.thumbnail
+{
+    border: 1px #CCC solid;
+}
+.top_links
+{
+    margin: 0px 0px 20px 0px;
+    padding: 2px 0px 5px 30px;
+    background: #246eae;
+    font-size: 11px;
+}
+.top_links a:link, .top_links a:visited
+{
+    color: #FFFFFF;
+}
+.top_links a:active, .top_links a:hover
+{
+    color: #CCFF00;
+}
+.thumbnail_frame
+{
+    float: left;
+    margin: 10px 4px 4px 10px;
+    padding: 4px;
+    width: 142px;
+    background: #F8F8F8;
+    border: 1px solid #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.thumbnail_title
+{
+    font-weight: bold;
+}
+.blog_post a:link, .blog_post a:visited
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    line-height: 1.7em;
+}
+.blog_post a:active, .blog_post a:hover
+{
+    color: #AA0000;
+}
+/*
+.paging { clear: both; margin: 0 0 0 10px; padding: 0; }
+.paging ul { margin: 0; padding: 0; list-style: none; }
+.paging ul li a, .paging_info { float: left; display: block; color: #333333; background-color: #FFFFFF; text-decoration: none; margin: 0px 6px 6px 0px; padding: 4px 8px; border: 1px solid #999999; }
+.paging ul li a:hover { background-color: #CCCCCC; color: #000000; }
+.paging ul li .current { background-color: #CCCCCC; color: #000000; font-weight: bold;  }
+*/
+.page_navigation
+{
+    clear: both;
+    margin-bottom: 10px;
+}
+div.paging
+{
+    margin: 0 0 0 10px;
+    padding: 0px;
+}
+div.paging a, .paging_info
+{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #999999;
+}
+div.paging a:hover, div.paging a:active
+{
+    background-color: #CCCCCC;
+    color: #000000;
+    text-decoration: none;
+}
+div.paging span.current
+{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+    background-color: #CCCCCC;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #999999;
+}
+div.paging span.disabled
+{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+    border: 1px solid #DDDDDD;
+    color: #AAAAAA;
+}
+a:link
+{
+    color: #004b91;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #004b91;
+    text-decoration: none;
+}
+a:active
+{
+    color: #004b91;
+    text-decoration: underline;
+}
+a:hover
+{
+    color: #004b91;
+    text-decoration: underline;
+}
+a.boldbuttons
+{
+    background: transparent url('./images/roundedge-gray-left.gif') no-repeat top left;
+    display: block;
+    float: left;
+    font: bold 13px Arial;
+    line-height: 22px;
+    height: 30px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+a:link.boldbuttons, a:visited.boldbuttons, a:hover.boldbuttons, a:active.boldbuttons
+{
+    color: white;
+}
+a.boldbuttons span
+{
+    background: transparent url('./images/roundedge-gray-right.gif') no-repeat top right;
+    display: block;
+    padding: 4px 10px 4px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+}
+a:hover.boldbuttons
+{
+    /* Hover state CSS */
+    text-decoration: underline;
+}
+.buttonwrapper
+{
+    /* Container you can use to surround a CSS button to clear float */
+    overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+    width: 100%;
+}
+/* Credits: By Santosh Setty (http://webdesigninfo.wordpress.com) */
+/* Posted to: Dynamic Drive CSS Library (http://www.dynamicdrive.com/style/) */
+/* Modified by Min Thu (http://www.templatemo.com) */
+.glossymenu
+{
+    position:relative; width:140px;
+	float:left;
+    padding: 0 0 0 0px;
+    margin: 0 auto 0 auto;
+    /*background: url(../images/menu_bg_blue.jpg) no-repeat; /*tab background image path*/
+    /*height: 38px;*/
+    list-style:none;
+}
+.glossymenu li
+{
+    float: left;
+	background: url(../images/menu_left_n_bk.jpg) no-repeat; /*tab background image path*/
+	list-style:none;
+	height:37px;
+}
+.glossymenu li a
+{
+    float: left;
+    display: block;
+    color: #33699c;
+    text-decoration: none;
+    font-family: arial,verdana,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 35px; /*Padding to accomodate left tab image. Do not change*/
+    height: 37px;
+    line-height: 37px;
+    text-align: left;
+    cursor: pointer;
+	text-decoration:none;
+	width:190px;
+}
+.glossymenu li a b
+{
+    float: left;
+    display: block;
+    padding: 0 24px 0 13px; /*Padding of menu items*/
+}
+.glossymenu li.current a, .glossymenu li a:hover
+{
+    color: #000;
+    background: url(../images/menu_left_hover_bk.jpg) no-repeat; /*left tab image path*/
+    background-position: left;
+}
+.glossymenu li.current_about
+{
+    color: #000;
+    background: url(../images/menu_left_hover_bk_about.jpg) no-repeat; /*left tab image path*/
+    background-position: left;
+}
+.glossymenu li.current_visa
+{
+    color: #000;
+    background: url(../images/menu_left_hover_bk_visa.jpg) no-repeat; /*left tab image path*/
+    background-position: left;
+}
+
+
+.glossymenu_right
+{
+    position:relative; width:100px;
+	float:right;
+    padding: 0 0 0 0px;
+    margin: 0 auto 0 auto;
+    background: url(../images/menu_bg_blue.jpg) no-repeat; /*tab background image path*/
+    height: 38px;
+    list-style: none;
+}
+.glossymenu_right li
+{
+    float: left;
+}
+.glossymenu_right li a
+{
+    float: left;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial,verdana,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 8px; /*Padding to accomodate left tab image. Do not change*/
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+.glossymenu_right li a b
+{
+    float: left;
+    display: block;
+    padding: 0 24px 0 8px; /*Padding of menu items*/
+}
+.glossymenu_right li.current a, .glossymenu_right li a:hover
+{
+    color: #000;
+    background: url(../images/menu_over_bg.jpg) repeat; /*left tab image path*/
+    background-position: left;
+}
+.glossymenu_right li.current a b, .glossymenu_right li a:hover b
+{
+    color: #000;
+    background: url(../images/menu_over_bg.jpg) repeat; /*right tab image path*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glossytopmenu
+{
+    position:relative; 
+	float:right;
+    padding: 6px 0px 0 0px;
+    margin: 0 auto 0 auto;
+    /*background: url(../images/menu_bg_blue.jpg) no-repeat; /*tab background image path*/
+    /*height: 38px;*/
+    list-style:none;
+}
+.glossytopmenu li.first { 
+	float: left;
+	list-style:none;
+	height:37px;
+}
+.glossytopmenu li
+{
+    float: left;
+	list-style:none;
+	height:37px;
+	background: url(../images/muneline.jpg) no-repeat;
+	background-position:right top;
+
+}
+
+
+.glossytopmenu li a
+{
+    float: left;
+    display:block;
+    color: #004b91;
+    text-decoration: none;
+    font-family: arial,verdana,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight:normal;
+    padding: 0 3px 0 5px; /*Padding to accomodate left tab image. Do not change*/
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    cursor: pointer;
+	text-decoration:none;
+}
+.glossytopmenu li a b
+{
+    float: left;
+    display: block;
+    padding: 0 10px 0 8px; /*Padding of menu items*/
+}
+.glossytopmenu li.current a, .glossytopmenu li a:hover
+{
+    color: #004b91;
+    background-position: left;
+	text-decoration:underline;
+}
+.glossytopmenu li.current a b, .glossytopmenu li a:hover b
+{
+    color: #004b91;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+#links
+{
+    width: 97%;
+    background-color: White;
+    margin-left: 5px;
+}
+#links ul
+{
+    list-style: none;
+    margin: 0;
+	margin-top:10px;
+	background-color: #FFF;
+	
+}
+#links ul li
+{
+    float: left;
+    width: 115px;
+    height: 65px;
+    border: 0;
+    list-style: none;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+#links li a:link, #links li a:visited
+{
+    text-decoration: none;
+}
+#links li a:hover
+{
+    text-decoration: none;
+}

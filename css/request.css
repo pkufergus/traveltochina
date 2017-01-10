@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+.warn-msg {
+	color: red;
+	font-family: '微软雅黑';
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.order-div {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 61px;
+}
+
+.order-mail-div {
+	z-index: 161;
+	width: 374px;
+	 
+	background: rgb(251, 251, 251);
+	float: right;
+	position: absolute;
+	margin-left: 253px;
+	font-size: 12px;
+	margin-top:60px;
+}
+
+.tbl-head-th {
+	height: 30px;
+	background: #3E6397;
+	border-radius: 3px;
+	color: white;
+	border: none;
+	
+	
+	 
+	 
+}
+
+.mail-order-btn {
+	margin-top: 86px;
+	margin-left: 220px;
+	height: 28px;
+	width: 87px;
+	background: -moz-linear-gradient(top, #FDE90E, #F3970E);
+	background: -o-linear-gradient(left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background: -webkit-gradient(linear, left top, left bottom, from(#FDE90E),
+		to(#F3970E));
+	background: linear-gradient(to bottom, #FDE90E 0%, #F3970E 100%);
+	color: rgb(74, 74, 89);
+	border: 1px solid #F6B10E;
+	cursor: pointer;
+	font-weight: 600;
+	color: rgb(74, 74, 89);
+	-webkit-text-size-adjust: none;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.mail-order-submit {
+	font-size: 13px;
+	color: white;
+	background: #3E6397;
+	height: 30px;
+	width: 70px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight:600;
+}
+
+.lui-wait {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	filter: alpha(Opacity = 80);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	background: rgb(236, 238, 247);
+}
+
+.lui-wait-img {
+	margin-left: 47%;
+	margin-top: 13%;
+}
+
+.close-a {    color: white;
+    text-decoration: none;
+    position: absolute;
+    /* margin-right: -30px; */
+    margin-left: 117px;
+    margin-top: -2px;
+    font-family: 微软雅黑;
+}
+
+.mail-order-txt {
+	height: 30px;
+	border-radius: 3px;
+	border: solid 1px rgb(199, 199, 199);
+	width: 146px;
+	background: white
+}

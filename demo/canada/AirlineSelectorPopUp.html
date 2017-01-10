@@ -1,0 +1,578 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0184)http://wftc1.e-travel.com/plnext/AIEADBLADBL/AirlineSelectorPopUp.action?PLTG_TARGETED_OPENER_FORM=opener.document.ADVSForm&PLTG_TARGETED_OPENER_TAG=AIRLINE_1&SITE=ADBLADBL&LANGUAGE=CN -->
+<html lang="zh" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh">
+<head>
+    <title>E-TraveltoChina.com - 航空公司</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <!-- template name: airlinePopUp -->
+    <!-- PTR03048448 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <link href="AirlineSelectorPopUp/main.css" type="text/css" rel="stylesheet">
+    <link href="AirlineSelectorPopUp/POPUP_main.css" type="text/css" rel="stylesheet">
+    <link href="AirlineSelectorPopUp/custom_image_PLTG.css" type="text/css" rel="stylesheet">
+    <link href="AirlineSelectorPopUp/custom_image_TL.css" type="text/css" rel="stylesheet">
+    <link href="AirlineSelectorPopUp/custom_image_SeatMap.css" type="text/css" rel="stylesheet">
+    <link href="AirlineSelectorPopUp/custom_image_holiday.css" type="text/css" rel="stylesheet">
+
+
+    <script language="JavaScript" src="AirlineSelectorPopUp/WDSCore.js" type="text/javascript"></script>
+
+    <script language="JavaScript" src="AirlineSelectorPopUp/PLTGWDSDefinitions.js" type="text/javascript"></script>
+
+    <script language="JavaScript" type="text/JavaScript">
+<!--
+
+        function SelectorPopUp_init() {
+
+
+
+
+
+
+            this.targetedForm = null; //opener.document.ADVSForm;
+            this.targetedTag = 'AIRLINE_1';
+            this.targetedTagLbl = '';
+            this.openerConverterForm = null;
+            this.openerMethodToLaunch = '';
+
+
+
+
+
+
+
+        }
+//-->
+</script>
+
+    <script language="JavaScript" src="AirlineSelectorPopUp/SelectorPopUp.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+<!--
+
+        var LOCK_CHECK_ENTER = false;
+
+        Netscape = (navigator.appName.substring(0, 3) == "Net");
+        function checkEnter(event) {
+            var code = 0;
+            if (Netscape) {
+                code = event.which;
+            } else {
+                code = window.event.keyCode;
+            }
+            if (code == 13) {
+                var result = false;
+
+                return result;
+            }
+        }
+        document.onkeypress = checkEnter;
+-->
+</script>
+
+    <meta content="MSHTML 6.00.6001.18527" name="GENERATOR">
+</head>
+<body onkeypress="checkEnter(event);" id="airlinePopUp" onload="javascript:SelectorPopUp.pageOnLoad();"
+    onunload="">
+    <div id="customDHTML" style="display: none">
+        <center>
+            <form name="custom">
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>
+                            Number of Traveller :
+                        </td>
+                        <td>
+                            <input id="nbTrav" name="nbTrav">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cabin :
+                        </td>
+                        <td>
+                            <input id="cabin" name="cabin">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Language :
+                        </td>
+                        <td>
+                            <input id="language" name="language">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Office Id :
+                        </td>
+                        <td>
+                            <input id="officeId" value="LGA1S38AB" name="officeId">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Agency information:</b>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Agency email :
+                        </td>
+                        <td>
+                            <input id="AgencyEmail" value="sales@e-traveltochina.com" name="AgencyEmail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Agency adress :
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            seat preference :
+                        </td>
+                        <td>
+                            <input id="seatMapSelectionList" name="seatMapSelectionList"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            ext id :
+                        </td>
+                        <td>
+                            <input id="cust_external_id" name="cust_external_id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            templateName :
+                        </td>
+                        <td>
+                            <input id="custom_templateName" value="airlinePopUp" name="custom_templateName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Portal Environment Variable 1:
+                        </td>
+                        <td>
+                            <input id="pe_variable1" name="pe_variable1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Portal Environment Variable 2:
+                        </td>
+                        <td>
+                            <input id="pe_variable2" name="pe_variable2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Portal Environment Variable 3:
+                        </td>
+                        <td>
+                            <input id="pe_variable3" name="pe_variable3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Portal Environment Variable 4:
+                        </td>
+                        <td>
+                            <input id="pe_variable4" name="pe_variable4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Portal Environment Variable 5:
+                        </td>
+                        <td>
+                            <input id="pe_variable5" name="pe_variable5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Flex Pricer Mode:
+                        </td>
+                        <td>
+                            <input id="flex_pricer_mode" name="flex_pricer_mode">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Flex Pricer Page Type:
+                        </td>
+                        <td>
+                            <input id="flex_pricer_page_type" name="flex_pricer_page_type">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </center>
+    </div>
+
+    <script><!--
+
+        if (window.focus) {
+            window.focus();
+        }
+//-->
+</script>
+
+    <div class="divBGRD" id="div_popup_container">
+        <table class="tilesCustomHeader" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+                <tr>
+                    <td valign="center">
+                        <img alt="logo" src="AirlineSelectorPopUp/logo.gif" name="logo">
+                    </td>
+                    <td valign="center" align="right">
+                        <b>e-mail:sales@e-traveltochina.com</b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="tablePopUp" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tbody>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td class="borderPurcCon">
+                        <table id="table_headerNote" cellspacing="0" cellpadding="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        请单击以下列表中的链接以选择航空公司：
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td class="space">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <a href="./AirlineSelectorPopUp.html#A">
+
+                            <script>                                document.write('A');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#B">
+
+                            <script>                                document.write('B');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#C">
+
+                            <script>                                document.write('C');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#D">
+
+                            <script>                                document.write('D');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#E">
+
+                            <script>                                document.write('E');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#F">
+
+                            <script>                                document.write('F');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#G">
+
+                            <script>                                document.write('G');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#H">
+
+                            <script>                                document.write('H');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#I">
+
+                            <script>                                document.write('I');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#J">
+
+                            <script>                                document.write('J');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#K">
+
+                            <script>                                document.write('K');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#L">
+
+                            <script>                                document.write('L');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#M">
+
+                            <script>                                document.write('M');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#N">
+
+                            <script>                                document.write('N');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#O">
+
+                            <script>                                document.write('O');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#P">
+
+                            <script>                                document.write('P');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#Q">
+
+                            <script>                                document.write('Q');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#R">
+
+                            <script>                                document.write('R');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#S">
+
+                            <script>                                document.write('S');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#T">
+
+                            <script>                                document.write('T');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#U">
+
+                            <script>                                document.write('U');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#V">
+
+                            <script>                                document.write('V');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#W">
+
+                            <script>                                document.write('W');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#X">
+
+                            <script>                                document.write('X');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#Y">
+
+                            <script>                                document.write('Y');</script>
+
+                        </a><a href="./AirlineSelectorPopUp.html#Z">
+
+                            <script>                                document.write('Z');</script>
+
+                        </a>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="lineSeparator">
+        </div>
+        <table class="tablePopUp" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tbody>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <div class="divPopUpScrollCurrency" id="itemScroller">
+                            <table id="table_itemList" cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a id="top" name="top"></a>
+                                        </td>
+                                    </tr>
+
+                                    <script language="JavaScript" type="text/JavaScript">
+
+
+                                        SelectorPopUp.alphabetArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", ""];
+                                        SelectorPopUp.itemDisplayedNames = new Array();
+                                        SelectorPopUp.itemCodes = new Array();
+
+
+                                        SelectorPopUp.itemDisplayedNames[0] = new Array("Abacus (1B)", "ABC Aerolineas (4O)", "AC Challenge Aero (5U)", "Accesrail (9B)", "ACG Air Cargo Germany (6U)", "Adam Air (KI)", "Adria Airways (JP)", "Aegean Airlines (A3)", "Aer Arann (RE)", "Aer Lingus (EI)", "Aero Airlines (EE)", "Aero Benin (EM)", "Aero Lineas Sosa (P4)", "Aero Mongolia (M0)", "Aero Regional Paraguaya (P7)", "Aero VIP (NJ)", "Aero VIP (2D)", "Aero-Charter (DW)", "Aero-Tropics (HC)", "Aerocaribbean (7L)", "Aerocomercial Oriente Norte (A4)", "Aerocontractors (AJ)", "Aeroenlaces Nacionales (VB)", "Aeroflot (SU)", "Aerofreight Airlines (RS)", "Aerogaviota (KG)", "Aerolinea Principal Chile (5P)", "Aerolineas Argentinas (AR)", "Aerolineas de Baleares (DF)", "Aerolineas Galapagos (2K)", "Aerolineas Mas (N3)", "Aeromar (VW)", "Aeromexico (AM)", "Aeromexico Connect (5D)", "Aeropelican Air Services (OT)", "Aeroperlas (WL)", "Aeropostal (VH)", "Aerosur (5L)", "Aerosur Paraguay (PQ)", "Aerosvit Airlines (VV)", "Africa Airways (VJ)", "African Express Airways (XU)", "Afrijet Airlines (6F)", "Afriqiyah Airways (8U)", "Afrique Airlines (X5)", "Aigle Azur (ZI)", "Air Algerie (AH)", "Air Alliance (ZX)", "Air Alps Aviation (A6)", "Air Antilles Express (3S)", "Air Arabia (G9)", "Air Arabia Egypt (E5)", "Air Arabia Maroc (3O)", "Air Armenia (QN)", "Air Astana (KC)", "Air Austral (UU)", "Air Azul (ZQ)", "Air Bagan (W9)", "Air Baltic (BT)", "Air Bee SPA (BM)", "Air Berlin (AB)", "Air Bissau International (YL)", "Air Botswana (BP)", "Air Burkina (2J)", "Air Burundi (8Y)", "Air Busan (BX)", "Air Caledonie (TY)", "Air Canada (AC)", "Air Canada Jazz (QK)", "Air Caraibes (TX)", "Air Central (NV)", "Air Chathams (CV)", "Air China (CA)", "Air City (4F)", "Air Class Lineas Aereas (QD)", "Air Comet (A7)", "Air Comores International (GG)", "Air Continental Africa (TI)", "Air Corridor (QC)", "Air Creebec (YN)", "Air Deccan (DN)", "Air Dolomiti (EN)", "Air Dominicana (ED)", "Air East (ER)", "Air Europa (UX)", "Air Excursions (X4)", "Air Finland (OF)", "Air France (AF)", "Air G (5I)", "Air Gabon (GN)", "Air Georgia (DA)", "Air Greco (WV)", "Air Greece (JG)", "Air Greenland (GL)", "Air Iceland (NY)", "Air India Charters (IX)", "Air Inuit (3H)", "Air Italy (I9)", "Air Ivoire (VU)", "Air Jamaica (JM)", "Air Japan Company Ltd (NQ)", "Air Koryo (JS)", "Air Labrador (WJ)", "Air Link (DR)", "Air Littoral (FU)", "Air Luxor (LK)", "Air Luxor GB (L8)", "Air Macau (NX)", "Air Madagascar (MD)", "Air Malawi (QM)", "Air Malta (KM)", "Air Mandalay (6T)", "Air Marshall Islands (CW)", "Air Mascareignes (MV)", "Air Mauritanie (MR)", "Air Mauritius (MK)", "Air Mediterranee (ML)", "Air Mekong (P8)", "Air Minas Linhas Aereas (6M)", "Air Mobility Command (MC)", "Air Moldova (9U)", "Air Namibia (SW)", "Air Nepal International (XN)", "Air New Zealand (NZ)", "Air Next (7A)", "Air Nippon (EL)", "Air Nippon Network (EH)", "Air Niugini (PX)", "Air North (4N)", "Air Nostrum (YW)", "Air One (AP)", "Air One Cityliner (CT)", "Air Pacific (FJ)", "Air Paradise (PT)", "Air Philippines (2P)", "Air Rarotonga (GZ)", "Air Saint Pierre (PJ)", "Air Santo Domingo (EX)", "Air Satellite (6O)", "Air Senegal International (V7)", "Air Service (X7)", "Air Seychelles (HM)", "Air Sinai (4D)", "Air Slovakia (GM)", "Air Southwest (SZ)", "Air St Thomas (ZP)", "Air Sunshine (YI)", "Air Sylhet AG (SL)", "Air Tahiti (VT)", "Air Tahiti Nui (TN)", "Air Tanzania (TC)", "Air Taxi Europe (TZ)", "Air Timor (6C)", "Air Tindi Ltd (8T)", "Air Transat (TS)", "Air Turks and Caicos (JY)", "Air Uganda (U7)", "Air Urga (3N)", "Air Vallee (DO)", "Air Vanuatu (NF)", "Air Wisconsin (ZW)", "Air Zimbabwe (UM)", "Airasia Sdn Bhd (AK)", "AirAsiaX Sdn Bhd (D7)", "Airbridgecargo Airlines (BO)", "Aircalin (SB)", "Aircompany Khors (KO)", "Aircompany Kokshetau (0K)", "Aircuenca (E9)", "Aires (4C)", "Airkenya Aviation (QP)", "Airkenya Express (P2)", "Airlift Service (3I)", "Airlinair (A5)", "Airline Service (ZZ)", "Airline Utair Ukraine (QU)", "Airlines PNG (CG)", "Airlines Reporting Corp. (X6)", "Airnorth Regional (TL)", "Airtran Airways (FL)", "Airways International (J6)", "Aklak Air (6L)", "Al Naser Airlines (6N)", "Al-Khayala (XY)", "Aladia Airlines (9A)", "Alajnihah Air Transport (2T)", "Alaska Airlines (AS)", "Alaska Seaplane Service (J5)", "Albanian Airlines Mak (LV)", "Albarka Air Services Ltd (F4)", "Alexandria Airlines (ZR)", "Alidaunia S.R.L. (D4)", "Alitalia Express (XM)", "Alitalia S.P.A. (AZ)", "All Nippon Airways (NH)", "Allegiant Air (G4)", "Alliance Air (CD)", "Alliance Airlines (QQ)", "Alma de Mexico (C4)", "Almasria Universal Airlines (UJ)", "Alpine Air (N6)", "Als Ltd. (K4)", "Amadeus (1A)", "Amadeus Eight (8X)", "Amadeus PDF (7S)", "Amadeus PDF (9S)", "Amadeus PDF 2Y (2Y)", "Amadeus Seven (7X)", "Amadeus Six (6X)", "Amadeus Two (2X)", "Amaszonas (Z8)", "Amber Air (0A)", "AMC Airlines (YJ)", "America West Airlines (HP)", "American Airlines (AA)", "American Connection (AX)", "American Eagle (MQ)", "Amsterdam Airlines BV (WD)", "Amtrak (2V)", "Andes Lineas Aereas (OY)", "Angel Airlines (8K)", "Angkor Airways (G6)", "Antrak Air (O4)", "Arc (XD)", "Arctic Circle Air (5F)", "Ariana Afghan Airlines (FG)", "Arik Air International (W3)", "Arik Niger (Q9)", "Arizona Express Airlines (K7)", "Arkefly (OR)", "Arkia (IZ)", "Armavia (U8)", "Aserca (R7)", "Asia Alpha Airways (OD)", "Asian Air (KJ)", "Asiana Airlines (OZ)", "Asky (KP)", "Astraeus (5W)", "Ata Airlines (I3)", "Athens Airways (ZF)", "Atlant-Soyuz (7B)", "Atlant-Soyuz Airlines (3G)", "Atlantic Airways (RC)", "Atlantic Express Airline (4X)", "Atlantic Southeast (EV)", "Atlantis European Airways (TD)", "Atlas Blue (8A)", "Atlasjet Airlines (KK)", "Atyrau Aue Joly (IP)", "Augsburg Airways (IQ)", "Aurigny Air Services (GR)", "Austral Lineas Aereas (AU)", "Austrian (OS)", "Avia Jaynar (JN)", "Avia Traffic Company (Z7)", "Aviacsa (6A)", "Aviaenergo (7U)", "Aviana Airways (4A)", "Avianca (AV)", "Avianova LCC (AO)", "Aviateca (GU)", "Aviation Starlink (Q4)", "Avies (U3)", "Avion Express (X9)", "Avior (9V)", "Avitrans Nordic (2Q)", "Axess International (1J)", "Axis International Lines (O8)", "Azerbaijan Airlines (J2)", "Azul Linhas Aereas Brasil (AD)", "");
+                                        SelectorPopUp.itemCodes[0] = new Array("1B", "4O", "5U", "9B", "6U", "KI", "JP", "A3", "RE", "EI", "EE", "EM", "P4", "M0", "P7", "NJ", "2D", "DW", "HC", "7L", "A4", "AJ", "VB", "SU", "RS", "KG", "5P", "AR", "DF", "2K", "N3", "VW", "AM", "5D", "OT", "WL", "VH", "5L", "PQ", "VV", "VJ", "XU", "6F", "8U", "X5", "ZI", "AH", "ZX", "A6", "3S", "G9", "E5", "3O", "QN", "KC", "UU", "ZQ", "W9", "BT", "BM", "AB", "YL", "BP", "2J", "8Y", "BX", "TY", "AC", "QK", "TX", "NV", "CV", "CA", "4F", "QD", "A7", "GG", "TI", "QC", "YN", "DN", "EN", "ED", "ER", "UX", "X4", "OF", "AF", "5I", "GN", "DA", "WV", "JG", "GL", "NY", "IX", "3H", "I9", "VU", "JM", "NQ", "JS", "WJ", "DR", "FU", "LK", "L8", "NX", "MD", "QM", "KM", "6T", "CW", "MV", "MR", "MK", "ML", "P8", "6M", "MC", "9U", "SW", "XN", "NZ", "7A", "EL", "EH", "PX", "4N", "YW", "AP", "CT", "FJ", "PT", "2P", "GZ", "PJ", "EX", "6O", "V7", "X7", "HM", "4D", "GM", "SZ", "ZP", "YI", "SL", "VT", "TN", "TC", "TZ", "6C", "8T", "TS", "JY", "U7", "3N", "DO", "NF", "ZW", "UM", "AK", "D7", "BO", "SB", "KO", "0K", "E9", "4C", "QP", "P2", "3I", "A5", "ZZ", "QU", "CG", "X6", "TL", "FL", "J6", "6L", "6N", "XY", "9A", "2T", "AS", "J5", "LV", "F4", "ZR", "D4", "XM", "AZ", "NH", "G4", "CD", "QQ", "C4", "UJ", "N6", "K4", "1A", "8X", "7S", "9S", "2Y", "7X", "6X", "2X", "Z8", "0A", "YJ", "HP", "AA", "AX", "MQ", "WD", "2V", "OY", "8K", "G6", "O4", "XD", "5F", "FG", "W3", "Q9", "K7", "OR", "IZ", "U8", "R7", "OD", "KJ", "OZ", "KP", "5W", "I3", "ZF", "7B", "3G", "RC", "4X", "EV", "TD", "8A", "KK", "IP", "IQ", "GR", "AU", "OS", "JN", "Z7", "6A", "7U", "4A", "AV", "AO", "GU", "Q4", "U3", "X9", "9V", "2Q", "1J", "O8", "J2", "AD", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[1] = new Array("B&H Airlines (JA)", "BA CityFlyer (CJ)", "BA Connect (TH)", "Bahamasair (UP)", "Bahrain Air (BN)", "Bahrain Air (2B)", "Bangkok Airways (PG)", "Barents Airlink (8N)", "Batavia Air (7P)", "Batavia Air (Y6)", "Bearskin Airlines (JV)", "Belair Airlines (4T)", "Belavia (B2)", "Belle Air Company (LZ)", "Belle Air Europe (L9)", "Bellview Airlines (B3)", "Bemidji Airlines (CH)", "Benin Golf Air (A8)", "Bering Air (8E)", "Berjaya Air (J8)", "Biman Bangladesh Airline (BG)", "Binter Canarias (NT)", "Bird Information Systems (1R)", "Bismilah Airlines (5Z)", "Blue Air (0B)", "Blue Bird Airways (BZ)", "Blue Islands (SI)", "Blue Panorama Airlines (BV)", "Blue Wings (QW)", "Blue1 (KF)", "BMI (BD)", "Bmibaby (WW)", "Boliviana de Aviacion (OB)", "Boutique Air (4B)", "BQB Lineas Aereas (5Q)", "Branson Air (1X)", "Brindabella Airlines (FQ)", "Bringer Air Cargo (E6)", "Brit Air (DB)", "British Airways (BA)", "British International (BS)", "Brussels Airlines (SN)", "Brussels Airlines Fly (TV)", "Bukovyna Airlines (BQ)", "Bulgaria Air (FB)", "Buraq Air (UZ)", "Business Air (8B)", "");
+                                        SelectorPopUp.itemCodes[1] = new Array("JA", "CJ", "TH", "UP", "BN", "2B", "PG", "8N", "7P", "Y6", "JV", "4T", "B2", "LZ", "L9", "B3", "CH", "A8", "8E", "J8", "BG", "NT", "1R", "5Z", "0B", "BZ", "SI", "BV", "QW", "KF", "BD", "WW", "OB", "4B", "5Q", "1X", "FQ", "E6", "DB", "BA", "BS", "SN", "TV", "BQ", "FB", "UZ", "8B", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[2] = new Array("Calm Air International (MO)", "Cambodia Angkor Air (K6)", "Cameroon Airlines (UY)", "Canadian North (5T)", "CanJet Airlines (C6)", "Cape Air (9K)", "Carib Aviation Limited (3Q)", "Caribbean Airlines (BW)", "Caribbean Winds Airlines (W8)", "Carpatair (V3)", "Caspian Airlines (RV)", "Cathay Pacific (CX)", "Catovair (0C)", "Cayman Airways (KX)", "CCM Airlines (XK)", "Cebu Air (5J)", "Ceiba Intercontinental (C2)", "Central Air Transport Services (ZO)", "Central Charter Airlines (CQ)", "Central Mountain Air (9M)", "Centralwings (C0)", "Centre-Avia Airlines (J7)", "Chalair (CE)", "Chalair (M6)", "Champion Air (MG)", "Champlain Enterprises (C5)", "Chanchangi Airlines (5B)", "Chautauqua Airlines (RP)", "China Airlines (CI)", "China Cargo Airlines (CK)", "China Eastern Airlines (MU)", "China Express Airlines (G5)", "China Southern Airlines (CZ)", "China United Airlines (KN)", "China West Air (PN)", "China Xinhua Airlines (X2)", "Chongqing Airlines (OQ)", "Cielos del Peru (A2)", "Cimber Sterling (QI)", "Cirrus Airlines (C9)", "City Airline (CF)", "Cityjet (WX)", "Clickair (XG)", "Coastal Air Transport (DQ)", "Colgan Air (9L)", "Comair (MN)", "Comair Inc. (OH)", "Comores Aviation (KR)", "Comores Aviation International (O5)", "Compass Airlines (CP)", "Condor (DE)", "Contact Air (C3)", "Continental Airlines (CO)", "Continental Micronesia (CS)", "Conviasa (V0)", "Copa Airlines (CM)", "Copa Airlines Colombia (P5)", "Corsair (SS)", "Cosmic Air (F5)", "CR Airways Limited (N8)", "Croatia Airlines (OU)", "CTS Viaggi (I1)", "Cubana de Aviaci\u00F3n (CU)", "Cyprus Airways (CY)", "Cyprus Turkish Airlines (YK)", "Czech Airlines CSA (OK)", "");
+                                        SelectorPopUp.itemCodes[2] = new Array("MO", "K6", "UY", "5T", "C6", "9K", "3Q", "BW", "W8", "V3", "RV", "CX", "0C", "KX", "XK", "5J", "C2", "ZO", "CQ", "9M", "C0", "J7", "CE", "M6", "MG", "C5", "5B", "RP", "CI", "CK", "MU", "G5", "CZ", "KN", "PN", "X2", "OQ", "A2", "QI", "C9", "CF", "WX", "XG", "DQ", "9L", "MN", "OH", "KR", "O5", "CP", "DE", "C3", "CO", "CS", "V0", "CM", "P5", "SS", "F5", "N8", "OU", "I1", "CU", "CY", "YK", "OK", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[3] = new Array("Daallo Airlines (D3)", "Dagestan Airlines (N2)", "Dalavia (H8)", "Dana Airlines (9J)", "Danish Air Transport (DX)", "Danu Oro Transportas (R6)", "Darwin Airline (0D)", "Dauair (D5)", "DBA (DI)", "Deer Jet (JD)", "Delta Air Lines (DL)", "Delta Connection (Z9)", "Denim Air (3D)", "Deutsche Bahn AG (2A)", "Djibouti Airlines (D8)", "Dnieproavia (Z6)", "Dolphin Air (ZD)", "Donbassaero Airlines (7D)", "Dragonair (KA)", "Druk Air (KB)", "Dutch Antilles Express (9H)", "");
+                                        SelectorPopUp.itemCodes[3] = new Array("D3", "N2", "H8", "9J", "DX", "R6", "0D", "D5", "DI", "JD", "DL", "Z9", "3D", "2A", "D8", "Z6", "ZD", "7D", "KA", "KB", "9H", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[4] = new Array("E-Savtravel (L1)", "Eagle Air (H7)", "Eagles (E3)", "East African Safari Air (B5)", "East Star Airlines (8C)", "Eastar Jet Co Ltd (ZE)", "Eastern Airways (T3)", "Eastern Caribbean Airlines (JI)", "Easyjet (U2)", "Easyjet Switzerland (DS)", "Edelweiss Air (WK)", "EDS Information Business (1C)", "Egyptair (MS)", "El Al Israel Airlines (LY)", "El Sol de America (6S)", "Electronic Data Systems (1Y)", "Elysian Airlines (E4)", "Emirates (EK)", "Eos Airlines (E0)", "Equaflight Service (E7)", "Era Aviation (7H)", "Eram Airlines (YE)", "Eritrean Airlines (B8)", "Esen Air (K9)", "Estonian Air (OV)", "Ethiopian Airlines (ET)", "Etihad Airways (EY)", "Eurasia Air (6Z)", "Euroatlantic Airways (YU)", "Eurocypria Airlines (UI)", "Eurofly Spa (GJ)", "Eurolot (K2)", "Euromanx (3W)", "Europe Airpost (5O)", "European Air Transport (QY)", "European Executive Express (RY)", "Eurostar (9F)", "Eurowings (EW)", "Eva Air (BR)", "Everts Air (3Z)", "Executive Airlines (OW)", "Express Rail Link (5Y)", "ExpressJet Airlines (XE)", "");
+                                        SelectorPopUp.itemCodes[4] = new Array("L1", "H7", "E3", "B5", "8C", "ZE", "T3", "JI", "U2", "DS", "WK", "1C", "MS", "LY", "6S", "1Y", "E4", "EK", "E0", "E7", "7H", "YE", "B8", "K9", "OV", "ET", "EY", "6Z", "YU", "UI", "GJ", "K2", "3W", "5O", "QY", "RY", "9F", "EW", "BR", "3Z", "OW", "5Y", "XE", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[5] = new Array("Fantasia Info Network Lt (1Z)", "Far Eastern Air Transport (FE)", "Far Eastern Air Transport (EF)", "Farelogix (F1)", "Faroejet (F6)", "Fars Qeshm Airlines (QE)", "Fedex (FX)", "Felix Airways (FO)", "Finnair (AY)", "Finncomm Airlines (FC)", "First Air (7F)", "First Choice Airways (DP)", "Five Fourty Aviation (5H)", "Flexflight (W2)", "Florida Coastal Airlines (PA)", "Flybaboo (F7)", "Flybe (BE)", "flydubai (FZ)", "Flyfirefly (FY)", "Flying Carpet (7Y)", "Flylal (TE)", "Flynordic (LF)", "Forty Mile Air (Q5)", "Freedom Air (FP)", "Freedom Airlines (F8)", "Frontier Airlines (F9)", "Frontier Flying Service (2F)", "Fuji Dream Airlines (JH)", "Futura International (FH)", "");
+                                        SelectorPopUp.itemCodes[5] = new Array("1Z", "FE", "EF", "F1", "F6", "QE", "FX", "FO", "AY", "FC", "7F", "DP", "5H", "W2", "PA", "F7", "BE", "FZ", "FY", "7Y", "TE", "LF", "Q5", "FP", "F8", "F9", "2F", "JH", "FH", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[6] = new Array("G2 Switch Works (A1)", "Gabon Airlines (GY)", "Galaxy Air (7O)", "Gambia International Airlines (GC)", "Garuda Indonesia (GA)", "Gazpromavia (4G)", "GB Airways (GT)", "Georgian Airways (A9)", "Georgian International Airlines (4L)", "Germania (ST)", "Germanwings (4U)", "Ghadames Air Transport (0G)", "Ghana International Airlines (G0)", "Girjet (8G)", "Global Aviation (QG)", "Globespan Airways (Y2)", "Globus LLC (GH)", "GMG Airlines (Z5)", "Go (GO)", "Go Airlines (G8)", "Go One Airways (GK)", "Gojet Airlines (G7)", "Golden Air (DC)", "Grand China Air (CN)", "Grant Aviation (GV)", "Great Lakes Aviation (ZK)", "Gulf Air (GF)", "Gulfstream Air Charter (6G)", "Gulfstream International (3M)", "");
+                                        SelectorPopUp.itemCodes[6] = new Array("A1", "GY", "7O", "GC", "GA", "4G", "GT", "A9", "4L", "ST", "4U", "0G", "G0", "8G", "QG", "Y2", "GH", "Z5", "GO", "G8", "GK", "G7", "DC", "CN", "GV", "ZK", "GF", "6G", "3M", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[7] = new Array("Hageland Aviation (H6)", "Hahn Air (HR)", "Hahn Air Systems (H1)", "Hainan Airlines (HU)", "Halcyon Air Cabo Verde (7Z)", "Hamburg International (4R)", "Hamsal Air Services (2H)", "Hapagfly (HF)", "Harbour Air Seaplanes (H3)", "Harmony Airways (HQ)", "Hawaiian Airlines (HA)", "Hawkair (BH)", "Hebei Airlines (NS)", "Heli Air Monaco (YO)", "Heli Securite (H4)", "Helicopteros del Sureste (UV)", "Helijet International (JB)", "Helios Airways (ZU)", "Helitrans AS (9I)", "Hellas Jet (HJ)", "Hellenic Imperial Airways (HT)", "Helvetic Airways (2L)", "Hemus Air (DU)", "Hevi Lift (PNG) Pty Ltd (IU)", "Hewa Bora Airways (EO)", "Hex Air (UD)", "HG Aviation (RX)", "HI Fly Transportes Aereo (5K)", "Highland Airways (8H)", "Hokkaido International (HD)", "Hola Airlines (H5)", "Holland Exel (YZ)", "Homer Air (HB)", "Hong Kong Airlines (HX)", "Hong Kong Express Airways (UO)", "Horizon Air (QX)", "");
+                                        SelectorPopUp.itemCodes[7] = new Array("H6", "HR", "H1", "HU", "7Z", "4R", "2H", "HF", "H3", "HQ", "HA", "BH", "NS", "YO", "H4", "UV", "JB", "ZU", "9I", "HJ", "HT", "2L", "DU", "IU", "EO", "UD", "RX", "5K", "8H", "HD", "H5", "YZ", "HB", "HX", "UO", "QX", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[8] = new Array("IBC Airways Inc (II)", "Iberia (IB)", "Ibex Airlines (FW)", "IBS Software Services Americas (V1)", "Icaro (X8)", "Icelandair (FI)", "Ihy Izmir Havayollari (4I)", "Iliamna Air (V8)", "Imair Airline (IK)", "Independence Air (DH)", "Indigo (6E)", "Indochina Airlines (IO)", "Indochina Airlines (VP)", "Indonesia Air Transport (I8)", "Infini Travel Information (1F)", "Inland Aviation Services (7N)", "Insel Air International (7I)", "Inter Air (D6)", "Interavia Airlines (ZA)", "Interlink Airlines (ID)", "Intersky Luftfahrt (3L)", "Interstate Airlines (I4)", "Intl Business Airlines (6I)", "Iran Air (IR)", "Iran Air Tours (B9)", "Iran Aseman Airlines (EP)", "Iraqi Airways (IA)", "Island Air (WP)", "Island Airlines (IS)", "Island Aviation Services (Q2)", "Islandsflug (HH)", "Islas Airways (IF)", "Islena Airlines (WC)", "Israir Airlines (6H)", "Ita Software (1U)", "Itali Airlines (FS)", "ITALIATOUR Airlines (OI)", "Itek Air (GI)", "");
+                                        SelectorPopUp.itemCodes[8] = new Array("II", "IB", "FW", "V1", "X8", "FI", "4I", "V8", "IK", "DH", "6E", "IO", "VP", "I8", "1F", "7N", "7I", "D6", "ZA", "ID", "3L", "I4", "6I", "IR", "B9", "EP", "IA", "WP", "IS", "Q2", "HH", "IF", "WC", "6H", "1U", "FS", "OI", "GI", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[9] = new Array("Jal Express (JC)", "Jalways (JO)", "Japan Air Commuter (3X)", "Japan Airlines (JL)", "Japan Asia Airways (EG)", "Japan Transocean Air (NU)", "Jat Airways (JU)", "Jazeera Airways (J9)", "Jeju Air (7C)", "Jet Air (O2)", "Jet Airways (9W)", "Jet Aviation Business (PP)", "Jet For You (J4)", "Jet Lite (S2)", "Jet2.com (LS)", "Jet4You.com (8J)", "Jetairfly (TB)", "Jetlink Express (J0)", "Jetstar (JQ)", "Jetstar Asia (3K)", "Jetstar Pacific Airlines (BL)", "Jin Air (LJ)", "Job Air (3B)", "Joint Stock Company (Y7)", "Joint-Stock Company.Ital (1Q)", "Jordan Aviation (R5)", "Joy Air (JR)", "JSC Aircompany Scat (DV)", "JSC Aviaprad (WR)", "JSC Donavia (D9)", "JSC Irtysh-Air (IH)", "JSC Nordavia (5N)", "JSC Semeyavia (E8)", "JSC Starline (DZ)", "JSC Voronezh Aircraft (2Z)", "Jubba Airways (6J)", "Juneyao Airlines (HO)", "");
+                                        SelectorPopUp.itemCodes[9] = new Array("JC", "JO", "3X", "JL", "EG", "NU", "JU", "J9", "7C", "O2", "9W", "PP", "J4", "S2", "LS", "8J", "TB", "J0", "JQ", "3K", "BL", "LJ", "3B", "Y7", "1Q", "R5", "JR", "DV", "WR", "D9", "IH", "5N", "E8", "DZ", "2Z", "6J", "HO", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[10] = new Array("K D Air (XC)", "Kabo Airlines (N9)", "Kam Air (RQ)", "Kampuchea Airlines (E2)", "Karthago Airlines (5R)", "Kartika Airlines (3Y)", "Katmai Air LLC (KT)", "Kavminvodyavia Airlines (KV)", "KD Avia (KD)", "Keewatin Air (FK)", "Kenmore Air (M5)", "Kenn Borek Air (4K)", "Kenosha Aero Inc (3A)", "Kenya Airways (KQ)", "Kingfisher Airlines (IT)", "Kish Airlines (Y9)", "KLM Cityhopper (WA)", "KLM Royal Dutch Airlines (KL)", "Kogalymavia Airlines (7K)", "Korean Air (KE)", "Kuban Airlines (GW)", "Kunming Airlines (KY)", "Kuwait Airways (KU)", "Kyrgyz Airways (KH)", "Kyrgyz Trans Avia (6K)", "Kyrgyzstan Air Company (QH)", "Kyrgyzstan Airlines (R8)", "");
+                                        SelectorPopUp.itemCodes[10] = new Array("XC", "N9", "RQ", "E2", "5R", "3Y", "KT", "KV", "KD", "FK", "M5", "4K", "3A", "KQ", "IT", "Y9", "WA", "KL", "7K", "KE", "GW", "KY", "KU", "KH", "6K", "QH", "R8", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[11] = new Array("L\'Avion (A0)", "LAB  Flying Service (JF)", "Lacbravo (4V)", "Lacsa (LR)", "LAM Mozambique (TM)", "LAN Airlines (LA)", "Lan Chile Cargo (UC)", "LAN Express (LU)", "Lanargentina (4M)", "Lanecuador Aerolane SA (XL)", "Lankair Private Limited (IL)", "Lanperu (LP)", "Lao Airlines (QV)", "Latpass Airlines (QJ)", "Lauda Air (NG)", "LC Busre (W4)", "LGW Luftfahrtges Walter (HE)", "Liat (LI)", "Libyan Airlines (LN)", "Linea Aerea de Servicio (QL)", "Linea Turistica (LD)", "Lion Airlines (JT)", "Livingston (LM)", "Lloyd Aereo Boliviano (LB)", "LOT Polish Airlines (LO)", "Lte International Airway (XO)", "LTU Intl Airways (LT)", "Lucky Air (8L)", "Lufthansa (LH)", "Lufthansa Cityline (CL)", "Lufttransport AS (L5)", "Lugansk Airlines (L7)", "Lugansk Airlines (LE)", "Luxair (LG)", "Lviv Airlines (5V)", "Lynx Aviation (L3)", "");
+                                        SelectorPopUp.itemCodes[11] = new Array("A0", "JF", "4V", "LR", "TM", "LA", "UC", "LU", "4M", "XL", "IL", "LP", "QV", "QJ", "NG", "W4", "HE", "LI", "LN", "QL", "LD", "JT", "LM", "LB", "LO", "XO", "LT", "8L", "LH", "CL", "L5", "L7", "LE", "LG", "5V", "L3", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[12] = new Array("M/S Royal Airlines (R0)", "Macair Airlines (CC)", "Macair Jet S.A. (VM)", "Macedonian Airlines (IN)", "Mahan Airlines (W5)", "Mahfooz Aviation (M2)", "Malaysia Airlines (MH)", "Malev Hungarian Airlines (MA)", "Malm\u00F6 Aviation (TF)", "Mandala Airlines (RI)", "Mandarin Airlines (AE)", "Manx2 (NM)", "mapjet (AQ)", "Mars RK (6V)", "Marsland Aviation (M7)", "Martinair (MP)", "Mauritania Airways (YD)", "Max Air (NR)", "Max Aviation (L4)", "Maya Island Air (MY)", "MayAir (7M)", "MDLR Airlines (9Y)", "Med View Airlines (VL)", "Menajet Lebanon (IM)", "Meridiana fly (IG)", "Merpati (MZ)", "Mesa Airlines (YV)", "Mesaba Airlines (XJ)", "Mexicana (MX)", "Mexicana Click (QA)", "Mexicana Link (I6)", "Miami Air International (LL)", "Miat Mongolian Airlines (OM)", "Middle East Airlines (ME)", "Midwest Airlines (YX)", "Midwest Connect (AL)", "Mihin Lanka (MJ)", "Mirny Air (6R)", "Mng Airlines Cargo (MB)", "Mokulele Flight Service (MW)", "Moldavian Airlines (2M)", "Monarch Airlines (ZB)", "Montenegro Airlines (YM)", "Moskovia Airlines JSC (3R)", "Motor-Sich JSC (M9)", "Mr Lines (XV)", "Multi Aero (3E)", "Munich Airlines (I2)", "myair.com (8I)", "Myanmar Airways Intl (8M)", "Mytravellite (VZ)", "");
+                                        SelectorPopUp.itemCodes[12] = new Array("R0", "CC", "VM", "IN", "W5", "M2", "MH", "MA", "TF", "RI", "AE", "NM", "AQ", "6V", "M7", "MP", "YD", "NR", "L4", "MY", "7M", "9Y", "VL", "IM", "IG", "MZ", "YV", "XJ", "MX", "QA", "I6", "LL", "OM", "ME", "YX", "AL", "MJ", "6R", "MB", "MW", "2M", "ZB", "YM", "3R", "M9", "XV", "3E", "I2", "8I", "8M", "VZ", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[13] = new Array("Nacair LP (C8)", "Nacil Air India (AI)", "Nacil Indian Airline (IC)", "Nakina Air Service (T2)", "Nasair (UE)", "National Airways Cameroon (9O)", "National Jet Systems (NC)", "Nature Air (5C)", "Navitaire New Skies (1N)", "Navitaire Open Skies (1L)", "Naysa (ZN)", "Nayzak Air Transport (M4)", "Nego Airline One (YA)", "Neos Spa (NO)", "Nepal Airlines (RA)", "New Axis Airways (9X)", "New England Airlines (EJ)", "Nextjet (2N)", "NHT Linhas Aereas (N7)", "Nice H\u00E9licopt\u00E8res (JX)", "Niki (HG)", "Nile Air (NP)", "Nok Air (DD)", "Norfolk Air (N5)", "North American Airlines (NA)", "North Flying AS (M3)", "North Wright Air (HW)", "Northwest Airlines (NW)", "Northwest Seaplanes (2G)", "Northwestern Air Lease (J3)", "Norwegian Air Shuttle (DY)", "Nouvelair (BJ)", "Nova Airlines (O9)", "Nyasa Express (S8)", "");
+                                        SelectorPopUp.itemCodes[13] = new Array("C8", "AI", "IC", "T2", "UE", "9O", "NC", "5C", "1N", "1L", "ZN", "M4", "YA", "NO", "RA", "9X", "EJ", "2N", "N7", "JX", "HG", "NP", "DD", "N5", "NA", "M3", "HW", "NW", "2G", "J3", "DY", "BJ", "O9", "S8", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[14] = new Array("OAG Worldwide (CR)", "Oceanair Linhas Aereas (O6)", "Okay Airways (BK)", "OLT Ostfriesische Lufttransporte (OL)", "Olympic Air (OA)", "Olympic Airlines (OP)", "Olympic Airlines (dna)", "Oman Air (WY)", "One Two Go Airlines (OG)", "Onetime Airline (T6)", "Onur Air (8Q)", "OpenSkies (EC)", "Operador Aereo Andalus (EA)", "Ord Air Charter PTY LTD (RF)", "Orenair (R2)", "Orient Thai Airlines (OX)", "Oriental Air Bridge (OC)", "Oriental Air Bridge (O3)", "Our Airline (ON)", "Overland Airways (OJ)", "OzJet (O7)", "");
+                                        SelectorPopUp.itemCodes[14] = new Array("CR", "O6", "BK", "OL", "OA", "OP", "dna", "WY", "OG", "T6", "8Q", "EC", "EA", "RF", "R2", "OX", "OC", "O3", "ON", "OJ", "O7", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[15] = new Array("Pace Airlines (Y5)", "Pacific Airways (3F)", "Pacific Coastal Airlines (8P)", "Pacific Wings (LW)", "Pakistan International (PK)", "Palau Asia Pacific Air (0P)", "Palau National Airlines (9P)", "Pamir Air (PM)", "Pan Am World Airways Dominicana (7Q)", "Pantanal Linhas Aereas (GP)", "Papillon Airways (HI)", "Paramount Airways (I7)", "Pascan Aviation Inc (P6)", "Passaredo (P3)", "PB Air (9Q)", "Pegasus Airlines (PC)", "Pegasus Hava Tasimaciligi (H9)", "Pelican Air Service (7V)", "Penair (KS)", "Peruvian Air Lines S.A. (P9)", "Philippine Airlines (PR)", "Phoebus Apollo Aviation (PE)", "Phoenix Systems Dertours (1O)", "Pinnacle Airlines (9E)", "Pluna (PU)", "PM Air LLC (Z3)", "PMT Air (U4)", "Polet Airlines (YQ)", "Porter Airlines (PD)", "Portug\u00E1lia (NI)", "Precision Air (PW)", "Primair (J1)", "Primera Air (GX)", "Primera Air Scandinavia (PF)", "Private Wings (8W)", "Proflight Commuter (P0)", "Proteus Helicopteres (HN)", "Provincial Airlines (PB)", "PT Indonesia AirAsia (QZ)", "PT Sriwijaya Air (SJ)", "publiccharters.com (P1)", "Pullmantur Air (EB)", "");
+                                        SelectorPopUp.itemCodes[15] = new Array("Y5", "3F", "8P", "LW", "PK", "0P", "9P", "PM", "7Q", "GP", "HI", "I7", "P6", "P3", "9Q", "PC", "H9", "7V", "KS", "P9", "PR", "PE", "1O", "9E", "PU", "Z3", "U4", "YQ", "PD", "NI", "PW", "J1", "GX", "PF", "8W", "P0", "HN", "PB", "QZ", "SJ", "P1", "EB", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[16] = new Array("Qantas Airways (QF)", "Qatar Airways (QR)", "Quantum Air (QO)", "Quebecair Express (Q0)", "");
+                                        SelectorPopUp.itemCodes[16] = new Array("QF", "QR", "QO", "Q0", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[17] = new Array("Raddix Solutions Intl (1D)", "Rail Distribution (00)", "Rak Airways (RT)", "Red Wings Airlines (WZ)", "Redemption (2O)", "Region Airline (RK)", "Regional (YS)", "Regional Air Lines (FN)", "Regional Express (ZL)", "Regional Pacific (QT)", "Regionsair (3C)", "Republic Airlines (RW)", "Rheintalflug (WE)", "RLA Rico Linhas Areas (C7)", "Robin Hood Aviation (RH)", "Romavia (WQ)", "Rossiya-Russian Airlines (FV)", "Rovos Air (6P)", "Royal Air Force (RR)", "Royal Air Maroc (AT)", "Royal Brunei (BI)", "Royal Daisy Airlines (6D)", "Royal Jordanian (RJ)", "Royal Phnom Penh Airways (RL)", "Royal Swazi Airways (ZC)", "Rusline (7R)", "Rutaca (RM)", "Rutas Aereas de Venezuela RAV (AW)", "Rwandair Express (WB)", "Ryan International (RD)", "Ryanair (FR)", "");
+                                        SelectorPopUp.itemCodes[17] = new Array("1D", "00", "RT", "WZ", "2O", "RK", "YS", "FN", "ZL", "QT", "3C", "RW", "WE", "C7", "RH", "WQ", "FV", "6P", "RR", "AT", "BI", "6D", "RJ", "RL", "ZC", "7R", "RM", "AW", "WB", "RD", "FR", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[18] = new Array("Safair (FA)", "Safi Airways (4Q)", "Saint Barth Commuter (PV)", "Salmon Air (S6)", "Salsa d\'Haiti (SO)", "SAM (MM)", "Sama Airways (ZS)", "Sansa (RZ)", "Santa Barbara Airlines (S3)", "Saratov Airlines (6W)", "SAS Norway (BU)", "Sat Airlines (HZ)", "SATA Air Acores (SP)", "SATA International (S4)", "Satena (9R)", "Satena (9N)", "Saudi Arabian Airlines (SV)", "Sayakhat Airlines (W7)", "Scandinavian Airlines (SK)", "Scenic Airlines (YR)", "Scibe Airlift (ZM)", "Scotairways (CB)", "Seaborne Airlines (BB)", "Seaport/Wings Of Alaska (K5)", "Servant Air (8D)", "Servicios Aereos Profesionales (5S)", "Sevenair (UG)", "Severstal Aircompany (D2)", "Shaheen Air Intl (NL)", "Shandong Airlines (SC)", "Shanghai Airlines (FM)", "Sharp Aviation (SH)", "Shenzhen Airlines (ZH)", "Shun Tak China (8S)", "Shuttle America (S5)", "Siam Ga (5E)", "Sibaviatrans (5M)", "Siberia Airlines (S7)", "Sichuan Airlines (3U)", "Siem Reap Airways Intl (FT)", "Silkair (MI)", "Singapore Airlines (SQ)", "Sirena JSC (1M)", "Sirena-Travel (1H)", "Sita (XS)", "Skippers Aviation (JW)", "Sky Air World (S9)", "Sky Airline (H2)", "Sky Airlines (ZY)", "Sky Express (XW)", "Sky Express (GQ)", "Sky Georgia (QB)", "Sky Jet Aviation Ltd (UQ)", "Sky Wings Airlines (ND)", "Sky Work AG (SX)", "Skybahamas Airlines (Q7)", "Skyeurope Airlines (NE)", "Skyking (F3)", "Skymark Airlines (BC)", "Skynet Asia Airways (LQ)", "Skyservice Airlines (5G)", "Skystar Airways (XT)", "Skytrans Regional (Q6)", "Skyways AB (JZ)", "Skywest Airlines (OO)", "Skywest Airlines (XR)", "Slok Air International (S0)", "Slovak Airlines (6Q)", "Smart Wings (QS)", "Smartlynx Airlines (6Y)", "Smokey Bay Air (2E)", "SN Air Mali (I5)", "SNCF (2C)", "Sol Lineas Aereas (8R)", "Solomon Airlines (IE)", "Somon Air (4J)", "South African Airlink (4Z)", "South African Airways (SA)", "South African Express (YB)", "South African Express (XZ)", "South Airlines (YG)", "South East Asian Airlines (DG)", "South East European Air (G2)", "Southern Air Charter (PL)", "Southern Independent Air (F2)", "Southwest Airlines Texas (WN)", "Spanair (JK)", "Spicejet Ltd. (SG)", "Spirit Airlines (NK)", "Spirit of Manila Airlines (SM)", "Spring Airlines (9C)", "Sqiva Sistem (Q1)", "Srilankan Airlines (UL)", "Sta Travel (0O)", "Star Airways (4S)", "Star Equatorial Airlines (2S)", "Star Flyer (7G)", "Star Peru (2I)", "Star1 Airlines (V9)", "Sterling Air (NB)", "Sterling Blue (DM)", "STP Airways (5A)", "STP Airways (8F)", "Strategic Airlines (VC)", "Sudan Airways (SD)", "Sum Air Services (RN)", "Sun Air of Scandinavia (EZ)", "Sun Country (SY)", "Sun d\'Or Intl Airlines (2U)", "Sun Express (XQ)", "Sunair (PI)", "Sunwing Airlines (WG)", "Surinam Airways (PY)", "Sutra Inc. (1K)", "Svenska Direktflyg AB (HS)", "Swedjet Airways (VD)", "Swiss (LX)", "Swissair (SR)", "Sylt Air GmbH (7E)", "Syrian Arab Airlines (RB)", "");
+                                        SelectorPopUp.itemCodes[18] = new Array("FA", "4Q", "PV", "S6", "SO", "MM", "ZS", "RZ", "S3", "6W", "BU", "HZ", "SP", "S4", "9R", "9N", "SV", "W7", "SK", "YR", "ZM", "CB", "BB", "K5", "8D", "5S", "UG", "D2", "NL", "SC", "FM", "SH", "ZH", "8S", "S5", "5E", "5M", "S7", "3U", "FT", "MI", "SQ", "1M", "1H", "XS", "JW", "S9", "H2", "ZY", "XW", "GQ", "QB", "UQ", "ND", "SX", "Q7", "NE", "F3", "BC", "LQ", "5G", "XT", "Q6", "JZ", "OO", "XR", "S0", "6Q", "QS", "6Y", "2E", "I5", "2C", "8R", "IE", "4J", "4Z", "SA", "YB", "XZ", "YG", "DG", "G2", "PL", "F2", "WN", "JK", "SG", "NK", "SM", "9C", "Q1", "UL", "0O", "4S", "2S", "7G", "2I", "V9", "NB", "DM", "5A", "8F", "VC", "SD", "RN", "EZ", "SY", "2U", "XQ", "PI", "WG", "PY", "1K", "HS", "VD", "LX", "SR", "7E", "RB", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[19] = new Array("Taag (DT)", "Taca Intl Airlines (TA)", "Taca Peru (T0)", "TACV Cabo Verde Airlines (VR)", "Taf Linhas Aereas (R9)", "Tajik Air (7J)", "Tam Air (L6)", "TAM Linhas A\u00E9reas (JJ)", "TAM Mercosur (PZ)", "Tame (EQ)", "Tanana Air Service (4E)", "Tandem Aero (TQ)", "TAP Portugal (TP)", "Taquan Air Services (K3)", "Tarom (RO)", "Tassili Airlines (SF)", "Tatarstan Air (U9)", "TCI Skyking Ltd (RU)", "Tectimes Sudamerica (C1)", "Thai AirAsia (FD)", "Thai Airways Intl (TG)", "Thai Star Airlines (T9)", "Thomas Cook Airlines (MT)", "Thomas Cook Airlines A/S (DK)", "Thomson Airways Ltd (BY)", "Tianjin Airlines (GS)", "Tiara Air (3P)", "Tiger Airways (TR)", "Tiger Airways Australia (TT)", "TNT Airways (3V)", "Toumai Air Tchad (9D)", "Tower Air Inc (FF)", "Tradewind Aviation (TJ)", "Tradewinds Air (WI)", "Trans Aereos Ejecutivos (GD)", "Trans African Airlines (T8)", "Trans Air Benin (N4)", "Trans Air Congo (Q8)", "Trans Maldivian Airways (M8)", "Trans North Aviation (7T)", "Transaero Airlines (UN)", "Transasia Airways (GE)", "Transavia Airlines (HV)", "Transavia Denmark (PH)", "Transavia France (TO)", "Travel Technology Interactive (Y1)", "Travelsky Technology Ltd (1E)", "Travelspan GT Inc (9T)", "Trip (T4)", "TUIfly (X3)", "Tuifly Nordic (6B)", "Tulca (JE)", "Tulpar Avia Service (R4)", "Tunisair (TU)", "Turan Air (3T)", "Turkish Airlines (TK)", "Turkmenistan Airlines (T5)", "Tway Air (TW)", "Twin Jet (T7)", "Tyrolean Airways (VO)", "");
+                                        SelectorPopUp.itemCodes[19] = new Array("DT", "TA", "T0", "VR", "R9", "7J", "L6", "JJ", "PZ", "EQ", "4E", "TQ", "TP", "K3", "RO", "SF", "U9", "RU", "C1", "FD", "TG", "T9", "MT", "DK", "BY", "GS", "3P", "TR", "TT", "3V", "9D", "FF", "TJ", "WI", "GD", "T8", "N4", "Q8", "M8", "7T", "UN", "GE", "HV", "PH", "TO", "Y1", "1E", "9T", "T4", "X3", "6B", "JE", "R4", "TU", "3T", "TK", "T5", "TW", "T7", "VO", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[20] = new Array("Ukraine Intl Airlines (PS)", "UM Air (UF)", "Uni Airways (B7)", "United Airlines (UA)", "United Airways Bangladesh (4H)", "United Eagle Airlines (EU)", "United Myanmar Air (UB)", "Universal Airlines (UW)", "Ural Airlines (U6)", "US Airways (US)", "US Helicopter Corp (UH)", "UTair Aviation JSC (UT)", "Utair Express (UR)", "Uzbekistan Airways (HY)", "");
+                                        SelectorPopUp.itemCodes[20] = new Array("PS", "UF", "B7", "UA", "4H", "EU", "UB", "UW", "U6", "US", "UH", "UT", "UR", "HY", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[21] = new Array("V Australia (VA)", "Valair (V4)", "Valuair (VF)", "Varif Logistica S/A (LC)", "Via Rail Canada Inc (2R)", "Vietnam Air Service (0V)", "Vietnam Airlines (VN)", "Viking Airlines (4P)", "Viking Hellas Airlines (VQ)", "Vim Airlines (NN)", "Vincent Aviation (BF)", "VIP Air (V5)", "Virgin America (VX)", "Virgin Atlantic (VS)", "Virgin Blue (DJ)", "Virgin Nigeria (VK)", "Vision Airlines (V2)", "Viva Macau Ltd (ZG)", "Vladivostok Air (XF)", "VLM (Trading as Cityjet) (VG)", "Volare Spa (VE)", "Volaris (Y4)", "Volga Dnepr Airline (VI)", "VRG Linhas Aereas (G3)", "VRG Linhas Aereas SA (RG)", "Vueling Airlines (VY)", "Vuelos Internos Privados (V6)", "");
+                                        SelectorPopUp.itemCodes[21] = new Array("VA", "V4", "VF", "LC", "2R", "0V", "VN", "4P", "VQ", "NN", "BF", "V5", "VX", "VS", "DJ", "VK", "V2", "ZG", "XF", "VG", "VE", "Y4", "VI", "G3", "RG", "VY", "V6", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[22] = new Array("Warbelows Air Ventures (4W)", "Wasaya Airways (WT)", "Wataniya Airways (KW)", "Webjet Linhas Aereas (WH)", "Welcome Air (2W)", "West Caribbean Costa Rica (0W)", "West Coast Air (8O)", "Wider\u00F8e (WF)", "Wind Jet (IV)", "Wind Rose Aviation (7W)", "Windward Island Airways (WM)", "Wings Air (IW)", "Wizz Air Bulgaria Airlines (8Z)", "Wizz Air Hungary (W6)", "Wizz Air Ukraine LLC (WU)", "World Airways (WO)", "Worldwide Cargo Services (Y3)", "Wright Air Services (8V)", "");
+                                        SelectorPopUp.itemCodes[22] = new Array("4W", "WT", "KW", "WH", "2W", "0W", "8O", "WF", "IV", "7W", "WM", "IW", "8Z", "W6", "WU", "WO", "Y3", "8V", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[23] = new Array("Xiamen Airlines (MF)", "XL Airways France (SE)", "");
+                                        SelectorPopUp.itemCodes[23] = new Array("MF", "SE", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[24] = new Array("Yakutia Air Company (R3)", "Yamal Airlines (YC)", "Yangon Airways (YH)", "Yangon Airways Limited (HK)", "Yangtze River Express (Y8)", "Yellow Airtaxi (Y0)", "Yemenia Yemen Airways (IY)", "Yeongnam Air (OE)", "Yeti Airlines (YT)", "Yeti Airlines (0Y)", "Yute Air Alaska (4Y)", "");
+                                        SelectorPopUp.itemCodes[24] = new Array("R3", "YC", "YH", "HK", "Y8", "Y0", "IY", "OE", "YT", "0Y", "4Y", "");
+
+
+                                        SelectorPopUp.itemDisplayedNames[25] = new Array("Zagros Airlines (ZV)", "Zambezi Airlines (ZJ)", "Zambia Skyways (K8)", "Zambian Airways (Q3)", "Zanair (B4)", "Zestair (Z2)", "Zip Air (3J)", "Zoom Airlines (Z4)", "");
+                                        SelectorPopUp.itemCodes[25] = new Array("ZV", "ZJ", "K8", "Q3", "B4", "Z2", "3J", "Z4", "");
+
+
+                                        SelectorPopUp.generateAllItems();
+</script>
+
+                                    <tr>
+                                        <td class="textBold">
+                                            &nbsp;
+                                        </td>
+                                        <td>
+                                            &nbsp;
+                                        </td>
+                                        <td>
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="lineSeparator">
+        </div>
+        <table class="tablePopUp" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="footer">
+                        <a href="javascript:close()">关闭</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1087 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Header">
+    <link id="ctl00_linkCSS" href="./group/css/StyleSheet.css"
+        rel="stylesheet" type="text/css" />
+	<link type="text/css" href="./group/css/flick/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="./group/js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="./group/js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				// Tabs
+				$('#tabs').tabs();	
+			});
+		</script>
+        <style>
+		.divNumbTab{background:transparent url(./img/iconIndbase.gif) no-repeat top left;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:85%!important;font-weight:bold;padding:1px 2px 2px 5px;width:10px;}
+
+#FDFF .divNumbTab{background:transparent url(./img/iconIndbase.gif) no-repeat scroll 0;margin:3px 0 0 3px;padding:1px 1px 2px 5px;width:15px!important;}
+		</style>
+    <title>团队机票</title>
+</head>
+<body id="ctl00_bodyMain" onunload="PurchaseAbandon();">
+    <form name="aspnetForm" method="post"   id="aspnetForm">
+   <div id="divMain">
+        <div id="ctl00_Contents" class="Contents">
+            <table width="100%">
+                <tr>
+                    <td id="mainContent">
+                        <!--NOINDEX-->
+                        <!--/NOINDEX-->
+                        <h1 id="ctl00_ContentPageHeading_PageHeader1_h1PageHeading" class="PageHeading">
+                            <span id="ctl00_ContentPageHeading_PageHeader1_lblPageHeading">团队申请须知</span></h1>
+                        <p>
+                            1. 团队申请较为复杂，请详细填写各项要求。 <br />
+                            2. 因收益管理部门管理严格和散客倾向严重， 美国的航空公司团队申请较为困难。团队价格（尤其是大团）的价格较高。尽量使用中国或者亚洲的航空公司。<br />
+                            3. 航空公司多要求预先支付抵押金以保证基础运价；税费等项的价格随时可能调整。因此，尽可能在得到我们的报价后，迅速全额付款。部分情况下，需要隔日付款。部分情况下，定金不退。<br />
+                            4. 尽量使用银行转账方式付款。有关费用由团队申请方支付。<br />
+                            5. 提前申请签证。签证申请越晚，机票价格越高。学生团的主要问题是保证机位，请尽量在校方协助下，提前2-3个月办好签证。<br />
+                            6. 团队成员的名单需仔细核实并校对无误。出票后更改的费用较高（部分情况下，出票前更改，也会对票价有影响）。</p>
+
+                    <h3>联络人信息</h3>
+                        <p>
+                      <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_Name_cboTitle_lblField" class="Content">称谓:</span><br />
+                                        </label>
+                                        <select name="ctl00$ContentInfo$Name$cboTitle$cboTitle" style="width:100px;" id="ctl00_ContentInfo_Name_cboTitle_cboTitle"
+                                            class="Content">
+                                            <option value="">未选</option>
+                                            <option value="MR">先生</option>
+                                            <option value="MRS">女士</option>
+                                            <option value="MS">博士</option>
+                                            <option value="DR">教授</option>
+                                        </select>
+                                    </td>
+                                    <td width="10">
+                                    </td>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_Name_FName_lblField" class="Content">名:</span><br />
+                                            <input name="ctl00$ContentInfo$Name$FName$txtFName" type="text" maxlength="30" size="30"
+                                                id="ctl00_ContentInfo_Name_FName_txtFName" /></label>
+                                    </td>
+                                    <td width="10">
+                                    </td>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_Name_LName_lblField" class="Content">姓:</span><br />
+                                            <input name="ctl00$ContentInfo$Name$LName$txtLName" type="text" maxlength="30" size="30"
+                                                id="ctl00_ContentInfo_Name_LName_txtLName" /></label>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p id="ctl00_ContentInfo_trEmailList">
+                      <table border="0" cellpadding="0" cellspacing="0">
+                                <tr id="ctl00_ContentInfo_EmailList_trEmailInputFields">
+                                    <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_EmailList_Email_lblField" class="Content">邮箱地址:</span><br />
+                                            <input name="ctl00$ContentInfo$EmailList$Email$txtEmail" type="text" maxlength="75"
+                                                size="50" id="ctl00_ContentInfo_EmailList_Email_txtEmail" /></label>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0">
+                                <tr id="ctl00_ContentInfo_HomePhoneList_trPhoneInputFields">
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td valign="bottom">
+                                                    <label>
+                                                        <span id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_lblField" class="Content">
+                                                    公司名称:</span><br />
+                                                        <input name="ctl00$ContentInfo$HomePhoneList$Phone$txtNumber$txtPhone" type="text"
+                                                            maxlength="30" size="20" id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_txtPhone" /></label>
+                                                </td>
+                                                
+                                          </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0">
+                                <tr id="ctl00_ContentInfo_HomePhoneList_trPhoneInputFields">
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td valign="bottom">
+                                                    <label>
+                                                        <span id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_lblField" class="Content">
+                                                            手机电话:</span><br />
+                                                        <input name="ctl00$ContentInfo$HomePhoneList$Phone$txtNumber$txtPhone" type="text"
+                                                            maxlength="30" size="20" id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_txtPhone" /></label>
+                                                </td>
+                                                <td style="width: 10px">
+                                                </td>
+                                                <td valign="bottom">
+                                                    <label>
+                                                        <span id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_lblField" class="Content">
+                                                            国家:</span><br />
+                                                        <select style="width:100px;" name="ctl00$ContentInfo$HomePhoneList$Phone$cboCountry$cboCountry" id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_cboCountry"
+                                                            class="Content">
+                                                            <option value="US">美国</option>
+                                                            <option value="CA">加拿大</option>
+                                                            <option value="CN">中国</option>
+                                                        </select></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0">
+                                <tr id="ctl00_ContentInfo_BusinessPhoneList_trPhoneInputFields">
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td valign="bottom">
+                                                    <label>
+                                                <span id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_lblField" class="Content">
+                                                            办公电话:</span><br />
+                                                      <input name="ctl00$ContentInfo$HomePhoneList$Phone$txtNumber$txtPhone" type="text"
+                                                            maxlength="30" size="20" id="ctl00_ContentInfo_HomePhoneList_Phone_txtNumber_txtPhone" /></label>
+                                                </td>
+                                                <td style="width: 10px">
+                                                </td>
+                                                <td valign="bottom">
+                                                    <label>
+                                                        <span id="ctl00_ContentInfo_BusinessPhoneList_Phone_txtExt_lblField" class="Content">
+                                                            分机:</span><br />
+                                                      <input name="ctl00$ContentInfo$BusinessPhoneList$Phone$txtExt$txtPhoneExt" type="text"
+                                                            maxlength="10" size="6" id="ctl00_ContentInfo_BusinessPhoneList_Phone_txtExt_txtPhoneExt" style="width:100px;" /></label>
+                                                </td>
+                                                <td style="width: 10px">
+                                                </td>
+                                                 <td valign="bottom">
+                                                    <label>
+                                                <span id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_lblField" class="Content">
+                                                            国家:</span><br />
+                                                  <select style="width:100px;" name="ctl00$ContentInfo$HomePhoneList$Phone$cboCountry$cboCountry" id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_cboCountry"
+                                                            class="Content">
+                                                            <option value="US">美国</option>
+                                                            <option value="CA">加拿大</option>
+                                                            <option value="CN">中国</option>
+                                                        </select></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0">
+                                <tr id="ctl00_ContentInfo_AddressList_trAddressInputFields">
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr id="ctl00_ContentInfo_AddressList_trAddressType">
+                                                <td>
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td style="height: 10px">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span class="Content">公司地址</span>
+                                                                        </td>
+                                                                    </tr>                                                                    
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label>
+                                                                                <span id="ctl00_ContentInfo_AddressList_Address_address1_lblField" class="Content">街道地址:</span><br />
+                                                                                <input name="ctl00$ContentInfo$AddressList$Address$address1$txtAddress1" type="text"
+                                                                                    maxlength="40" size="30" id="ctl00_ContentInfo_AddressList_Address_address1_txtAddress1" /></label>
+                                                                        </td>
+                                                                        <td width="10">
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label>
+                                                                                <span id="ctl00_ContentInfo_AddressList_Address_address2_lblField" class="Content">
+                                                                                </span>
+                                                                                <input name="ctl00$ContentInfo$AddressList$Address$address2$txtAddress2" type="text"
+                                                                                    maxlength="40" size="30" id="ctl00_ContentInfo_AddressList_Address_address2_txtAddress2" /></label>
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label>
+                                                                                <span id="ctl00_ContentInfo_AddressList_Address_address3_lblField" class="Content">
+                                                                                </span>
+                                                                                <input name="ctl00$ContentInfo$AddressList$Address$address3$txtAddress2" type="text"
+                                                                                    maxlength="40" size="30" id="ctl00_ContentInfo_AddressList_Address_address3_txtAddress2" /></label>
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td valign="bottom">
+                                                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <label>
+                                                                                            <span id="ctl00_ContentInfo_AddressList_Address_city_lblField" class="Content">城市:</span><br />
+                                                                                            <input name="ctl00$ContentInfo$AddressList$Address$city$txtCity" type="text" maxlength="30"
+                                                                                                size="30" id="ctl00_ContentInfo_AddressList_Address_city_txtCity" /></label>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="10">
+                                                                        </td>
+                                                                        <td valign="bottom">
+                                                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td valign="bottom">
+                                                                                        <table border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <label>
+                                                                                                        <span id="ctl00_ContentInfo_AddressList_Address_state_lblField" class="Content">州/省:</span><br />
+                                                                                                        <input name="ctl00$ContentInfo$AddressList$Address$state$txtState" type="text" maxlength="30"
+                                                                                                            size="30" id="ctl00_ContentInfo_AddressList_Address_state_txtState" /></label>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td valign="top">
+                                                                            <label>
+                                                                                <span id="ctl00_ContentInfo_AddressList_Address_zip_lblField" class="Content">邮编:</span><br />
+                                                                                <input name="ctl00$ContentInfo$AddressList$Address$zip$txtZip" type="text" maxlength="10"
+                                                                                    size="10" id="ctl00_ContentInfo_AddressList_Address_zip_txtZip" /></label>
+                                                                        </td>
+                                                                        <td width="40">
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                        <label>
+                                                                    <span id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_lblField" class="Content">
+                                                                                国家:</span><br />
+                                                                      <select style="width:100px;" name="ctl00$ContentInfo$HomePhoneList$Phone$cboCountry$cboCountry" id="ctl00_ContentInfo_HomePhoneList_Phone_cboCountry_cboCountry"
+                                                                                class="Content">
+                                                                                <option value="US">美国</option>
+                                                                                <option value="CA">加拿大</option>
+                                                                                <option value="CN">中国</option>
+                                                                            </select></label>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <h3>团队信息</h3>
+                        <p>
+                            <label>
+                                <span id="ctl00_ContentInfo_GroupName_lblField" class="Content">团队名称:</span><br />
+                                <input name="ctl00$ContentInfo$GroupName$txtName" type="text" maxlength="30" size="30"
+                                    id="ctl00_ContentInfo_GroupName_txtName" /></label>
+                        </p>
+                        <p>
+                            <label>
+                                <span id="ctl00_ContentInfo_GroupDesc_lblField" class="Content">团队描述:</span><br />
+                                <textarea name="ctl00$ContentInfo$GroupDesc$txtgrouptype" rows="2" cols="50" id="ctl00_ContentInfo_GroupDesc_txtgrouptype"></textarea></label>
+                        </p>
+                        <p>
+                            <label>
+                                <span id="ctl00_ContentInfo_NumberOfPassengers_lblField" class="Content">团队人数:</span><br />
+                                <input name="ctl00$ContentInfo$NumberOfPassengers$txtGroupSeat" type="text" maxlength="50"
+                                    size="50" id="ctl00_ContentInfo_NumberOfPassengers_txtGroupSeat" /></label>
+                        </p>
+                        <p>
+                        <div id="tabs">
+                        <script type="text/javascript">
+							function IFrameReSize_groupquery(iframename) {
+								var pTar = parent.document.getElementById(iframename);
+								if (pTar) {//ff
+									if (pTar.contentDocument && pTar.contentDocument.body.offsetHeight) {
+										pTar.height = pTar.contentDocument.body.offsetHeight+10;
+									}else if(pTar.Document && pTar.Document.body.scrollHeight)
+									{//ie
+										pTar.height = pTar.Document.body.scrollHeight+10;
+									}
+								}
+							}
+							</script>
+			<ul>
+				<li><a href="#tabs-1" onblur="IFrameReSize_groupquery('iframe_group');" >单程</a></li>
+				<li><a href="#tabs-2" onblur="IFrameReSize_groupquery('iframe_group');">多目的地</a></li>
+			</ul>
+			<div id="tabs-1">
+            <p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p>
+            </div>
+			<div id="tabs-2">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">1</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">2</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">3</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">4</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">5</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            <tr>
+            <td width="30px" valign="top"><div class="divNumbTab">6</div></td>
+            <td><p>
+                      <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr id="ctl00_ContentInfo_OandD_trOrigin">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Origin_lblField" class="Content">始发城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Origin$txtOrigin" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Origin_txtOrigin" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="padding-left: 90px">
+                                        <table>
+                                            <!-- <tr id="ctl00_ContentInfo_OandD_space">
+<td style="height:3px"></td>
+</tr>
+ -->
+                                            <tr id="ctl00_ContentInfo_OandD_trDestination">
+                                                <td>
+                                                    <label>
+                                                        <div>
+                                                            <span id="ctl00_ContentInfo_OandD_Destination_lblField" class="Content">目的城市或机场:</span></div>
+                                                        <input name="ctl00$ContentInfo$OandD$Destination$txtDestination" type="text" maxlength="100"
+                                                            size="30" id="ctl00_ContentInfo_OandD_Destination_txtDestination" class="txtAirLoc" /></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                      </table>
+                        </p>
+                        <p>
+                      <table border="0" cellpadding="0" cellspacing="0" width="300">
+                                <tr>
+                                    <td valign="bottom">
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Depdate_lblField" class="Content">启程时间:</span><br />
+                                            <input name="ctl00$ContentInfo$DepartDateReturn$Depdate$txtDptDate" type="text" value="mm/dd/yyyy"
+                                                maxlength="10" size="10"  style="width:100px;" id="ctl00_ContentInfo_DepartDateReturn_Depdate_txtDptDate"
+                                                class="txtDate" onfocus="javascript:ClearDateFormat(this, document.forms[0], 'mm/dd/yyyy');" /></label>
+                                    </td>
+                                  <td>
+                                        <label>
+                                            <span id="ctl00_ContentInfo_DepartDateReturn_Deptime_lblField" class="Content"></span><br />
+                                        </label>
+                                    <select id="Hours2Cpx" name="Hours2Cpx" style="width:100px;">
+                                                                                                    <option value="ANY" selected="selected">任意时间 </option>
+                                                                                                    <option value="0000">00:00 </option>
+                                                                                                    <option value="0000">早上</option>
+                                                                                                    <option value="0000">上午</option>
+                                                                                                    <option value="0000">下午</option>
+                                                                                                    <option value="0000">晚上</option>
+                                                                                                    <option value="0100">1:00 </option>
+                                                                                                    <option value="0200">2:00 </option>
+                                                                                                    <option value="0300">3:00 </option>
+                                                                                                    <option value="0400">4:00 </option>
+                                                                                                    <option value="0500">5:00 </option>
+                                                                                                    <option value="0600">6:00 </option>
+                                                                                                    <option value="0700">7:00 </option>
+                                                                                                    <option value="0800">8:00 </option>
+                                                                                                    <option value="0900">9:00 </option>
+                                                                                                    <option value="1000">10:00 </option>
+                                                                                                    <option value="1100">11:00 </option>
+                                                                                                    <option value="1200">12:00 </option>
+                                                                                                    <option value="1300">13:00 </option>
+                                                                                                    <option value="1400">14:00 </option>
+                                                                                                    <option value="1500">15:00 </option>
+                                                                                                    <option value="1600">16:00 </option>
+                                                                                                    <option value="1700">17:00 </option>
+                                                                                                    <option value="1800">18:00 </option>
+                                                                                                    <option value="1900">19:00 </option>
+                                                                                                    <option value="2000">20:00 </option>
+                                                                                                    <option value="2100">21:00 </option>
+                                                                                                    <option value="2200">22:00 </option>
+                                                                                                    <option value="2300">23:00 </option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td class="tdHSpace">
+                                    </td>
+                                </tr>
+                                
+                      </table>
+                        </p></td>
+            </tr>
+            
+            
+            </table>
+            </div>
+		</div>
+                        </p>
+                        
+                        <p style="margin-bottom: -1em">
+                            日期及起飞时间是否灵活?</p>
+                        <ul class="simple">
+                            <li>
+                                <input id="ctl00_ContentInfo_FlexNo" type="radio" name="ctl00$ContentInfo$Flexible"
+                                    value="FlexNo" checked="checked" /><label for="ctl00_ContentInfo_FlexNo">旅行日期可灵活
+</label></li>
+                            <li>
+                                <input id="ctl00_ContentInfo_FlexTime" type="radio" name="ctl00$ContentInfo$Flexible"
+                                    value="FlexTime" /><label for="ctl00_ContentInfo_FlexTime">起飞时间灵活</label></li>
+                            <li>
+                                <input id="ctl00_ContentInfo_FlexDateTime" type="radio" name="ctl00$ContentInfo$Flexible"
+                                    value="FlexDateTime" /><label for="ctl00_ContentInfo_FlexDateTime">日期及起飞时间均较灵活</label></li>
+                        </ul>
+                        <p>
+                            <label>
+                                <span id="ctl00_ContentInfo_Price_lblField" class="Content">目标价格:</span><br />
+                                <input name="ctl00$ContentInfo$Price$txtPrice" type="text" maxlength="10" size="10"
+                                    id="ctl00_ContentInfo_Price_txtPrice" /></label>
+                        </p>
+                        
+                        <p>
+                            <label>
+                                <span id="ctl00_ContentInfo_SpecialRequests_lblField" class="Content">特殊需求(详细):</span><br />
+                                <textarea name="ctl00$ContentInfo$SpecialRequests$txtspecialrequests" rows="2" cols="50"
+                                    id="ctl00_ContentInfo_SpecialRequests_txtspecialrequests"></textarea></label>
+                        </p>
+                        <p>
+                      
+                        </p>
+                        <fieldset class="buttons">
+                            <p>
+                                <input type="submit" name="ctl00$ContentInfo$Continue" value="提交" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentInfo$Continue&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))"
+                                    id="ctl00_ContentInfo_Continue" class="btn btnBlue" /></p>
+                            <p>
+                                <input type="submit" name="ctl00$ContentInfo$Cancel" value="取消" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentInfo$Cancel&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))"
+                                    id="ctl00_ContentInfo_Cancel" class="btn btnGray" /></p>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="ctl00_divWS" class="divWS">
+    </div>
+    <!-- "Pat. 5,572,643; 5,737,619; 6,185,586; 6,457,025." -->
+    <!-- Usercontrol exclusively for chase kiosk pages -->
+
+
+
+    </form>
+</body>
+</html>

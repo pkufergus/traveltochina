@@ -1,0 +1,1041 @@
+.divProfile {
+	BACKGROUND-COLOR: #ffffff
+}
+.tableError {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-TOP: 15px; MARGIN-LEFT: 25px; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 560px; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+#popup .tableError {
+	WIDTH: 90%
+}
+.tableError TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tableError H1 {
+	FONT-SIZE: 120%
+}
+.tableError UL {
+	PADDING-RIGHT: 0pt; LIST-STYLE: none none outside; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-TOP: 0pt
+}
+.tableError UL LI {
+	PADDING-TOP: 5px
+}
+.tableLogInHolder TD {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 25px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.tableLogIn {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.tableLogIn TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.tableLogIn TD.space {
+	HEIGHT: 7px
+}
+.tableLogIn TD.pad {
+	VERTICAL-ALIGN: top; PADDING-TOP: 30px
+}
+.ErrorBgrd {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffffcc
+}
+.divLegend {
+	BACKGROUND-COLOR: #ffffff
+}
+.divLegend UL {
+	PADDING-RIGHT: 10px; LIST-STYLE: none none outside; PADDING-LEFT: 25px; PADDING-BOTTOM: 10px; MARGIN: 0pt; PADDING-TOP: 5px
+}
+#sdcal .divLegend UL {
+	PADDING-LEFT: 0pt
+}
+#fdct .divLegend UL {
+	PADDING-LEFT: 0pt
+}
+.divLegend LI {
+	PADDING-RIGHT: 0pt; DISPLAY: inline; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; MARGIN: 0pt; LINE-HEIGHT: 20px; PADDING-TOP: 0pt
+}
+.divLegend LI DIV {
+	PADDING-RIGHT: 20px; DISPLAY: inline
+}
+.divLegend LI DIV SPAN {
+	POSITION: relative
+}
+.legendText {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #00bb44
+}
+.textBold {
+	FONT-WEIGHT: bold
+}
+.opBy {
+	FONT-WEIGHT: bold
+}
+.trRst {
+	FONT-WEIGHT: bold
+}
+.currencyIcon {
+	FONT-WEIGHT: bold; MARGIN-RIGHT: 3px
+}
+.divLegend2 .requestedDate {
+	POSITION: relative; TOP: 1px
+}
+.divLegend2 .lowestPrice {
+	POSITION: relative; TOP: 1px
+}
+.requestedDate {
+	BORDER-RIGHT: #ff0000 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #ff0000 2px solid; PADDING-LEFT: 7px; BORDER-LEFT: #ff0000 2px solid; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #ff0000 2px solid; BACKGROUND-COLOR: #ffffff
+}
+#mpc .divLegend2 .requestedDate {
+	BORDER-RIGHT: #5c4008 2px solid; BORDER-TOP: #5c4008 2px solid; BORDER-LEFT: #5c4008 2px solid; BORDER-BOTTOM: #5c4008 2px solid
+}
+#fac .divLegend2 .requestedDate {
+	BACKGROUND-COLOR: #ccb58f
+}
+.lowestPrice {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; MARGIN-LEFT: 15px; BORDER-LEFT: #000000 2px solid; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #000000 2px solid; BACKGROUND-COLOR: #fcf2cf
+}
+#fdct .lowestPrice {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-TOP: #d3d3d3 1px solid; BORDER-LEFT: #d3d3d3 1px solid; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+.cancelled2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px 3px 0px 4px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #ff0606
+}
+.divLegend2 {
+	CLEAR: both; BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f3f1ea
+}
+#mpai .divLegend2 {
+	MARGIN-BOTTOM: 10px
+}
+.divLegend2 UL {
+	PADDING-RIGHT: 0pt; LIST-STYLE: none none outside; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; MARGIN: 0pt; WIDTH: 100%; PADDING-TOP: 0pt
+}
+.divLegend2 UL LI {
+	PADDING-RIGHT: 10px; FLOAT: left; WHITE-SPACE: nowrap; HEIGHT: 18px
+}
+.divLegend2 UL LI.rgt {
+	PADDING-RIGHT: 0px; FLOAT: right; WIDTH: auto; TEXT-ALIGN: right
+}
+.divLegend2 A {
+	PADDING-LEFT: 10px
+}
+.noFlight {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: 0pt 50%; PADDING-LEFT: 0pt; BACKGROUND-IMAGE: url(../img/icon_noFlight.gif); PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; BACKGROUND-REPEAT: no-repeat
+}
+.webfare {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px 3px 0px 4px; PADDING-TOP: 0px; BACKGROUND-COLOR: #e9cd5c
+}
+.ticketless {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px 3px 0px 4px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #89ba38
+}
+.seatsAvail {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.divLegend2 UL LI.br {
+	PADDING-LEFT: 25px; BACKGROUND: url(../img/hotelcar/rates_best.gif) no-repeat left top
+}
+.divLegend2 UL LI.sr {
+	PADDING-LEFT: 25px; BACKGROUND: url(../img/hotelcar/rates.gif) no-repeat
+}
+.best_rates {
+	PADDING-RIGHT: 20px; FONT-SIZE: 16px; BACKGROUND: url(../img/hotelcar/rates_best.gif) no-repeat left top; MARGIN-RIGHT: 3px; HEIGHT: 16px
+}
+.legendTable {
+	MARGIN-LEFT: 25px; WIDTH: 573px
+}
+.legendTable TD {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; LINE-HEIGHT: 1.7em; PADDING-TOP: 2px
+}
+.divLegend2 .seatIcon {
+	PADDING-LEFT: 20px; BACKGROUND: url(../img/icon_last_seat_legend.gif) no-repeat center 0%; VERTICAL-ALIGN: middle; WIDTH: 20px; PADDING-TOP: 6px
+}
+.seatIconLink A {
+	PADDING-LEFT: 3px
+}
+*:first-child + HTML .divLegend2 .seatIcon {
+	POSITION: relative; TOP: 5px
+}
+HTML:first-child .divLegend2 .seatIcon {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+*:first-child + HTML .divLegend2 .blacklistedIcon {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 4px; POSITION: relative; TOP: 4px
+}
+.divLegend2 .fare {
+	BORDER-RIGHT: #d47b00 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #d47b00 1px solid; PADDING-LEFT: 7px; BORDER-LEFT: #d47b00 1px solid; BORDER-BOTTOM: #d47b00 1px solid
+}
+*:first-child + HTML {
+	
+}
+.divLegend2 .fare {
+	POSITION: relative
+}
+.divLegend2 .fare1 {
+	BACKGROUND-COLOR: #fffbf2
+}
+.divLegend2 .fare2 {
+	BACKGROUND-COLOR: #ffeec7
+}
+.divLegend2 .fare3 {
+	BACKGROUND-COLOR: #ffdd8f
+}
+.divLegend2 .fare4 {
+	BACKGROUND-COLOR: #ffb60d
+}
+.divLegend2 .fare5 {
+	BACKGROUND-COLOR: #d47b00
+}
+.tableNavHeader {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BACKGROUND-COLOR: #e8f0f1
+}
+.tableNavHeader TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tableNavHeader A {
+	BORDER-TOP: medium none; FONT-SIZE: 120%
+}
+.buttonPage SPAN {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 110%; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999; COLOR: #ffffff; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #cc0000
+}
+SPAN.edge2.buttonEdge {
+	BACKGROUND-COLOR: #cccc99
+}
+.buttonPage SPAN A {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #cc0000; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; CURSOR: default; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage SPAN A:visited {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #cc0000; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; CURSOR: default; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage SPAN A:hover {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #cc0000; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; CURSOR: default; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage A {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage A:visited {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage2 A {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPage2 A:visited {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPlain A {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPlain A:visited {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPlain2 A {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPlain2 A:visited {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/buttonBGRD.gif) repeat-x left bottom; PADDING-BOTTOM: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.buttonPlain2 A {
+	DISPLAY: block; WIDTH: 120px
+}
+.buttonPlain2 A:visited {
+	DISPLAY: block; WIDTH: 120px
+}
+.buttonPage {
+	DISPLAY: inline; FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.buttonPage2 {
+	DISPLAY: inline; FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.buttonPlain {
+	DISPLAY: inline; FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.buttonPlain2 {
+	DISPLAY: inline; FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.buttonPage A:hover {
+	BACKGROUND: #ffffff; COLOR: #666666
+}
+.buttonPage2 A:hover {
+	BACKGROUND: #ffffff; COLOR: #666666
+}
+.buttonPlain A:hover {
+	BACKGROUND: #ffffff; COLOR: #666666
+}
+.buttonPlain2 A:hover {
+	BACKGROUND: #ffffff; COLOR: #666666
+}
+.buttonPage A {
+	FONT-SIZE: 110%; LINE-HEIGHT: 21px; BACKGROUND-COLOR: #ffffff
+}
+.buttonPage A:visited {
+	FONT-SIZE: 110%; LINE-HEIGHT: 21px; BACKGROUND-COLOR: #ffffff
+}
+.buttonPage2 A {
+	FONT-SIZE: 110%; LINE-HEIGHT: 21px; BACKGROUND-COLOR: #ffffff
+}
+.buttonPage2 A:visited {
+	FONT-SIZE: 110%; LINE-HEIGHT: 21px; BACKGROUND-COLOR: #ffffff
+}
+.buttonPage#divBtnDisConf A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999999
+}
+.buttonPage#disable A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999999
+}
+.buttonPage A.disabled {
+	BACKGROUND: none transparent scroll repeat 0% 0%; CURSOR: default; COLOR: #999999
+}
+#addHotel {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; DISPLAY: inline; BACKGROUND: url(../img/logo_opodo.gif) #f7f7e7 no-repeat 95% 50%; FLOAT: right; BORDER-LEFT: #b0ccd0 1px solid; BORDER-BOTTOM: #b0ccd0 1px solid
+}
+#addHotel A {
+	PADDING-RIGHT: 80px; DISPLAY: block; PADDING-LEFT: 5px; FONT-SIZE: 90%; BACKGROUND: url(../img/icon_newWindow.gif) no-repeat 58% 50%; PADDING-BOTTOM: 4px; COLOR: #333333; PADDING-TOP: 4px; TEXT-DECORATION: underline
+}
+#addHotel A:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.tableSearchNavHeader A.lnkBack {
+	FONT-SIZE: 120%
+}
+.fareWarning {
+	BORDER-RIGHT: #39d7ff 1px solid; BORDER-TOP: #39d7ff 1px solid; BORDER-LEFT: #39d7ff 1px solid; MARGIN-RIGHT: 5px; BORDER-BOTTOM: #39d7ff 1px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.fareWarning P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P#autoCurrfw_head {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 40px; FONT-WEIGHT: bold; BACKGROUND: url(../img/warning.gif) #e1f9ff no-repeat 10px 50%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #39d7ff 1px solid; TEXT-ALIGN: left
+}
+P#autoCurrfw_body {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: url(../img/fareWarning_bgrd.gif) #fff repeat-x 0px 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tableProcessIndicator {
+	PADDING-RIGHT: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.tablePI TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.tablePI TH {
+	PADDING-RIGHT: 8px; VERTICAL-ALIGN: top; COLOR: #000000
+}
+.tablePI TD.bgrd {
+	COLOR: #999999
+}
+.imgPIline {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(../img/PI_line.gif); BACKGROUND-REPEAT: repeat-x
+}
+.imgPIline2 {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(../img/PI_line.gif); BACKGROUND-REPEAT: no-repeat
+}
+.imgPI1 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_1.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI2 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_2.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI3 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_3.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI4 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_4.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI5 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_5.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI6 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_6.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI7 {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_7.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI1b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_1b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI2b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_2b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI3b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_3b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI4b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_4b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI5b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_5b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI6b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_6b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI7b {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_7b.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI1c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_1c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI2c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_2c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI3c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_3c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI4c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_4c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI5c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_5c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI6c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_6c.gif) no-repeat center 50%; WIDTH: 8px
+}
+.imgPI7c {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/PI_7c.gif) no-repeat center 50%; WIDTH: 8px
+}
+#divWait {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-TOP: 50px; MARGIN-LEFT: auto; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 450px; COLOR: #666666; MARGIN-RIGHT: auto; BORDER-BOTTOM: #b0ccd0 1px solid; TEXT-ALIGN: left
+}
+#divWait P {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#divWait P#title {
+	BACKGROUND-COLOR: #b0ccd0
+}
+#divWait P#indicator {
+	BACKGROUND-COLOR: #b0ccd0
+}
+#divWait P#title {
+	PADDING-BOTTOM: 0px
+}
+BODY {
+	FONT-SIZE: 70%; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 70%; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left! important
+}
+TABLE {
+	FONT-SIZE: 100%
+}
+INPUT {
+	FONT-SIZE: 100%
+}
+SELECT {
+	FONT-SIZE: 100%
+}
+TEXTAREA {
+	FONT-SIZE: 100%
+}
+.layoutTable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+.layoutTable TD {
+	MARGIN: 0px; VERTICAL-ALIGN: top
+}
+.layoutLeft {
+	MARGIN: 0px; VERTICAL-ALIGN: top
+}
+.layoutTop {
+	MARGIN: 0px; VERTICAL-ALIGN: top
+}
+.layoutBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.layoutBody {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.layoutRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.tilesCustomHeader {
+	MARGIN-LEFT: auto; WIDTH: 600px; MARGIN-RIGHT: auto
+}
+.tableMenu2 {
+	MARGIN-BOTTOM: 10px; WIDTH: 100%; BORDER-BOTTOM: #cccccc 1px solid
+}
+.tableMenu2 TD {
+	VERTICAL-ALIGN: middle; LETTER-SPACING: 0.05em
+}
+.tableMenu2 TD.selected {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-COLOR: #cccccc
+}
+.tableMenu2 A {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; COLOR: #333333; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tableMenu2 A:hover {
+	BACKGROUND-COLOR: #eeeeee
+}
+A.tableMenuLink3:hover {
+	BACKGROUND-COLOR: #eeeeee
+}
+.divNavMenu {
+	WIDTH: 100%; POSITION: relative
+}
+.NavMenu {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; BORDER-LEFT: #b0ccd0 1px solid; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5
+}
+.NavMenu TD {
+	FONT-SIZE: 120%; LETTER-SPACING: 0.03em
+}
+.NavMenu TD.selected {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; LETTER-SPACING: 0.03em; BACKGROUND-COLOR: #666666
+}
+.NavMenu A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; WIDTH: auto! important; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #f5f5f5; TEXT-DECORATION: none
+}
+Navmenu A:visited {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; WIDTH: auto! important; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #f5f5f5; TEXT-DECORATION: none
+}
+.NavMenu A.selected {
+	BACKGROUND-COLOR: #b0ccd0
+}
+.NavMenu A:hover {
+	BACKGROUND-COLOR: #e6e6e6; TEXT-DECORATION: none
+}
+.NavMenu TD.selected A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #666666
+}
+.NavMenu TD.selected A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #666666
+}
+.NavMenu TD.selected A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #666666
+}
+.divNavMenu #affinityLink {
+	PADDING-RIGHT: 16px; RIGHT: 0px; BACKGROUND: url(../img/bfs/affinity_search_link_icon.gif) no-repeat right center; LINE-HEIGHT: 16px; POSITION: absolute; TOP: 0px
+}
+.divNavMenu #affinityLink A {
+	WIDTH: auto; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.divNavMenu #affinityLink A:hover {
+	WIDTH: auto; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.divNavMenu #affinityLink A:visited {
+	WIDTH: auto; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.tableBodyText {
+	MARGIN-LEFT: 25px; WIDTH: 570px
+}
+.tableTimeOut {
+	MARGIN-LEFT: 25px; WIDTH: 570px
+}
+.tableBodyText TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.tableTimeOut {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.tableBodyText TD.space {
+	HEIGHT: 10px
+}
+.footerTable {
+	BORDER-TOP: #4b60c8 1px solid; WIDTH: 100%; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.footerTable TD {
+	FONT-SIZE: 120%; PADDING-BOTTOM: 20px; PADDING-TOP: 3px; LETTER-SPACING: 0.05em
+}
+A.linkMenuFooter {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; COLOR: #b6c0c3; PADDING-TOP: 3px; LETTER-SPACING: 0.05em; TEXT-DECORATION: none
+}
+A.linkMenuFooter:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.footerTableCopy {
+	MARGIN-BOTTOM: 30px; WIDTH: 600px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.footerTableCopy TD {
+	FONT-SIZE: 90%; PADDING-BOTTOM: 10px; PADDING-TOP: 3px; LETTER-SPACING: 0.05em
+}
+.tableHeader TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 120%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; LETTER-SPACING: 0.05em; BACKGROUND-COLOR: #e8f0f1
+}
+.tableHeader TD#th_td1 {
+	PADDING-LEFT: 45px; WIDTH: 50%
+}
+.tableSubHeader {
+	CLEAR: both
+}
+A.tableHeaderLink {
+	FONT-SIZE: 75%; COLOR: #4b60c8; LETTER-SPACING: normal; TEXT-DECORATION: underline
+}
+A.tableHeaderLink:visited {
+	FONT-SIZE: 75%; COLOR: #4b60c8; LETTER-SPACING: normal; TEXT-DECORATION: underline
+}
+A.tableHeaderLink:hover {
+	COLOR: #4b60c8; TEXT-DECORATION: none
+}
+.tableSubHeader TD {
+	PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 110%; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; LETTER-SPACING: 0.05em; HEIGHT: 31px; BACKGROUND-COLOR: #f5f5f5
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	FONT-SIZE: 200%
+}
+H2 {
+	FONT-SIZE: 110%
+}
+H3 {
+	FONT-SIZE: 105%
+}
+H4 {
+	FONT-SIZE: 100%
+}
+H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%
+}
+UL {
+	PADDING-RIGHT: 0pt; LIST-STYLE: none none outside; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-TOP: 0pt
+}
+.container {
+	OVERFLOW-X: hidden; WIDTH: 600px
+}
+.container2 {
+	WIDTH: 777px
+}
+.container {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 10px; MARGIN-BOTTOM: 30px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left
+}
+.container2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 10px; MARGIN-BOTTOM: 30px; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left
+}
+.divHolder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 30px 0px 0px; PADDING-TOP: 0px
+}
+.sectionHolder {
+	CLEAR: both; PADDING-RIGHT: 10px; PADDING-LEFT: 25px; PADDING-BOTTOM: 10px; WIDTH: auto! important; PADDING-TOP: 10px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.sectionHolderAvail {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #cccccc; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: 0pt 10px 10px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #efefef
+}
+.sectionHolderAvail P {
+	PADDING-RIGHT: 0pt; PADDING-LEFT: 0pt; PADDING-BOTTOM: 10px; MARGIN: 0pt; PADDING-TOP: 10px
+}
+.transparentForm {
+	DISPLAY: inline
+}
+.tablePopUp {
+	TABLE-LAYOUT: auto; WIDTH: 100%
+}
+.tablePopUp TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.tablePopUp TD.footer {
+	PADDING-RIGHT: 15px; FONT-WEIGHT: bold; PADDING-BOTTOM: 13px; PADDING-TOP: 5px; LETTER-SPACING: 0.05em; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right! important
+}
+.tablePopUp TD.space {
+	HEIGHT: 5px
+}
+.bkgrd {
+	CLEAR: both; HEIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+HTML > BODY .bkgrd {
+	PADDING-BOTTOM: 1px; PADDING-TOP: 1px; HEIGHT: auto
+}
+.sectionHolder P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0pt; PADDING-TOP: 10px
+}
+.tableTripSummary {
+	MARGIN-LEFT: 25px; WIDTH: 570px
+}
+.tableTripSummary TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.tableTripSummary TD.space {
+	HEIGHT: 3px
+}
+A {
+	COLOR: #4b60c8
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+.sort {
+	FONT-SIZE: 10px; FLOAT: right; MARGIN: 1em
+}
+.textBold {
+	FONT-WEIGHT: bold
+}
+.nowrap {
+	WHITE-SPACE: nowrap
+}
+.wrap {
+	WHITE-SPACE: normal! important
+}
+.clear {
+	CLEAR: both
+}
+.white {
+	BACKGROUND-COLOR: #ffffff
+}
+.textSmaller {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; LETTER-SPACING: 0em
+}
+.textSmall2 {
+	FONT-SIZE: 80%
+}
+.textLighterBold {
+	FONT-WEIGHT: bold; COLOR: #6a7b80
+}
+.textColorBold {
+	FONT-WEIGHT: bold; COLOR: #b90000
+}
+.textMandatory {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #ff0000
+}
+.lineSeparator {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.textNormal {
+	FONT-WEIGHT: normal
+}
+.alignRight {
+	TEXT-ALIGN: right
+}
+.strikethrough {
+	FONT-WEIGHT: normal; COLOR: #999999; WHITE-SPACE: nowrap; TEXT-DECORATION: line-through
+}
+.textColor {
+	COLOR: #b90000
+}
+.textBoldlarge {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%
+}
+.fontSize {
+	FONT-SIZE: 110%
+}
+.textBoldSmallFlight {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: top; COLOR: #6a7b80
+}
+.fliDet {
+	PADDING-LEFT: 10px; WHITE-SPACE: nowrap
+}
+.confirmation {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-LEFT: 25px; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 560px; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+.confirmation TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.divNumbTab {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 85%! important; BACKGROUND: url(../img/iconIndbase.gif) no-repeat left top; PADDING-BOTTOM: 2px; WIDTH: 25px; COLOR: #000000; PADDING-TOP: 1px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+#FDFF .divNumbTab {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 5px; BACKGROUND: url(../img/iconIndbase.gif) no-repeat 0% 50%; PADDING-BOTTOM: 2px; MARGIN: 3px 0pt 0pt 3px; WIDTH: 15px! important; PADDING-TOP: 1px
+}
+.lineDots {
+	BACKGROUND-POSITION: 0px 80%; BACKGROUND-IMAGE: url(../img/lineDots.gif); BACKGROUND-REPEAT: repeat-x
+}
+.disable {
+	COLOR: #999999
+}
+.ImgPlane {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgPassenger {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgCase {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgClock {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgInsurance {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgCar {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgHotel {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgTrain {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgCruise {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgTour {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgAirTaxi {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgGroundTrans {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.ImgPrint {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgBooking {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgCancel {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgPlate {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgFlightStatus {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgCurreny {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgSeats2 {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgOutbound {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgReturn {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgCalendar {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgEmail {
+	PADDING-RIGHT: 27px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgCal {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 18px; FONT-SIZE: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; CURSOR: pointer; PADDING-TOP: 0px; FONT-FAMILY: verdana; HEIGHT: 1px
+}
+.ImgMag {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 18px; FONT-SIZE: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; CURSOR: pointer; PADDING-TOP: 0px; FONT-FAMILY: verdana; HEIGHT: 1px
+}
+.ImgLookUp {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 18px; FONT-SIZE: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; CURSOR: pointer; PADDING-TOP: 0px; FONT-FAMILY: verdana; HEIGHT: 1px
+}
+.ImgCal {
+	PADDING-LEFT: 0px
+}
+HTML:first-child .ImgCal {
+	VERTICAL-ALIGN: bottom
+}
+HTML:first-child .ImgMag {
+	VERTICAL-ALIGN: bottom
+}
+HTML:first-child .ImgLookUp {
+	VERTICAL-ALIGN: bottom
+}
+*:first-child + HTML .ImgMag {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 19px; PADDING-BOTTOM: 0px; PADDING-TOP: 18px; ZOOM: 1
+}
+.ImgCal {
+	BACKGROUND: url(../img/cal.gif) no-repeat
+}
+.ImgMag {
+	BACKGROUND: url(../img/mag.gif) no-repeat
+}
+.ImgLookUp {
+	BACKGROUND: url(../img/look_up.gif) no-repeat
+}
+.ImgPlane {
+	BACKGROUND: url(../img/search_flights.gif) no-repeat 5px 0px
+}
+.ImgPrint {
+	BACKGROUND: url(../img/icon_print_htm3.gif) no-repeat left 50%
+}
+.ImgBooking {
+	BACKGROUND: url(../img/imgBooking.gif) no-repeat left 50%
+}
+.ImgCancel {
+	BACKGROUND: url(../img/imgCancel.gif) no-repeat left 50%
+}
+.ImgPlate {
+	BACKGROUND: url(../img/imgPlate2.gif) no-repeat left 50%
+}
+.ImgCurreny {
+	BACKGROUND: url(../img/icon_currency.gif) #ffffff no-repeat left 50%; TEXT-DECORATION: none
+}
+.ImgSeats2 {
+	BACKGROUND: url(../img/icon_seats.gif) no-repeat left 50%
+}
+.ImgFlightStatus {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 0px; BACKGROUND: url(../img/windsock.gif) no-repeat left 50%; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+}
+.ImgOutbound {
+	BACKGROUND: url(../img/icon_outbound.gif) no-repeat left 50%
+}
+.ImgReturn {
+	BACKGROUND: url(../img/icon_inbound.gif) no-repeat left 50%
+}
+.ImgCalendar {
+	BACKGROUND: url(../img/icon_pda.gif) no-repeat left 50%
+}
+.ImgEmail {
+	BACKGROUND: url(../img/icon_mail.gif) no-repeat left 50%
+}
+.ImgPassenger {
+	BACKGROUND: url(../img/search_paxGrey.gif) no-repeat 5px 0px
+}
+.ImgLogo {
+	BACKGROUND: url(../img/logo.gif) no-repeat left top; WIDTH: 150px; HEIGHT: 90px
+}
+.imgLogo2 {
+	BACKGROUND: url(../img/globe.gif) no-repeat 70% 0pt; WIDTH: 105px; HEIGHT: 162px
+}
+.ImgPlane2 {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; BACKGROUND: url(../img/connection_flights.gif) no-repeat left 50%; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; HEIGHT: 18px
+}
+.ImgPlane3 {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; BACKGROUND: url(../img/search_flights2.gif) no-repeat left 50%; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.ImgPlane4 {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; BACKGROUND: url(../img/icon_plane_airport.gif) no-repeat left 50%; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; HEIGHT: 18px
+}
+.ImgHotel {
+	BACKGROUND: url(../img/section_hotel.gif) no-repeat 5px 0pt
+}
+.ImgCar {
+	BACKGROUND: url(../img/section_rentalcar.gif) no-repeat 5px 0pt
+}
+.ImgWarning {
+	PADDING-RIGHT: 22px; BACKGROUND: url(../img/warning.gif) no-repeat; LEFT: 1px; PADDING-TOP: 2px; POSITION: relative; TOP: 3px; HEIGHT: 17px
+}
+.ImgError {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; BACKGROUND: url(../img/error3.gif) no-repeat; PADDING-BOTTOM: 4px; PADDING-TOP: 2px; HEIGHT: 18px
+}
+* + HTML .ImgError {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; FONT-SIZE: 16px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px
+}
+.ImgCheck {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; FONT-SIZE: 10px; BACKGROUND: url(../img/check_green.gif) no-repeat 0px -1px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 3px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgCheck2 {
+	PADDING-RIGHT: 8px; BACKGROUND: url(../img/check.gif) no-repeat center 50%; HEIGHT: 1px
+}
+.ImgCheck3 {
+	BACKGROUND: url(../img/check3b.gif) no-repeat 5px 50%; WIDTH: 15px
+}
+.ImgHelp {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; MARGIN: 0px 10px 0px 2px; CURSOR: pointer; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgHelp9 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; MARGIN: 0px 10px 0px 2px; CURSOR: pointer; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.ImgHelp {
+	BACKGROUND: url(../img/icon_help.gif) no-repeat left center
+}
+.ImgHelp9 {
+	BACKGROUND: url(../img/icon_help9.gif) no-repeat left center
+}
+.ImgPerformance {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0pt; FONT-SIZE: 14px; BACKGROUND: url(../img/performance.gif) no-repeat 0pt 80%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; HEIGHT: 1px
+}
+.ImgArrow2 {
+	PADDING-RIGHT: 8px; BACKGROUND: url(../img/icon_arrow.gif) no-repeat left top; LEFT: 0px; POSITION: relative; TOP: 7px; HEIGHT: 10px
+}
+.ImgArrowUp {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../img/icon_arrow_up.gif) no-repeat 0pt 3px; HEIGHT: 10px
+}
+.ImgArrow {
+	PADDING-RIGHT: 5px; BACKGROUND: url(../img/icon_arrow.gif) no-repeat 3px 5px
+}
+.ImgCase {
+	BACKGROUND: url(../img/search_trip.gif) no-repeat 5px 0px
+}
+.ImgClock {
+	BACKGROUND: url(../img/imgClock2.gif) no-repeat 5px 2px
+}
+.ImgAirTaxi {
+	BACKGROUND: url(../img/section_airTaxi.gif) no-repeat 5px 0px
+}
+.ImgInsurance {
+	BACKGROUND: url(../img/section_insurance.gif) no-repeat 5px 0px
+}
+.ImgTrain {
+	BACKGROUND: url(../img/section_train.gif) no-repeat 5px 0px
+}
+.ImgCruise {
+	BACKGROUND: url(../img/section_cruise.gif) no-repeat 5px 0px
+}
+.ImgTour {
+	BACKGROUND: url(../img/section_tour.gif) no-repeat 5px 0px
+}
+.ImgPlane2Sdai {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; BACKGROUND: url(../img/plane2.gif) no-repeat left 50%; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.ImgPlane3Sdai {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; BACKGROUND: url(../img/plane3.gif) no-repeat left 50%; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.ImgPlane2Vpai {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; BACKGROUND: url(../img/plane2.gif) no-repeat left 50%; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.ImgPlane3Vpai {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; BACKGROUND: url(../img/plane3.gif) no-repeat left 50%; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+DIV#tipDiv {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 4px; Z-INDEX: 10000; LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 4px; BORDER-LEFT: #999999 1px solid; WIDTH: auto; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 1px solid; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #efefef
+}
+.rollOverMap {
+	VISIBILITY: hidden; WIDTH: 150px; POSITION: absolute; HEIGHT: 20px
+}
+.rollOverMapContent {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 150px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; POSITION: absolute; TOP: 0px; HEIGHT: auto; BACKGROUND-COLOR: #efefef; TEXT-ALIGN: center
+}
+.rollOverMapContent IMG {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: #666666 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #666666 1px solid
+}
+.rollOverMapContent P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px; PADDING-TOP: 0px
+}
+.tablePU {
+	BORDER-RIGHT: #6a7b80 3px solid; BORDER-TOP: #6a7b80 1px solid; MARGIN: 0px; BORDER-LEFT: #6a7b80 1px solid; WIDTH: 200px; BORDER-BOTTOM: #6a7b80 3px solid; BACKGROUND-COLOR: #ffffff
+}
+.whiteLabelHotelBody {
+	WIDTH: 100%; HEIGHT: 1000px; BACKGROUND-COLOR: #ffffff
+}
+A.linkClose {
+	PADDING-RIGHT: 0pt; PADDING-LEFT: 20px; BACKGROUND: url(../img/collapse.gif) no-repeat 0pt 2px; PADDING-BOTTOM: 3px; LINE-HEIGHT: 15px; MARGIN-RIGHT: 10px; PADDING-TOP: 3px
+}
+A.linkOpen {
+	PADDING-RIGHT: 0pt; PADDING-LEFT: 20px; BACKGROUND: url(../img/expand.gif) no-repeat 0pt 2px; PADDING-BOTTOM: 3px; LINE-HEIGHT: 15px; MARGIN-RIGHT: 10px; PADDING-TOP: 3px
+}
+.informationBox {
+	BORDER-RIGHT: #b0ccd0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b0ccd0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px 10px 0px 25px; BORDER-LEFT: #b0ccd0 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #b0ccd0 1px solid; ZOOM: 1; BACKGROUND-COLOR: #f5f5f5
+}
+.informationBox LABEL {
+	VERTICAL-ALIGN: middle
+}
+.informationBox INPUT {
+	VERTICAL-ALIGN: middle
+}
+.disabledFieldSearch {
+	COLOR: #808080
+}
+.res_options_left {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 25px; FLOAT: left; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+A.normalLink {
+	CURSOR: pointer; TEXT-DECORATION: underline
+}
+A.normalLink:link {
+	CURSOR: pointer; TEXT-DECORATION: underline
+}
+A.normalLink:active {
+	CURSOR: pointer; TEXT-DECORATION: underline
+}
+A.normalLink:visited {
+	CURSOR: pointer; TEXT-DECORATION: underline
+}
+A.normalLink:hover {
+	CURSOR: pointer; TEXT-DECORATION: underline
+}
+.blacklistedIcon {
+	PADDING-LEFT: 16px; BACKGROUND: url(../img/icon_blacklisted.gif) no-repeat 0px 0px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; WIDTH: 16px
+}
+.ImgHoliday {
+	PADDING-RIGHT: 38px; PADDING-LEFT: 0pt; FONT-SIZE: 20px; BACKGROUND: url(../img/holiday/section_holiday.gif) no-repeat 5px 2px; PADDING-BOTTOM: 0px; WIDTH: 40px; PADDING-TOP: 0px; HEIGHT: 0pt
+}

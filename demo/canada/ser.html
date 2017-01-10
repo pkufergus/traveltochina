@@ -1,0 +1,1605 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html dir="ltr" lang="en">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<head>
+ 
+ 
+ 
+<!-- Copyright   2005-2011 Amadeus s.a.s. All rights reserved --->
+<!-- No use of any portion hereof is authorised, except pursuant to a written agreement with Amadeus s.a.s. -->
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ 
+<meta name="Description" content="Search Flight Schedules, Search Flight Timetables, Get Current Flight Status, Find Hotels, Find Car Rental, Get Trip Tools, Plan Trip. Find Airport Information" />
+<meta name="Keywords" content="travel availability timetable status hotels car rental trip tools search amadeus net flights book best fares planner fly information world tickets maps airports airport  currency guides " />
+ 
+<meta name="DC.subject" content="travel availability timetable status hotels car rental trip tools search amadeus net flights book best fares planner fly information world tickets maps airports airport  currency guides " />
+<meta name="DC.description" content="Search Flight Schedules, Search Flight Timetables, Get Current Flight Status, Find Hotels, Find Car Rental, Get Trip Tools, Plan Trip. Find Airport Information" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.publisher" content="Amadeus.net" />
+<meta name="DC.language" content="GB" />
+<meta name="DC.title" content="Flight Times, Flight Schedules, Best fares, Best rates, Hotel Rooms, Car Rental, Travel Guides, Trip Planning - Amadeus.net" />
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+ 
+<title>
+Flight Times, Flight Schedules, Best fares, Best rates, Hotel Rooms, Car Rental, Travel Guides, Trip Planning - Amadeus.net
+</title>
+ 
+ 
+ 
+ 
+ 
+<script type="text/javascript" src="http://www.amadeus.net/plnext/js/MEB_V1.3_44_120411/ui/apps/meb/js/libs/jquery.js"></script>
+ 
+ 
+ 
+<script type="text/javascript"> 
+//Avoid jQuery conflict
+var $jq = null;
+if(jQuery)
+$jq = jQuery.noConflict();
+</script>
+ 
+ 
+<script type="text/javascript">    var uic = {}; uic.p = {}; var yui = {}; uic.p.JS_DOCUMENT_ROOT = 'http://www.amadeus.net/plnext/meb/js/'; uic.p.MODULE_DOCUMENT_ROOT = ''; uic.p.FRAMEWORK_DOCUMENT_ROOT = 'http://www.amadeus.net/aria/2.1/'; uic.p.FRAMEWORK_SKIN_ROOT = 'http://www.amadeus.net/plnext/meb/skins/Default/'; uic.p.SITE_LANGUAGE = 'GB'; uic.p.DOCUMENT_ROOT = 'http://www.amadeus.net/'; uic.p.FRAMEWORK_RESOURCES = 'http://www.amadeus.net/plnext/meb/resources/'; uic.p.FRAMEWORK_VERSION = '2.1'; uic.p.TRACK_TIME = 'false'; uic.p.USEMAP = 'true'; uic.p.DEBUG = false; uic.p.DOCUMENT_CSS_ROOT = ''; uic.p.JAR_FILE_VERSION = '20090203'; uic.p.PACKAGE_VERSION = '2.1.44-8'; uic.p.ARIA = false; uic.p.SESSION = 'nzk2TFLTJPVYNwkQBmVWR3RbbK5yqk30wJZskkNl3kHKJ5nrrJfg!1090061105!-869859390!1321585427921'; uic.p.HELP_URL = ''; uic.p.TOC_LIST = ''; uic.p.PRODUCT_NAME = '';</script><script type="text/javascript" src="http://www.amadeus.net/aria/2.1/js/arialoader-2.1.44-8.js"></script>
+ 
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/aria/meb-skin.css" type="text/css" rel="stylesheet"></link>
+ 
+ 
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/meb-min.css" type="text/css" rel="stylesheet"></link>
+ 
+ 
+<script type="text/javascript"> 
+c.loader.includeScript(['ariameb']);
+ 
+var future = new Date()
+future.setFullYear(future.getFullYear()+1);
+var MEB = {
+ads : {
+unaira : {
+config : {}
+}
+},
+cookies : {
+LAST_AIR_DEPARTURE_CITY : 'lastAirDepartureCity',
+SEARCH_HISTORY_FORM_DATA : 'SEARCH_HISTORY_FORM_DATA',
+SEARCH_HISTORY_DISPLAY_RECAP : 'SEARCH_HISTORY_DISPLAY_RECAP',
+LANGUAGE : 'langAMA',
+options : { expires: future,
+path: '/' }
+},
+date : {
+format : 'EEE d MMM',
+formatter : null
+},
+meta : {
+current_language: 'GB'
+},
+data : {},
+debug : true,
+errors : {
+container : 'MEB_error_container',
+content : 'MEB_error_content'
+},
+ 
+ga : {
+account : 'UA-542450-1',
+site : 'BCEUBCEU',
+language : 'GB'
+},
+log :  function () {
+if(MEB.debug) {
+if(typeof(console) != "undefined") {
+console.log(arguments[0]);
+}
+}
+},
+objects : {},
+partners : {
+_fcn : {},
+bestFares : 'global_bf_form'
+},
+require : [],
+resources : {
+js :  'http://www.amadeus.net/plnext/js/MEB_V1.3_44_120411/ui',
+base : 'http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static'
+}
+};
+ 
+if( typeof window.devicePixelRatio != 'undefined') {
+var scriptNode = document.createElement("link");
+scriptNode.media = "screen";
+scriptNode.type = "text/css";
+scriptNode.rel = "stylesheet";
+scriptNode.href = "http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/aria/patch_webkit.css";
+document.getElementsByTagName("head")[0].appendChild(scriptNode);
+}
+</script>
+ 
+ 
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/language_patches/patch_GB.css" type="text/css" rel="stylesheet"></link>
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/language_patches/common_language_patches.css" type="text/css" rel="stylesheet"></link>
+ 
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+MEB.date.formatter =  new util.simpleDateFormat();
+})
+</script>
+<!--[if IE 6]>
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/patch_ie6.css" type="text/css" rel="stylesheet"/>
+<style type="text/css">
+.png, * html img .png, * html .menuhover ul, * html .homepage-block-title, * html #welcome-block img {
+azimuth: expression(
+this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true
+ 
+);
+}
+</style>
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/aria/patch_ie6.css" type="text/css" rel="stylesheet"/>
+<![endif]-->
+ 
+<!--[if IE 7]>
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/aria/patch_ie7.css" type="text/css" rel="stylesheet"/>
+<link media="screen" href="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/css/patch_ie7.css" type="text/css" rel="stylesheet"/>
+<![endif]-->
+</head>
+ 
+<body id="homepage" class=" language_is_GB">
+ 
+ 
+ 
+<div id="wrapper">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<div class="gl_header" >
+<div id="header-wrapper" class="clearfix">
+<div id="header">
+<div id="branding" class="clearfix">
+<h1>
+<a href="http://www.amadeus.net/plnext/meb/HomePageDispatcher.action?SITE=BCEUBCEU&LANGUAGE=GB"
+tabindex="1">
+<img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/logos/logo.gif" title="Amadeus.net - Your point of departure for journey planning" />
+</a>
+ 
+</h1>
+</div>
+<div id="header-nav-block-wrapper">
+<div id="header-nav-block">
+<div id="top-menu" class="homepage clearfix">
+<div id="primary-menu-wrapper">
+<ul id="gl_header_menu" class="primary-menu clearfix">
+<li id="top-nav-flight" class="primary-menu-item">
+<a class="primary-menu-item dropdown"
+href="javascript:void(0);"
+tabindex="2">
+<strong>
+Flights
+</strong>
+<img class="menu-arrow png" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/blank.gif"/>
+</a>
+<ul>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/AirSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+tabindex="2">
+Availability
+</a>
+ 
+</li>
+ 
+ 
+<li>
+<a href="http://UK.bestfares.amadeus.net/flights"
+tabindex="3">
+Best fares
+</a>
+ 
+</li>
+ 
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TimeTableSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+tabindex="4">
+Timetable
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/FlightInfoSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+tabindex="5">
+Flight status
+</a>
+ 
+</li>
+</ul>
+</li>
+ 
+<li id="top-nav-hotel" class="primary-menu-item">
+<a class="primary-menu-item dropdown" id="gl_header_link_hotel"
+href="javascript:void(0);"
+tabindex="6">
+<strong>
+Hotels
+
+                                            </strong>
+                                            <img class="menu-arrow png" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/blank.gif" />
+                                        </a>
+                                            <ul>
+                                                <li><a href="http://www.amadeus.net/plnext/meb/HotelSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                    tabindex="6">Availability </a></li>
+                                                <li><a href="http://UK.bestfares.amadeus.net/hotels" tabindex="7">Best rates </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li id="top-nav-car" class="primary-menu-item"><a class="primary-menu-item dropdown"
+                                            id="gl_header_link_car" href="javascript:void(0)" tabindex="8"><strong>Cars </strong>
+                                            <img class="menu-arrow png" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/blank.gif" />
+                                        </a>
+                                            <ul>
+                                                <li><a href="http://www.amadeus.net/plnext/meb/CarSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                    tabindex="8">Availability </a></li>
+                                                <li class="last"><a href="http://UK.bestfares.amadeus.net/cars" tabindex="9">Best rates
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="top-nav-triptools" class="primary-menu-item"><a id="gl_header_link_triptools"
+                                            class="primary-menu-item" href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                            tabindex="11"><strong>Trip tools </strong></a>
+                                            <!--
+<ul>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=airport_guides"
+tabindex="12">
+Airport guides
+</a>
+ 
+</li>
+<li>
+<a href="https://www.checkmytrip.com/plnext/XCMTXITN/CleanUpSessionPui.action?SITE=XCMTXITN&LANGUAGE=GB"
+target="_blank"
+tabindex="13">
+Check my trip
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=converters"
+tabindex="14">
+Conversions
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=currency_converter"
+tabindex="15">
+Currency converter
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=destination_guides"
+tabindex="16">
+Destination guides
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=maps"
+tabindex="17">
+Maps
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=subway_maps"
+tabindex="18">
+Subway maps
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=imetro"
+tabindex="19">
+iMetro
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=weather"
+tabindex="20">
+Weather
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=world_dialing_codes"
+tabindex="21">
+Wolrd dialing codes
+</a>
+ 
+</li>
+<li>
+<a href="http://www.amadeus.net/plnext/meb/TripTools.action?SITE=BCEUBCEU&LANGUAGE=GB&triptool_type=world_time"
+tabindex="22">
+Worldclock
+</a>
+ 
+</li>
+</ul>
+-->
+                                        </li>
+                                        <li class="primary-menu-item" id="top-nav-ae"><a href="http://uk.activities.amadeus.net"
+                                            id="gl_header_link_triptools" class="primary-menu-item " tabindex="23"><strong>Activities
+                                            </strong></a></li>
+                                    </ul>
+                                </div>
+                                <div id="secondary-menu-wrapper">
+                                    <ul id="secondary-menu" class="clearfix secondary-menu">
+                                        <li id="sitemap" style="display: none;"><a class="not-active" title="Site map" style="opacity: 0.5;"
+                                            href="#" id="gl_header_link_sitemap" tabindex="24">Site map </a><em style="display: none;">
+                                                Site map </em></li>
+                                        <li id="help"><a id="gl_header_link_faq" tabindex="25" title="Help/FAQ" style="opacity: 0.5;"
+                                            href="http://www.amadeus.net/plnext/meb/HelpFaq.action?SITE=BCEUBCEU&LANGUAGE=GB">
+                                            Help/FAQ </a><em style="display: none;">Help/FAQ </em></li>
+                                        <li id="about"><a id="gl_header_link_about" tabindex="26" title="About us" style="opacity: 0.5;"
+                                            href="http://www.amadeus.net/plnext/meb/AboutUs.action?SITE=BCEUBCEU&LANGUAGE=GB">
+                                            About us </a><em style="display: none;">About us </em></li>
+                                        <li id="home"><a id="gl_header_link_home" tabindex="27" title="Home" style="opacity: 0.5;"
+                                            href="http://www.amadeus.net/plnext/meb/HomePageDispatcher.action?SITE=BCEUBCEU&LANGUAGE=GB">
+                                            Home </a><em style="display: none;">Home </em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">c._begRegSec('gl_header','');c._endRegSec('gl_header','');</script>
+
+        </div>
+
+        <script type="text/javascript"> 
+a.namespace('MEB.utilities.i18n.global');
+MEB.utilities.i18n.global.translate = function (category, key) {
+var keyToValue = {
+info : {
+PROCESSING : "Processing..."
+ 
+}
+};
+var value = keyToValue[category][key] || '??? '+key+' ???';
+return value;
+};
+        </script>
+
+        <script type="text/javascript"> 
+a.namespace('MEB.utilities.i18n');
+MEB.utilities.i18n.translate = function (category, key) {
+var keyToValue = {
+error : {
+ 
+INVALID_FIELD : "The following field is incorrect: "
+ 
+}
+};
+var value = keyToValue[category][key] || '??? '+key+' ???';
+return value;
+};
+        </script>
+
+        <div id="content-main-wrap">
+            <div id="content-layout">
+                <div id="content-primary-wrap">
+                    <div id="MEB_error_container" class="container error-panel clearfix" style="display: none;">
+                        <div class="container-title error-panel-title">
+                            An error occured while processing your request</div>
+                        <div class="container-content-wrapper error-panel-content-wrapper">
+                            <div class="container-content error-panel-content">
+                                <div id="MEB_error_content">
+                                    <div class="main_errors">
+
+                                        <script type="text/javascript">c._begRegSec('main_errors','');c._endRegSec('main_errors','');</script>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content-primary-side">
+                    </div>
+                    <div id="content-primary-main">
+                        <div id="main-content-holder-wrapper" class="clearfix">
+                            <div id="main-content-holder" class="clearfix">
+                                <div class="first-content-col">
+                                    <div class="quse">
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/fares-search-left.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/fares-search-right.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/fares-search-left-hover.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/fares-search-right-hover.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/hotel-search-left.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/hotel-search-right.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/hotel-search-left-hover.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/hotel-search-right-hover.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/car-search-left.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/car-search-right.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/car-search-left-hover.gif" />
+                                        <img style="position: absolute; display: none;" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/buttons/car-search-right-hover.gif" />
+                                        <div id="quick-search-wrapper" class="clearfix">
+                                            <div id="quick-search" class="">
+                                                <h2 class="homepage-block-title-plein">
+                                                    <strong>Quick search</strong></h2>
+                                                <div id="qsearch-tab-navigation-wrapper">
+                                                    <div id="qsearch-tab-navigation">
+                                                        <ul class="button-tabs">
+                                                            <li id="qs-flights"><a id="quse_radio_flight" class="qs-menu-link  qs-tab-open" href="javascript:void(0);"
+                                                                tabindex="28"><strong><em>Flights</em></strong></a></li>
+                                                            <li id="qs-hotels"><a id="quse_radio_hotel" class="qs-menu-link" href="javascript:void(0);"
+                                                                tabindex="29"><strong><em>Hotels</em></strong></a></li>
+                                                            <li id="qs-cars"><a id="quse_radio_car" class="qs-menu-link" href="javascript:void(0);"
+                                                                tabindex="30"><strong><em>Cars</em></strong></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="quick-search-form-holder" class="clearfix">
+                                                    <div id="quick-search-form" class="search-form autoComplete-flight" style="overflow: visible;">
+                                                        <form id="quse_form" method="post" action="http://www.amadeus.net/plnext/meb/AvailabilityFlowDispatcher.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                        style="display: none;">
+                                                        <input type="text" id="SEVEN_DAY_SEARCH" name="SEVEN_DAY_SEARCH" value="TRUE" />
+                                                        <input type="text" id="SEARCH_PAGE" name="SEARCH_PAGE" value="SD" />
+                                                        <input type="text" id="PLTG_FROMPAGE" name="PLTG_FROMPAGE" value="SDSEARCH" />
+                                                        <input type="text" id="TITLE" name="TITLE" value="" />
+                                                        <input type="text" id="FIRST_NAME" name="FIRST_NAME" value="" />
+                                                        <input type="text" id="LAST_NAME" name="LAST_NAME" value="" />
+                                                        <input type="text" id="MAX_PAX_VALUE" name="MAX_PAX_VALUE" value="4" />
+                                                        <input type="text" id="userLoggedTravellerType" name="userLoggedTravellerType" value="" />
+                                                        <input type="text" id="REFRESH" name="REFRESH" value="" />
+                                                        <input type="text" id="COMPLEX" name="COMPLEX" value="0" />
+                                                        <input type="text" id="TRIP_TYPE" name="TRIP_TYPE" value="" />
+                                                        <input type="text" id="DIRECT_NON_STOP" name="DIRECT_NON_STOP" value="" />
+                                                        <input type="text" id="B_LOCATION_1" name="B_LOCATION_1" value="" />
+                                                        <input type="text" id="E_LOCATION_1" name="E_LOCATION_1" value="" />
+                                                        <input type="text" id="Month1" name="Month1" value="" />
+                                                        <input type="text" id="Day1" name="Day1" value="" />
+                                                        <input type="text" id="Hours1" name="Hours1" value="" />
+                                                        <input type="text" id="Month2" name="Month2" value="" />
+                                                        <input type="text" id="Day2" name="Day2" value="" />
+                                                        <input type="text" id="Hours2" name="Hours2" value="" />
+                                                        <input type="text" id="FIELD_ADT_NUMBER" name="FIELD_ADT_NUMBER" value="" />
+                                                        <input type="text" id="FIELD_CHD_NUMBER" name="FIELD_CHD_NUMBER" value="0" />
+                                                        <input type="text" id="FIELD_INFANTS_NUMBER" name="FIELD_INFANTS_NUMBER" value="0" />
+                                                        <input type="text" id="AIRLINE_1" name="AIRLINE_1" value="" />
+                                                        <input type="text" id="AIRLINE_2" name="AIRLINE_2" value="" />
+                                                        <input type="text" id="AIRLINE_3" name="AIRLINE_3" value="" />
+                                                        </form>
+                                                        <form id="quse_global_bf_form" action="http://uk.bestfares.amadeus.net/s/search/air"
+                                                        method="get" style="display: none" target="_self">
+                                                        <input type='hidden' id='quse_global_bf_form_DF' value='MM/dd/yyyy' />
+                                                        <input type='hidden' id='quse_global_bf_form_tracking_code' name='ai' value='kayaksample' />
+                                                        <input type='hidden' name='do' value='y' />
+                                                        <input type='hidden' name='df' id='quse_global_bf_form_date_format' value='us1' />
+                                                        <input type='hidden' name='t1' id='quse_global_bf_form_time_from' value='' />
+                                                        <input type='hidden' name='t2' id='quse_global_bf_form_time_to' value='' />
+                                                        <input type='hidden' name='d1' id='quse_global_bf_form_date_from' value='' />
+                                                        <input type='hidden' name='d2' id='quse_global_bf_form_date_to' value='' />
+                                                        <input type='hidden' name='pa' id='quse_global_bf_form_adult_traveller' value='' />
+                                                        <input type='hidden' name='b' id='quse_global_bf_form_pref_0' value='' />
+                                                        <input type='hidden' name='crc' id='quse_global_bf_form_crc' value='' />
+                                                        <input type='hidden' name='ft' id='quse_global_bf_form_trip_type' value='ow' />
+                                                        <input type='hidden' name='ns' id='quse_global_bf_form_check_nonstop' value='' />
+                                                        <input type='hidden' name='cb' id='quse_global_bf_form_cabin_class' value='e' />
+                                                        <input type='hidden' name='l1' id='quse_global_bf_form_from' value='' />
+                                                        <input type='hidden' name='l2' id='quse_global_bf_form_to' value='' />
+                                                        <input type='hidden' name='rm' id='quse_global_bf_form_rm' value='' />
+                                                        <input type='hidden' name='s' id='quse_global_bf_form_s' value='1' />
+                                                        <input type='hidden' name='rm' id='quse_global_bf_form_rm' value='' />
+                                                        <input type='hidden' name='hid' id='quse_global_bf_form_hid' value='' />
+                                                        <input type='hidden' name='lmaddr' id='quse_global_bf_form_lmaddr' value='' />
+                                                        <input type='hidden' name='lmname' id='quse_global_bf_form_lmname' value='' />
+                                                        <input type='hidden' name='lmzoom' id='quse_global_bf_form_lmzoom' value='' />
+                                                        <input type='hidden' name='ap' id='quse_global_bf_form_ap' value='' />
+                                                        <input type='hidden' name='ap2' id='quse_global_bf_form_ap2' value='1' />
+                                                        <input type='hidden' name='crc2' id='quse_global_bf_form_crc2' value='' />
+                                                        </form>
+
+                                                        <script type="text/javascript"> 
+c.onLoad( function () {
+MEB.partners._fcn._quse_global_bf_form = function(formID, flight) {
+if(formID == 'quse_global_bf_form') {
+ 
+ 
+var url = '/search/kayak/GB/homepage';
+ 
+ 
+ 
+ 
+MEB.ga.tracker._trackPageview(url);
+if(this._tripType != 'M') {
+$(formID+'_trip_type', this).value = this._tripType == 'R' ? 'rt' : 'ow';
+} else {
+$(formID, this).action = 'http://uk.betafares.amadeus.net';
+}
+ 
+ 
+MEB.popups.waiting.displayAirPopupAndSubmit(formID);
+ 
+ 
+ 
+}
+};
+ 
+if(typeof MEB.objects.air != 'undefined' &&
+typeof MEB.objects.air.search != 'undefined') {
+ 
+if(typeof MEB.objects.air.search.availabities != 'undefined') {
+MEB.objects.air.search.availabities._submitPartnerForm =
+MEB.objects.air.search.availabities._submitPartnerForm.createSequence(
+function(formID, flight) {
+if(formID == 'quse_global_bf_form') {
+if(this._tripType == 'R' && this._currentLeg == 0) {
+$(formID+'_time_to',this).value	= 'a';
+} else if(this._tripType == 'R' && this._currentLeg == 1){
+$(formID+'_time_from',this).value = 'a';
+}
+}
+}
+);
+ 
+MEB.objects.air.search.availabities._submitPartnerForm =
+MEB.objects.air.search.availabities._submitPartnerForm.createSequence(MEB.partners._fcn._quse_global_bf_form);
+}
+ 
+if(typeof MEB.objects.air.search.clipboard != 'undefined') {
+MEB.objects.air.search.clipboard._submitPartnerForm =
+MEB.objects.air.search.clipboard._submitPartnerForm.createSequence(MEB.partners._fcn._quse_global_bf_form);
+}
+}
+ 
+if(typeof MEB.objects.quick != 'undefined' &&
+typeof MEB.objects.quick.search != 'undefined') {
+MEB.behaviors.quick.search.SearchForm.prototype._submitBestFareAirForm =
+MEB.behaviors.quick.search.SearchForm.prototype._submitBestFareAirForm.createSequence(MEB.partners._fcn._quse_global_bf_form);
+}
+});
+                                                        </script>
+
+                                                        <script type="text/javascript"> 
+MEB.partners['kayak_gb'] = 'Amadeus best fares';
+                                                        </script>
+
+                                                        <fieldset class="full_line_block">
+                                                            <legend class="hidden">Trip type</legend>
+                                                            <ul class="radio_list_inline">
+                                                                <li id="round">
+                                                                    <input type="radio" name="quse_trip_type" value="R" id="quse_radio_round" checked="checked"
+                                                                        tabindex="31" />
+                                                                    <label for="quse_radio_round">
+                                                                        Round-trip</label>
+                                                                </li>
+                                                                <li id="oneway">
+                                                                    <input type="radio" name="quse_trip_type" value="O" id="quse_radio_oneway" tabindex="32" />
+                                                                    <label for="quse_radio_oneway">
+                                                                        One-way</label>
+                                                                </li>
+                                                                <li id="multi"><a href="http://www.amadeus.net/plnext/meb/AirSearch.action?SITE=BCEUBCEU&LANGUAGE=GB&DEFAULT_TRIP_TYPE=MULTI"
+                                                                    tabindex="33">Multiple destinations</a> </li>
+                                                            </ul>
+                                                        </fieldset>
+                                                        <form id="quse_user_input" action="http://www.amadeus.net/plnext/meb/AirSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                        method="post">
+                                                        <input id="quse_user_input_fromIata" type="hidden" name="from_iata" value="" />
+                                                        <input id="quse_user_input_toIata" type="hidden" name="to_iata" value="" />
+                                                        <input id="quse_user_input_df" type="hidden" name="dateFrom" value="" />
+                                                        <input id="quse_user_input_dt" type="hidden" name="dateTo" value="" />
+                                                        <input id="quse_user_input_direct" type="hidden" name="directFlight" value="" />
+                                                        <div class="full_line_block form-separator">
+                                                            <fieldset class="inline_block fix-z-index">
+                                                                <span title="" class="textField from left from  top fields_holder_block fix-z-index uicAutoCompleteIL"
+                                                                    _errortext="Please provide us with a departure city or airport code. (10004)"
+                                                                    id="quse_from_id">
+                                                                    <label class="normal" for="quse_from_id_input">
+                                                                        From <em>(city or airport)</em></label><input value="" tabindex="34" uicerrorcls="error"
+                                                                            type="text" class="normal" name="from" id="quse_from_id_input" uicvalidator="null" /></span><div
+                                                                                class="ACRes fromRes" id="quse_from_id_data">
+                                                                            </div>
+                                                                <span class="fields_holder_inline fix-z-index-1"><span title="" class="datePicker date_from date_from top air_calendar  uicDatePickerIL"
+                                                                    id="quse_date_from_id"><span id="quse_date_from_id_textfield">
+                                                                        <label class="normal" for="quse_date_from_id_input">
+                                                                            Departing</label><input value="18/11/2011" type="text" class="normal" name="date_from"
+                                                                                id="quse_date_from_id_input" /></span>
+                                                                    <button tabindex="36" type="button" class="datePickerImage">
+                                                                                    <span>???null???</span></button></span><div class="calendarHolder date_from top air_calendar"
+                                                                                        id="quse_date_from_id_calendar">
+                                                                                        <div class="calendarBody">
+                                                                                        </div>
+                                                                                    </div>
+                                                                </span><span class="fields_holder_inline time_select patch-block"><span class="select time_from time_select top uicSelectIL"
+                                                                    id="quse_time_from_id">
+                                                                    <label class="normal" for="quse_time_from_id_input">
+                                                                        Time</label><select tabindex="37" uicerrorcls="error" title="" class="normal" name="time_from"
+                                                                            uicvalidator="null" id="quse_time_from_id_input"><option value="ANY" title="">Any Time</option>
+                                                                            <option value="0000" title="">00:00</option>
+                                                                            <option value="0100" title="">01:00</option>
+                                                                            <option value="0200" title="">02:00</option>
+                                                                            <option value="0300" title="">03:00</option>
+                                                                            <option value="0400" title="">04:00</option>
+                                                                            <option value="0500" title="">05:00</option>
+                                                                            <option value="0600" title="">06:00</option>
+                                                                            <option value="0700" title="">07:00</option>
+                                                                            <option value="0800" title="">08:00</option>
+                                                                            <option value="0900" title="">09:00</option>
+                                                                            <option value="1000" title="">10:00</option>
+                                                                            <option value="1100" title="">11:00</option>
+                                                                            <option value="1200" title="">12:00</option>
+                                                                            <option value="1300" title="">13:00</option>
+                                                                            <option value="1400" title="">14:00</option>
+                                                                            <option value="1500" title="">15:00</option>
+                                                                            <option value="1600" title="">16:00</option>
+                                                                            <option value="1700" title="">17:00</option>
+                                                                            <option value="1800" title="">18:00</option>
+                                                                            <option value="1900" title="">19:00</option>
+                                                                            <option value="2000" title="">20:00</option>
+                                                                            <option value="2100" title="">21:00</option>
+                                                                            <option value="2200" title="">22:00</option>
+                                                                            <option value="2300" title="">23:00</option>
+                                                                        </select></span> </span>
+                                                            </fieldset>
+                                                            <fieldset class="inline_block fix-z-index-1">
+                                                                <span title="" class="textField to left to top fields_holder_block fix-z-index uicAutoCompleteIL"
+                                                                    _errortext="Please provide us with an arrival city or airport code. (10005)"
+                                                                    id="quse_to_id">
+                                                                    <label class="normal" for="quse_to_id_input">
+                                                                        To <em>(city or airport)</em></label><input value="" tabindex="35" uicerrorcls="error"
+                                                                            type="text" class="normal" name="to" id="quse_to_id_input" uicvalidator="null" /></span><div
+                                                                                class="ACRes toRes" id="quse_to_id_data">
+                                                                            </div>
+                                                                <div id="quse_return_date">
+                                                                    <span class="fields_holder_inline fix-z-index-1"><span title="" class="datePicker date_to date_to top air_calendar  uicDatePickerIL"
+                                                                        id="quse_date_to_id"><span _errortext="Your return date / time is on or before your departure date / time. Please adjust the dates / times and try again. (10000)"
+                                                                            id="quse_date_to_id_textfield">
+                                                                            <label class="normal" for="quse_date_to_id_input">
+                                                                                Returning</label><input value="18/11/2011" type="text" class="normal" name="date_to"
+                                                                                    id="quse_date_to_id_input" /></span>
+                                                                        <button tabindex="37" type="button" class="datePickerImage">
+                                                                                        <span>???null???</span></button></span><div class="calendarHolder date_to top air_calendar"
+                                                                                            id="quse_date_to_id_calendar">
+                                                                                            <div class="calendarBody">
+                                                                                            </div>
+                                                                                        </div>
+                                                                    </span><span class="fields_holder_inline time_select  patch-block"><span class="select time_to time_select top uicSelectIL"
+                                                                        id="quse_time_to_id">
+                                                                        <label class="normal" for="quse_time_to_id_input">
+                                                                            Time</label><select tabindex="38" uicerrorcls="error" title="" class="normal" name="time_to"
+                                                                                uicvalidator="null" id="quse_time_to_id_input"><option value="ANY" title="">Any Time</option>
+                                                                                <option value="0000" title="">00:00</option>
+                                                                                <option value="0100" title="">01:00</option>
+                                                                                <option value="0200" title="">02:00</option>
+                                                                                <option value="0300" title="">03:00</option>
+                                                                                <option value="0400" title="">04:00</option>
+                                                                                <option value="0500" title="">05:00</option>
+                                                                                <option value="0600" title="">06:00</option>
+                                                                                <option value="0700" title="">07:00</option>
+                                                                                <option value="0800" title="">08:00</option>
+                                                                                <option value="0900" title="">09:00</option>
+                                                                                <option value="1000" title="">10:00</option>
+                                                                                <option value="1100" title="">11:00</option>
+                                                                                <option value="1200" title="">12:00</option>
+                                                                                <option value="1300" title="">13:00</option>
+                                                                                <option value="1400" title="">14:00</option>
+                                                                                <option value="1500" title="">15:00</option>
+                                                                                <option value="1600" title="">16:00</option>
+                                                                                <option value="1700" title="">17:00</option>
+                                                                                <option value="1800" title="">18:00</option>
+                                                                                <option value="1900" title="">19:00</option>
+                                                                                <option value="2000" title="">20:00</option>
+                                                                                <option value="2100" title="">21:00</option>
+                                                                                <option value="2200" title="">22:00</option>
+                                                                                <option value="2300" title="">23:00</option>
+                                                                            </select></span> </span>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="form-separator qs_flight_infos full_line_block patch clearfix fix-z-index-2">
+                                                            <span class="fields_holder_inlineblock add-inline-opt"><span class="select travel_adult top uicSelectIL"
+                                                                id="quse_travel_adult_id">
+                                                                <label class="normal" for="quse_travel_adult_id_input">
+                                                                    Travellers</label><select tabindex="38" uicerrorcls="error" title="" class="normal"
+                                                                        name="travel_adult" uicvalidator="null" id="quse_travel_adult_id_input"><option value="1"
+                                                                            selected="selected" title="">1</option>
+                                                                        <option value="2" title="">2</option>
+                                                                        <option value="3" title="">3</option>
+                                                                        <option value="4" title="">4</option>
+                                                                    </select></span> </span><span class="checkbox-holder"><span title="" class="checkbox check_nonstop left-holder uicCheckBoxIR"
+                                                                        id="quse_check_nonstop_id">
+                                                                        <input value="" tabindex="39" type="checkbox" class="normal" name="check_nonstop"
+                                                                            id="quse_check_nonstop_id_input" /><label class="normal" for="quse_check_nonstop_id_input">Direct
+                                                                                flights only</label></span> </span>
+                                                        </div>
+                                                        </form>
+                                                        <div class="full_line_block form-separator controls-panel fix-z-index-7 clearfix">
+                                                            <p class="elemwrap-left-half">
+                                                                <a class="more-qsearch-options" id="quse_advanced_search" href="javascript:void(0);"
+                                                                    tabindex="40">Advanced search</a>
+                                                            </p>
+                                                            <p class="form-button-wrapper-right">
+                                                                <button id="quse_air_best_fares_search" class="form-button fares-search-button" tabindex="41">
+                                                                    <strong><em>Best fares </em></strong>
+                                                                </button>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div id="hotel-quick-search-form" class="search-form autoComplete-hotel" style="display: none;
+                                                        overflow: visible;">
+                                                        <form id="quse_hotel_form" method="post" action="http://www.amadeus.net/plnext/meb/HotelAvailabilityGeneric.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                        style="display: none;">
+                                                        <input type="text" id="HOTEL_AREA" name="AREA" value="" />
+                                                        <input type="text" id="HOTEL_SORT_CRITERIA" name="SORT_CRITERIA" value="P" />
+                                                        <input type="text" id="HOTEL_MAX_HOTEL_PER_PAGE" name="MAX_HOTEL_PER_PAGE" value="15" />
+                                                        <input type="text" id="HOTEL_NUMBER_OF_HOTELS" name="NUMBER_OF_HOTELS" value="-1" />
+                                                        <input type="text" id="HOTEL_STATE_CODE" name="STATE_CODE" value="" />
+                                                        <input type="text" id="HOTEL_STATE_NAME" name="STATE_NAME" value="" />
+                                                        <input type="text" id="HOTEL_POI_NAME" name="POI_NAME" value="" />
+                                                        <input type="text" id="HOTEL_STREET_ADDRESS" name="STREET_ADDRESS" value="" />
+                                                        <input type="text" id="HOTEL_DISTANCE_UNIT" name="DISTANCE_UNIT" value="K" />
+                                                        <input type="text" id="HOTEL_DISTANCE_VALUE" name="DISTANCE_VALUE" value="" />
+                                                        <input type="text" id="HOTEL_ZIP_CODE" name="ZIP_CODE" value="" />
+                                                        <input type="text" id="HOTEL_USER_CURRENCY" name="USER_CURRENCY" value="" />
+                                                        <input type="text" id="HOTEL_MAX_BUDGET" name="MAX_BUDGET" value="" />
+                                                        <input type="text" id="HOTEL_MIN_BUDGET" name="MIN_BUDGET" value="" />
+                                                        <input type="text" id="HOTEL_PLTG_FROMPAGE" name="PLTG_FROMPAGE" value="HOTS" />
+                                                        <input type="text" id="HOTEL_TimeHOT" name="TimeHOT" value="2359" />
+                                                        <input type="text" id="HOTEL_B_LOCATION" name="B_LOCATION" value="" />
+                                                        <input type="text" id="HOTEL_COUNTRY_CODE" name="COUNTRY_CODE" value="" />
+                                                        <input type="text" id="HOTEL_B_MONTH" name="B_MONTH" value="" />
+                                                        <input type="text" id="HOTEL_B_DAY" name="B_DAY" value="" />
+                                                        <input type="text" id="HOTEL_B_DATE" name="B_DATE" value="" />
+                                                        <input type="text" id="HOTEL_backB_DATE" name="backB_DATE" value="" />
+                                                        <input type="text" id="HOTEL_E_MONTH" name="E_MONTH" value="" />
+                                                        <input type="text" id="HOTEL_E_DAY" name="E_DAY" value="" />
+                                                        <input type="text" id="HOTEL_E_DATE" name="E_DATE" value="" />
+                                                        <input type="text" id="HOTEL_backE_DATE" name="backE_DATE" value="" />
+                                                        <input type="text" id="HOTEL_OCCUPANCY" name="OCCUPANCY" value="" />
+                                                        </form>
+                                                        <form id="quse_hotel_user_input">
+                                                        <fieldset class="full_line_block fix-z-index hotel_location_block form-separator">
+                                                            <span title="" class="textField hotel_location left hotel_location top fields_holder_block fix-z-index uicAutoCompleteIL"
+                                                                _errortext="Please provide us with a departure city or airport code. (10004)"
+                                                                id="quse_hotel_location_id">
+                                                                <label class="normal" for="quse_hotel_location_id_input">
+                                                                    Hotel location</label><input value="" tabindex="42" uicerrorcls="error" type="text"
+                                                                        class="normal" name="hotel_location" id="quse_hotel_location_id_input" uicvalidator="null" /></span><div
+                                                                            class="ACRes hotel_locationRes" id="quse_hotel_location_id_data">
+                                                                        </div>
+                                                        </fieldset>
+                                                        <div class="full_line_block">
+                                                            <fieldset class="inline_block hotel_date_panel fix-z-index">
+                                                                <span class="fields_holder_inlineblock fix-z-index-1"><span title="" class="datePicker hotel_check_in hotel_check_in top hotel_calendar block-label  uicDatePickerIL"
+                                                                    id="quse_hotel_check_in_id"><span id="quse_hotel_check_in_id_textfield">
+                                                                        <label class="normal" for="quse_hotel_check_in_id_input">
+                                                                            Check-in date</label><input value="18/11/2011" type="text" class="normal" name="hotel_check_in"
+                                                                                id="quse_hotel_check_in_id_input" /></span>
+                                                                    <button tabindex="43" type="button" class="datePickerImage">
+                                                                                    <span>???null???</span></button></span><div class="calendarHolder hotel_check_in top hotel_calendar block-label"
+                                                                                        id="quse_hotel_check_in_id_calendar">
+                                                                                        <div class="calendarBody">
+                                                                                        </div>
+                                                                                    </div>
+                                                                </span><span class="fields_holder_inlineblock block-label fix-z-index-1"><span title=""
+                                                                    class="datePicker hotel_check_out hotel_check_out top hotel_calendar block-label  uicDatePickerIL"
+                                                                    id="quse_hotel_check_out_id"><span id="quse_hotel_check_out_id_textfield">
+                                                                        <label class="normal" for="quse_hotel_check_out_id_input">
+                                                                            Check-out date</label><input value="18/11/2011" type="text" class="normal" name="hotel_check_out"
+                                                                                id="quse_hotel_check_out_id_input" /></span>
+                                                                    <button tabindex="44" type="button" class="datePickerImage">
+                                                                                    <span>???null???</span></button></span><div class="calendarHolder hotel_check_out top hotel_calendar block-label"
+                                                                                        id="quse_hotel_check_out_id_calendar">
+                                                                                        <div class="calendarBody">
+                                                                                        </div>
+                                                                                    </div>
+                                                                </span><span class="fields_holder_inlineblock night_count_part">
+                                                                    <div class="textField top uicTextFieldBT hotel_night" id="quse_hotel_night_id">
+                                                                        <label class="error" for="quse_hotel_night_id_input">
+                                                                            Night(s)</label><br />
+                                                                        <input value="1" tabindex="45" uicerrorcls="error" type="text" class="error" name="hotel_night"
+                                                                            uicvalidator="REGEXP:NUM&GREATERTHAN:0" id="quse_hotel_night_id_input" /></div>
+                                                                </span>
+                                                            </fieldset>
+                                                        </div>
+                                                        <fieldset class="full_line_block  hotel_options form-separator clearfix fix-z-index-2">
+                                                            <span class="add-inline-opt"><span class="select hotel_number_guest top uicSelectIL"
+                                                                id="quse_hotel_number_guest_id">
+                                                                <label class="normal" for="quse_hotel_number_guest_id_input">
+                                                                    Number of guests</label><select tabindex="46" uicerrorcls="error" title="" class="normal"
+                                                                        name="hotel_number_guest" uicvalidator="null" id="quse_hotel_number_guest_id_input"><option
+                                                                            value="1" selected="selected" title="">1</option>
+                                                                        <option value="2" title="">2</option>
+                                                                        <option value="3" title="">3</option>
+                                                                        <option value="4" title="">4</option>
+                                                                        <option value="5" title="">5</option>
+                                                                        <option value="6" title="">6</option>
+                                                                        <option value="7" title="">7</option>
+                                                                        <option value="8" title="">8</option>
+                                                                    </select></span> </span>
+                                                        </fieldset>
+                                                        </form>
+                                                        <div class="full_line_block form-separator controls-panel fix-z-index-7 clearfix">
+                                                            <p class="elemwrap-left-half">
+                                                                <a class="more-qsearch-options" href="http://www.amadeus.net/plnext/meb/HotelSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                                    tabindex="47">Advanced search </a>
+                                                            </p>
+                                                            <p class="form-button-wrapper-right">
+                                                                <button id="quse_hotel_best_fares_search" class="form-button hotel-search-button"
+                                                                    tabindex="48">
+                                                                    <strong><em>Best rates </em></strong>
+                                                                </button>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div id="car-quick-search-form" class="search-form autoComplete-car" style="display: none;
+                                                        overflow: visible;">
+                                                        <form id="quse_car_form" method="post" action="http://www.amadeus.net/plnext/meb/CarAvailability.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                        style="display: none;">
+                                                        <input type="text" id="CAR_PLTG_FROMPAGE" name="PLTG_FROMPAGE" value="CARSEARCH" />
+                                                        <input type="text" id="CAR_B_CTY_APT_OPTION" name="B_CTY_APT_OPTION" value="false" />
+                                                        <input type="text" id="CAR_E_CTY_APT_OPTION" name="E_CTY_APT_OPTION" value="false" />
+                                                        <input type="text" id="CAR_MAIN_SORT_CRITERIA" name="MAIN_SORT_CRITERIA" value="CN" />
+                                                        <input type="text" id="CAR_SECOND_SORT_CRITERIA" name="SECOND_SORT_CRITERIA" value="AR" />
+                                                        <input type="text" id="CAR_PLTG_REFINE_YOUR_SEARCH" name="PLTG_REFINE_YOUR_SEARCH"
+                                                            value="0" />
+                                                        <input type="text" id="CAR_LIST_COMPANY" name="LIST_COMPANY" value="" />
+                                                        <input type="text" id="CAR_LIST_COMPANY" name="LIST_COMPANY" value="" />
+                                                        <input type="text" id="CAR_LIST_COMPANY" name="LIST_COMPANY" value="" />
+                                                        <input type="text" id="CAR_CLASS" name="CLASS" value="*" />
+                                                        <input type="text" id="CAR_TYPE" name="TYPE" value="*" />
+                                                        <input type="text" id="CAR_TRANSMISSION" name="TRANSMISSION" value="*" />
+                                                        <input type="text" id="CAR_AIR_CONDITIONING" name="AIR_CONDITIONING" value="*" />
+                                                        <input type="text" id="CAR_DISPLAY_TYPE" name="DISPLAY_TYPE" value="K" />
+                                                        <input type="text" id="CAR_UNLIMITED_MILEAGE" name="UNLIMITED_MILEAGE" value="L" />
+                                                        <input type="text" id="CAR_B_LOCATION" name="B_LOCATION" value="" />
+                                                        <input type="text" id="CAR_E_LOCATION" name="E_LOCATION" value="" />
+                                                        <input type="text" id="CAR_B_MONTH" name="B_MONTH" value="" />
+                                                        <input type="text" id="CAR_B_DAY" name="B_DAY" value="" />
+                                                        <input type="text" id="CAR_B_DATE" name="B_DATE" value="" />
+                                                        <input type="text" id="CAR_backB_DATE" name="backB_DATE" value="" />
+                                                        <input type="text" id="CAR_E_MONTH" name="E_MONTH" value="" />
+                                                        <input type="text" id="CAR_E_DAY" name="E_DAY" value="" />
+                                                        <input type="text" id="CAR_E_DATE" name="E_DATE" value="" />
+                                                        <input type="text" id="CAR_backE_DATE" name="backE_DATE" value="" />
+                                                        <input type="text" id="CAR_Month1" name="Month1" value="" />
+                                                        <input type="text" id="CAR_Day1" name="Day1" value="" />
+                                                        <input type="text" id="CAR_Month2" name="Month2" value="" />
+                                                        <input type="text" id="CAR_Day2" name="Day2" value="" />
+                                                        <input type="text" id="CAR_B_Time" name="B_Time" value="" />
+                                                        <input type="text" id="CAR_E_Time" name="E_Time" value="" />
+                                                        <input type="text" id="CAR_PLTG_DROPOFF_DIFF_PICKUP" name="PLTG_DROPOFF_DIFF_PICKUP"
+                                                            value="1" />
+                                                        <input type="text" id="CAR_PLTG_DISPLAY_DROPOFF" name="PLTG_DISPLAY_DROPOFF" value="on" />
+                                                        </form>
+                                                        <fieldset class="full_line_block drop_off_option">
+                                                            <legend class="hidden"><b>Drop-off:</b></legend>
+                                                            <ul class="radio_list_inline radio_list_drop_off">
+                                                                <li class="drop_off_title">Drop-off: </li>
+                                                                <li id="same_location">
+                                                                    <input type="radio" name="quse_dropoff_type" value="same" id="quse_radio_dropoff_same"
+                                                                        checked="checked" tabindex="49" />
+                                                                    <label for="quse_radio_dropoff_same">
+                                                                        Same location</label>
+                                                                </li>
+                                                                <li id="different_location">
+                                                                    <input type="radio" name="quse_dropoff_type" value="diff" id="quse_radio_dropoff_different"
+                                                                        tabindex="50" />
+                                                                    <label for="quse_radio_dropoff_different">
+                                                                        Different location</label>
+                                                                </li>
+                                                            </ul>
+                                                        </fieldset>
+                                                        <form id="quse_car_user_input">
+                                                        <div class="full_line_block form-separator">
+                                                            <fieldset class="inline_block fix-z-index">
+                                                                <span title="" class="textField car_pick_up_location left car_pick_up_location top fields_holder_block fix-z-index uicAutoCompleteIL"
+                                                                    _errortext="Please provide us with a departure city or airport code. (10004)"
+                                                                    id="quse_car_pick_up_location_id">
+                                                                    <label class="normal" for="quse_car_pick_up_location_id_input">
+                                                                        Pick-up location</label><input value="" tabindex="51" uicerrorcls="error" type="text"
+                                                                            class="normal" name="car_pick_up_location" id="quse_car_pick_up_location_id_input"
+                                                                            uicvalidator="null" /></span><div class="ACRes car_pick_up_locationRes" id="quse_car_pick_up_location_id_data">
+                                                                            </div>
+                                                                <span class="fields_holder_inline fix-z-index-1"><span title="" class="datePicker pick_up_date pick_up_date top car_calendar  uicDatePickerIL"
+                                                                    id="quse_pick_up_date_id"><span id="quse_pick_up_date_id_textfield">
+                                                                        <label class="normal" for="quse_pick_up_date_id_input">
+                                                                            Pick-up date</label><input value="18/11/2011" type="text" class="normal" name="pick_up_date"
+                                                                                id="quse_pick_up_date_id_input" /></span>
+                                                                    <button tabindex="53" type="button" class="datePickerImage">
+                                                                                    <span>???null???</span></button></span><div class="calendarHolder pick_up_date top car_calendar"
+                                                                                        id="quse_pick_up_date_id_calendar">
+                                                                                        <div class="calendarBody">
+                                                                                        </div>
+                                                                                    </div>
+                                                                </span><span class="fields_holder_inline time_select patch-block fix-z-index-1"><span
+                                                                    class="select pick_up_time time_select top uicSelectIL" id="quse_pick_up_time_id">
+                                                                    <label class="normal" for="quse_pick_up_time_id_input">
+                                                                        Time</label><select tabindex="54" uicerrorcls="error" title="" class="normal" name="pick_up_time"
+                                                                            uicvalidator="null" id="quse_pick_up_time_id_input"><option value="ANY" title="">Any
+                                                                                Time</option>
+                                                                            <option value="0000" title="">00:00</option>
+                                                                            <option value="0100" title="">01:00</option>
+                                                                            <option value="0200" title="">02:00</option>
+                                                                            <option value="0300" title="">03:00</option>
+                                                                            <option value="0400" title="">04:00</option>
+                                                                            <option value="0500" title="">05:00</option>
+                                                                            <option value="0600" title="">06:00</option>
+                                                                            <option value="0700" title="">07:00</option>
+                                                                            <option value="0800" title="">08:00</option>
+                                                                            <option value="0900" title="">09:00</option>
+                                                                            <option value="1000" title="">10:00</option>
+                                                                            <option value="1100" title="">11:00</option>
+                                                                            <option value="1200" title="">12:00</option>
+                                                                            <option value="1300" title="">13:00</option>
+                                                                            <option value="1400" title="">14:00</option>
+                                                                            <option value="1500" title="">15:00</option>
+                                                                            <option value="1600" title="">16:00</option>
+                                                                            <option value="1700" title="">17:00</option>
+                                                                            <option value="1800" title="">18:00</option>
+                                                                            <option value="1900" title="">19:00</option>
+                                                                            <option value="2000" title="">20:00</option>
+                                                                            <option value="2100" title="">21:00</option>
+                                                                            <option value="2200" title="">22:00</option>
+                                                                            <option value="2300" title="">23:00</option>
+                                                                        </select></span> </span>
+                                                            </fieldset>
+                                                            <fieldset class="inline_block fix-z-index-1">
+                                                                <span title="" class="textField car_drop_off_location left car_drop_off_location top fields_holder_block hidden fix-z-index-1 uicAutoCompleteIL"
+                                                                    _errortext="Please provide us with a departure city or airport code. (10004)"
+                                                                    id="quse_car_drop_off_location_id">
+                                                                    <label class="normal" for="quse_car_drop_off_location_id_input">
+                                                                        Drop-off location</label><input value="" tabindex="52" uicerrorcls="error" type="text"
+                                                                            class="normal" name="car_drop_off_location" id="quse_car_drop_off_location_id_input"
+                                                                            uicvalidator="null" /></span><div class="ACRes car_drop_off_locationRes" id="quse_car_drop_off_location_id_data">
+                                                                            </div>
+                                                                <span class="fields_holder_inline fix-z-index-1"><span title="" class="datePicker drop_off_date drop_off_date top car_calendar  uicDatePickerIL"
+                                                                    id="quse_drop_off_date_id"><span id="quse_drop_off_date_id_textfield">
+                                                                        <label class="normal" for="quse_drop_off_date_id_input">
+                                                                            Drop-off date</label><input value="18/11/2011" type="text" class="normal" name="drop_off_date"
+                                                                                id="quse_drop_off_date_id_input" /></span>
+                                                                    <button tabindex="54" type="button" class="datePickerImage">
+                                                                                    <span>???null???</span></button></span><div class="calendarHolder drop_off_date top car_calendar"
+                                                                                        id="quse_drop_off_date_id_calendar">
+                                                                                        <div class="calendarBody">
+                                                                                        </div>
+                                                                                    </div>
+                                                                </span><span class="fields_holder_inline time_select patch-block"><span class="select drop_off_time time_select top uicSelectIL"
+                                                                    id="quse_drop_off_time_id">
+                                                                    <label class="normal" for="quse_drop_off_time_id_input">
+                                                                        Time</label><select tabindex="55" uicerrorcls="error" title="" class="normal" name="drop_off_time"
+                                                                            uicvalidator="null" id="quse_drop_off_time_id_input"><option value="ANY" title="">Any
+                                                                                Time</option>
+                                                                            <option value="0000" title="">00:00</option>
+                                                                            <option value="0100" title="">01:00</option>
+                                                                            <option value="0200" title="">02:00</option>
+                                                                            <option value="0300" title="">03:00</option>
+                                                                            <option value="0400" title="">04:00</option>
+                                                                            <option value="0500" title="">05:00</option>
+                                                                            <option value="0600" title="">06:00</option>
+                                                                            <option value="0700" title="">07:00</option>
+                                                                            <option value="0800" title="">08:00</option>
+                                                                            <option value="0900" title="">09:00</option>
+                                                                            <option value="1000" title="">10:00</option>
+                                                                            <option value="1100" title="">11:00</option>
+                                                                            <option value="1200" title="">12:00</option>
+                                                                            <option value="1300" title="">13:00</option>
+                                                                            <option value="1400" title="">14:00</option>
+                                                                            <option value="1500" title="">15:00</option>
+                                                                            <option value="1600" title="">16:00</option>
+                                                                            <option value="1700" title="">17:00</option>
+                                                                            <option value="1800" title="">18:00</option>
+                                                                            <option value="1900" title="">19:00</option>
+                                                                            <option value="2000" title="">20:00</option>
+                                                                            <option value="2100" title="">21:00</option>
+                                                                            <option value="2200" title="">22:00</option>
+                                                                            <option value="2300" title="">23:00</option>
+                                                                        </select></span> </span>
+                                                            </fieldset>
+                                                        </div>
+                                                        </form>
+                                                        <div class="full_line_block form-separator controls-panel fix-z-index-7 clearfix">
+                                                            <p class="elemwrap-left-half">
+                                                                <a class="more-qsearch-options" href="http://www.amadeus.net/plnext/meb/CarSearch.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                                    tabindex="55">Advanced search </a>
+                                                            </p>
+                                                            <p class="form-button-wrapper-right">
+                                                                <button id="quse_car_best_fares_search" class="form-button car-search-button" tabindex="56">
+                                                                    <strong><em>Best rates </em></strong>
+                                                                </button>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <script type="text/javascript">c._begRegSec('quse','');c.loader.loadFW('TextField','TextField',uic.factory,['quse',['quse_hotel_night_id']]);c.loader.loadFW('CheckBox','CheckBox',uic.factory,['quse',['quse_check_nonstop_id']]);c.loader.loadFW('Select','Select',uic.factory,['quse',['quse_time_from_id','quse_time_to_id','quse_travel_adult_id','quse_hotel_number_guest_id','quse_pick_up_time_id','quse_drop_off_time_id']]);c.loader.loadFW('DatePicker','DatePicker',uic.factory,['quse',[{id:'quse_date_to_id', tid:'quse_date_to_id', cid:'quse_date_to_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}},{id:'quse_drop_off_date_id', tid:'quse_drop_off_date_id', cid:'quse_drop_off_date_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}},{id:'quse_hotel_check_in_id', tid:'quse_hotel_check_in_id', cid:'quse_hotel_check_in_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}},{id:'quse_date_from_id', tid:'quse_date_from_id', cid:'quse_date_from_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}},{id:'quse_pick_up_date_id', tid:'quse_pick_up_date_id', cid:'quse_pick_up_date_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}},{id:'quse_hotel_check_out_id', tid:'quse_hotel_check_out_id', cid:'quse_hotel_check_out_id_calendar', openOnTF:true, conf:{pages:2, START_WEEKDAY:0, _default:'11/18/2011', mindate:'11/18/2011', maxdate:'09/18/2012', pagedate:'11/2011', datePattern:'dd/MM/yyyy', entryPattern:'', MULTI_SELECT:'false', SHOW_WEEKDAYS:'true', LOCALE_WEEKDAYS:'1char', LOCALE_MONTHS:'long'}}]]);c.loader.loadFW('AutoComplete','AutoComplete',uic.factory,['quse',[{id:'quse_car_pick_up_location_id', dataSrc:'HOTEL', parser:'HOTEL', input:'quse_car_pick_up_location_id_input', lngdpt:true, maxresults:15, div:'quse_car_pick_up_location_id_data'},{id:'quse_car_drop_off_location_id', dataSrc:'HOTEL', parser:'HOTEL', input:'quse_car_drop_off_location_id_input', lngdpt:true, maxresults:15, div:'quse_car_drop_off_location_id_data'},{id:'quse_to_id', dataSrc:'AIR', parser:'AIR', input:'quse_to_id_input', lngdpt:true, maxresults:15, div:'quse_to_id_data'},{id:'quse_hotel_location_id', dataSrc:'HOTEL', parser:'HOTEL', input:'quse_hotel_location_id_input', lngdpt:true, maxresults:15, div:'quse_hotel_location_id_data'},{id:'quse_from_id', dataSrc:'AIR', parser:'AIR', input:'quse_from_id_input', lngdpt:true, maxresults:15, div:'quse_from_id_data'}]]);c.loader.loadFW('Check','Check',uic.factory,['quse',['quse_hotel_night_id']]);c._endRegSec('quse','');</script>
+
+                                    </div>
+                                    <div class="decl">
+                                        <form id="decl_form" action="http://www.amadeus.net/plnext/meb/AJAXDestinationCloud.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                        method="POST" style="display: none;">
+                                        <input type="hidden" id="decl_type" name="TYPE" value="" />
+                                        </form>
+                                        <div id="destination-cloud-wrapper" class="fix-z-index-5">
+                                            <div class="clearfix" id="destination-cloud">
+                                                <div id="destination-cloud-header">
+                                                    <h2>
+                                                        <strong>Top</strong> destinations</h2>
+                                                    <p id="destination-title-note">
+                                                        Fill in your search form with one of the top destinations in one click !
+                                                    </p>
+                                                </div>
+                                                <div id="destination-cloud-content">
+                                                    <ul class="button-tabs clearfix" id="destination-cloud-tabs">
+                                                        <li id="decl_flight_label" class="cloud_flight_tab"><a href="#"><strong><em>Flights</em></strong></a>
+                                                        </li>
+                                                        <li id="decl_hotel_label" class="cloud_hotel_tab"><a href="#"><strong><em>Hotels</em></strong></a>
+                                                        </li>
+                                                        <li id="decl_car_label" class="cloud_car_tab"><a href="#"><strong><em>Cars</em></strong></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div id="tag-cloud-wrapper" class="tag-cloud-wrapper clearfix" style="display: none;">
+                                                        <div id="tag-cloud" class="tag-cloud clearfix">
+                                                            <p id="tag-cloud-links-wrapper">
+                                                                <div id="air_cloud_content" style="display: none;">
+                                                                    <div class="uicLoading">
+                                                                        <div class="vertical">
+                                                                            &nbsp;</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="hotel_cloud_content" style="display: none;">
+                                                                    <div class="uicLoading">
+                                                                        <div class="vertical">
+                                                                            &nbsp;</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="car_cloud_content" style="display: none;">
+                                                                    <div class="uicLoading">
+                                                                        <div class="vertical">
+                                                                            &nbsp;</div>
+                                                                    </div>
+                                                                </div>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <script type="text/javascript">c._begRegSec('decl','');c._endRegSec('decl','');</script>
+
+                                    </div>
+                                </div>
+                                <div class="second-content-col fix-z-index-2">
+                                    <div id="welcome-block-wrapper" class="fix-z-index-1">
+                                        <div id="welcome-block">
+                                            <p id="welcome-slogan-content" style="display: none;">
+                                                Search. Find. Travel.
+                                            </p>
+                                            <p id="welcome-slogan">
+                                                <strong id="search-slogan" class="slogan-part">&nbsp; </strong><strong id="find-slogan"
+                                                    class="slogan-part">&nbsp; </strong><strong id="travel-slogan" class="slogan-part">&nbsp;
+                                                    </strong>
+                                            </p>
+                                            <p id="welcome-text">
+                                                Your point of departure for journey planning
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slideshow">
+                                        <div id="slideshow-wrapper">
+                                            <div id="slideshow" class="slideshow">
+                                                <div id="slideshow_slider" class="slideshow-content">
+                                                    <div class="contentdiv" id="intro-slide">
+                                                    </div>
+                                                    <div class="contentdiv" id="main-slide">
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/slideshow-intro-img.gif" />
+                                                        <p class="links">
+                                                            <a href="javascript:void(0)" id="flight-link">Flights</a> <a href="javascript:void(0)"
+                                                                id="hotel-link">Hotels</a> <a href="javascript:void(0)" id="car-link">Cars</a>
+                                                        </p>
+                                                        <p class="links">
+                                                            <a href="javascript:void(0)" id="triptools-link">Trip tools</a> <a href="javascript:void(0)"
+                                                                id="ae-link">Activities</a>
+                                                        </p>
+                                                        <p>
+                                                            A <em>trip planning site</em> which empowers travellers with unique flight, car
+                                                            and hotel information. Take a decision on all parts of your trip by searching for
+                                                            flight timetables, seat availability and best fares. You can search direct from
+                                                            the homepage or go to each individual item by using the menu at the top of the page.
+                                                        </p>
+                                                    </div>
+                                                    <div class="contentdiv" id="flight-slide">
+                                                        <h3>
+                                                            Discover <strong>Amadeus.net</strong></h3>
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/flight-screen-01.gif" />
+                                                        <h4>
+                                                            Flights</h4>
+                                                        <p>
+                                                            We have plenty of information on flights, routes and airlines. You can search for
+                                                            availability, best fares, flight times and flight status.
+                                                        </p>
+                                                    </div>
+                                                    <div class="contentdiv" id="hotel-slide">
+                                                        <h3>
+                                                            Discover <strong>Amadeus.net</strong></h3>
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/hotel-screen-01.gif" />
+                                                        <h4>
+                                                            Hotels</h4>
+                                                        <p>
+                                                            Search for hotel availability and best prices. View hotel photos and decryptions,
+                                                            prices and locations. You can compare hotel prices and locations with our <em>hotel
+                                                                map</em> functionality.
+                                                        </p>
+                                                    </div>
+                                                    <div class="contentdiv" id="car-slide">
+                                                        <h3>
+                                                            Discover <strong>Amadeus.net</strong></h3>
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/car-screen-01.gif" />
+                                                        <h4>
+                                                            Cars</h4>
+                                                        <p>
+                                                            Search for car rental availability and best prices among multiple car rental providers.
+                                                            With thousands of pick-up and drop-off locations to choose from you are sure to
+                                                            find the car and location that suits you best.
+                                                        </p>
+                                                    </div>
+                                                    <div class="contentdiv" id="triptools-slide">
+                                                        <h3>
+                                                            Discover <strong>Amadeus.net</strong></h3>
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/tt-screen-01.gif" />
+                                                        <h4>
+                                                            Trip tools</h4>
+                                                        <p>
+                                                            Our set of tools provide you with most useful and up to date travel information
+                                                            available: <em>Airport Guides</em>, <em>Currency converter</em>, <em>Conversions</em>,
+                                                            <em>Destination Guides</em>, <em>Driving Directions</em>, <em>Maps and Subway Maps</em>,
+                                                            <em>Weather</em>, <em>World dialing codes</em> and <em>World time</em> and more.
+                                                        </p>
+                                                    </div>
+                                                    <div class="contentdiv" id="ae-slide">
+                                                        <h3>
+                                                            Discover <strong>Amadeus.net</strong></h3>
+                                                        <img src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/homepage/slideshow/ae-screen-01.gif" />
+                                                        <h4>
+                                                            Activities & Entertainement</h4>
+                                                        <p>
+                                                            Make the most out of your travel by searching and booking activities while preparing
+                                                            your trip.
+                                                            <p>
+                                                                Activities and entertainment provide you with tickets for: <strong>concerts</strong>,
+                                                                <strong>Musicals & Shows</strong>, <strong>Museums & Expositions</strong>, Sightseeing
+                                                                Tours, Attraction Parks, <strong>Sport Events</strong>, Golf Breaks, <strong>Shopping</strong>,
+                                                                Restaurants, and much more ...</p>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div id="paginate-slideshow_slider" class="slideshow-controls clearfix">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <script type="text/javascript">c._begRegSec('slideshow','');c._endRegSec('slideshow','');</script>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content-secondary">
+                    <div id="stack-content-wrap">
+                        <div id="top-stack-content-wrap" class="clearfix">
+                            <div class="quli">
+                                <div id="quick-links-block" class="container-flexible">
+                                    <div class="container-flexible-header">
+                                        <h2 id="quick-link-title" style="display: none;" class="container-flexible-header">
+                                            <strong>Amadeus Ideas</strong></h2>
+                                    </div>
+                                    <div class="container-flexible-wrapper">
+                                        <div class="container-flexible-body clearfix">
+                                            <ul id="quick-links" class="clearfix">
+                                                <li id="lab-link" class="quick-link"><a class="new-window" href="http://www.ideas.amadeus.com"
+                                                    target="_blank"><strong>Amadeus Ideas </strong>Check out new features at our experimental
+                                                    lab<em>&nbsp;</em> </a></li>
+                                                <!-- li id="blog-link" class="quick-link">
+<a class="new-window" href="http://amadeusnet.wordpress.com" target="_blank">
+<strong>
+Amadeus.net blog
+</strong>
+Stay updated with our latest news !
+</a>
+</li  -->
+                                            </ul>
+                                            <p id="social-bookmarks">
+                                                <a class="s ocial-bookmark bm-item delicious" tabindex="57" href="http://del.icio.us/post?url=http://www.amadeus.net&amp;title=Amadeus.net+Your+Travel+Site"
+                                                    title="Bookmark amadeus.net on del.icio.us" /></a> <a class="social-bookmark bm-item digg"
+                                                        tabindex="58" href="http://digg.com/submit?phase=2&amp;url=http://www.amadeus.net&amp;title=Amadeus.net+Your+Travel+Site"
+                                                        title="Bookmark amadeus.net on Digg"></a><a class="social-bookmark bm-item furl"
+                                                            tabindex="59" href="http://furl.net/storeIt.jsp?t=Amadeus.net+Your+Travel+Site&amp;u=http://www.amadeus.net"
+                                                            title="Bookmark amadeus.net on Furl"></a><a class="social-bookmark bm-item netscape"
+                                                                tabindex="60" href="http://www.netscape.com/submit/?U=http://www.amadeus.net&amp;T=Amadeus.net+Your+Travel+Site"
+                                                                title="Bookmark amadeus.net on Netscape"></a><a class="social-bookmark bm-item yahoo_myweb"
+                                                                    tabindex="61" href="http://myweb2.search.yahoo.com/myresults/bookmarklet?u=http://www.amadeus.net&amp;t=Amadeus.net+Your+Travel+Site"
+                                                                    title="Bookmark amadeus.net on Yahoo! My Web"></a><a class="social-bookmark bm-item technorati"
+                                                                        tabindex="62" href="http://www.technorati.com/faves?add=http://www.amadeus.net"
+                                                                        title="Bookmark amadeus.net on Technorati"></a><a class="social-bookmark bm-item google_bmarks"
+                                                                            tabindex="63" href="http://www.google.com/bookmarks/mark?op=edit&amp;outputpopup&amp;bkmk=hhtp://www.amadeus.net&amp;title=Amadeus.net+Your+Travel+Site"
+                                                                            title="Bookmark amadeus.net on Google Bookmarks"></a>
+                                                <a class="social-bookmark bm-item newsvine" tabindex="64" href="http://www.newsvine.com/_wine/save?u=http://www.amadeus.net&amp;h=Amadeus.net+our+Travel+Site"
+                                                    title="Bookmark amadeus.net on Newsvine"></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <script type="text/javascript">c._begRegSec('quli','');c._endRegSec('quli','');</script>
+
+                            </div>
+                        </div>
+                        <div id="middle-stack-content-wrap">
+                            <div class="ae-banner-link-wrapper" onclick="javascript: window.location = 'http://uk.activities.amadeus.net';">
+                                <p id="tickets-bg" class="ae-banner-link">
+                                    <span>Activities <em>& </em><strong>Entertainment</strong></span> <a href="http://uk.activities.amadeus.net">
+                                        <strong>Explore &raquo;</strong> </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="bottom-stack-content-wrap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gl_footer">
+            <div id="footer-wrapper" class="clearfix">
+                <div id="footer" class="clearfix">
+                    <div id="footer-content-wrapper" class="clearfix">
+                        <div id="footer-content" class="clearfix" style="position: relative;">
+                            <div id="footer-content-body" class="clearfix">
+                                <div id="language-selection-block">
+                                    <p class="language-selection-label">
+                                        <strong>Select your language: </strong>
+                                    </p>
+                                    <input type="hidden" id="gl_footer_baseUrl" value="http://www.amadeus.net/plnext/meb/CleanUpSessionPui.action?SITE=BCEUBCEU&LANGUAGE=@language@" />
+                                    <ul class="language-selection">
+                                        <li value="FR"><a href="javascript:void(0);" tabindex="65">Fran&#231;ais</a> </li>
+                                        <li value="DE"><a href="javascript:void(0);" tabindex="66">Deutsch</a> </li>
+                                        <li value="DK"><a href="javascript:void(0);" tabindex="67">Dansk</a> </li>
+                                        <li value="ES"><a href="javascript:void(0);" tabindex="68">Espa&#241;ol</a> </li>
+                                        <li value="FI"><a href="javascript:void(0);" tabindex="69">Suomi</a> </li>
+                                        <li value="GB" class="selected"><a href="javascript:void(0);" tabindex="70">UK English</a>
+                                        </li>
+                                        <li value="IT"><a href="javascript:void(0);" tabindex="71">Italiano</a> </li>
+                                        <li value="NL"><a href="javascript:void(0);" tabindex="72">Nederlands</a> </li>
+                                        <li value="NO"><a href="javascript:void(0);" tabindex="73">Norsk</a> </li>
+                                        <li value="PO"><a href="javascript:void(0);" tabindex="74">Portugu&#234;s</a> </li>
+                                        <li value="SE"><a href="javascript:void(0);" tabindex="75">Svenska</a> </li>
+                                        <li value="US" class="last_language"><a href="javascript:void(0);" tabindex="76">US
+                                            English</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="links-wrapper clearfix">
+                                    <div class="links-content">
+                                        <ul class="secondary-bottom-menu">
+                                            <li><a id="gl_footer_link_home" href="http://www.amadeus.net/plnext/meb/HomePageDispatcher.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                tabindex="77">Home</a> </li>
+                                            <li><a id="gl_footer_link_about" href="http://www.amadeus.net/plnext/meb/AboutUs.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                tabindex="78">About us</a> </li>
+                                            <li><a id="gl_footer_link_faq" href="http://www.amadeus.net/plnext/meb/HelpFaq.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                tabindex="79">Help/FAQ</a> </li>
+                                            <li style="display: none;"><a id="gl_footer_link_sitemap" href="#" tabindex="80">Site
+                                                map</a> </li>
+                                        </ul>
+                                        <ul class="secondary-bottom-menu">
+                                            <li><a id="gl_footer_privacy" href="http://www.amadeus.net/plnext/meb/Privacy.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                tabindex="81">Privacy</a> </li>
+                                            <li><a id="gl_footer_legal_notice" href="http://www.amadeus.net/plnext/meb/LegalNotice.action?SITE=BCEUBCEU&LANGUAGE=GB"
+                                                tabindex="82">Legal notice</a> </li>
+                                            <li><a href="http://www.amadeus.com">www.amadeus.com</a></li>
+                                        </ul>
+                                    </div>
+                                    <p id="amadeus-brand">
+                                        <img id="amadeus-logo" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/logos/amadeus-logo.gif" />
+                                    </p>
+                                    <p id="copyright">
+                                        <a href="http://www.amadeus.com">&copy; 2011 Amadeus IT Group SA. All Rights Reserved
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">c._begRegSec('gl_footer','');c._endRegSec('gl_footer','');</script>
+
+        </div>
+
+        <script type="text/javascript"> 
+a.namespace('MEB.utilities.i18n.contact_us');
+MEB.utilities.i18n.contact_us.translate = function (category, key) {
+var keyToValue = {
+error : {
+INVALID_FIELD : "The following field is incorrect: " ,
+DEFAULT_MESSAGE: "We had a problem processing your e-mail. Please check the highlighted fields and try again.",
+CONNECTION_ERROR : "We had a problem processing your e-mail. Please check the highlighted fields and try again.",
+CLIENT_ERROR : "We had a problem processing your e-mail. Please check the highlighted fields and try again.",
+MAIL_BODY_ERROR: "Write your question or comment"
+},
+markup : {
+FATAL_ERROR_CLOSE_LINK : "Close"
+},
+notification : {
+SUCCESS_MSG : "Your e-mail has been successfully sent."
+}
+};
+var value = keyToValue[category][key] || '??? '+key+' ???';
+return value;
+};
+        </script>
+
+        <div id="contactus" style="display: none;">
+            <div class="hd">
+            </div>
+            <div class="bd">
+                <div class="cous">
+                    <div id="contact-us-block-wrapper">
+                        <div id="contact-us-block">
+                            <h2 class="panel-header ph-main-color">
+                                <strong>Contact us</strong>
+                            </h2>
+                            <div id="cous_confirmation_content" class="confirmation_content" style="display: none;">
+                                <p class="png">
+                                    Your e-mail has been successfully sent. <a id="cous_confirmation_close_link" href="#">
+                                        Close</a>
+                                </p>
+                            </div>
+                            <div id="cous_error_message_panel" class="error-message clearfix" style="display: none;">
+                                <p class="png">
+                                    We had a problem processing your e-mail. Please check the highlighted fields and
+                                    try again.
+                                </p>
+                            </div>
+                            <div id="cous_form_content" class="mail-form-holder">
+                                <div id="form_explanation" class="mail-form-text">
+                                    Please fill in the following form to send us your feedback or comments.
+                                </div>
+                                <div id="wrapper_contact_us" class="mail-form-content clearfix">
+                                    <input id="homepage_url_redirect" type="hidden" name="homepage_redirect" value="http://www.amadeus.net/plnext/meb/HomePageDispatcher.action?SITE=BCEUBCEU&LANGUAGE=GB" />
+                                    <form id="cous_contact_us_form" class="mail-form" method="post" action="http://www.amadeus.net/plnext/meb/MEBContactUsMail.action?SITE=BCEUBCEU&LANGUAGE=GB">
+                                    <input id="MAIL_FROM_PAGE" type="hidden" name="MAIL_FROM_PAGE" value="MAIL_FROM_PAGE" />
+                                    <input id="MAIL_CC" type="hidden" name="MAIL_CC" value="" />
+                                    <div class="formFieldBlock">
+                                        <div class="textField left uicTextFieldBL MAIL_NAME" id="cous_MAIL_NAME_id">
+                                            <label class="mandatory" for="cous_MAIL_NAME_id_input">
+                                                Your name:</label><input value="" tabindex="83" uicerrorcls="error" type="text" class="mandatory"
+                                                    name="MAIL_NAME" uicvalidator="REQ" id="cous_MAIL_NAME_id_input" /></div>
+                                        <div class="spacer">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div class="formFieldBlock">
+                                        <div class="textField left uicTextFieldBL MAIL_FROM" _errortext="Invalid email address"
+                                            id="cous_MAIL_FROM_id">
+                                            <label class="mandatory" for="cous_MAIL_FROM_id_input">
+                                                Your e-mail address:</label><input value="" tabindex="84" uicerrorcls="error" type="text"
+                                                    class="mandatory" name="MAIL_FROM" uicvalidator="REGEXP:EMAIL&REQ" id="cous_MAIL_FROM_id_input" /></div>
+                                        <div class="spacer">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div class="formFieldBlock">
+                                        <span class="select MAIL_SUBJECT uicSelectIL" _errortext="Please select a topic"
+                                            id="cous_MAIL_SUBJECT_id">
+                                            <label class="normal" for="cous_MAIL_SUBJECT_id_input">
+                                                Topic:</label><select tabindex="85" uicerrorcls="error" title="" class="normal" name="MAIL_SUBJECT"
+                                                    uicvalidator="null" id="cous_MAIL_SUBJECT_id_input"><option value="default_topic"
+                                                        selected="selected" title="">Please select a topic</option>
+                                                    <option value="MEB contact form: About us" title="">About us</option>
+                                                    <option value="MEB contact form: Advertise with us" title="">Advertise</option>
+                                                    <option value="MEB contact form: Help/FAQ" title="">Help/FAQ</option>
+                                                    <option value="MEB contact form: Privacy" title="">Privacy</option>
+                                                    <option value="MEB contact form: Legal notice" title="">Legal notice</option>
+                                                    <option value="MEB contact form: Misc questions" title="">Other</option>
+                                                </select></span>
+                                        <div class="spacer">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div class="formFieldBlock">
+                                        <div class="textArea MAIL_BODY left MAIL_BODY uicTextAreaBL" id="cous_MAIL_BODY_id">
+                                            <label class="mandatory" for="cous_MAIL_BODY_id_input">
+                                                Your question or comment:</label><textarea cols="35" rows="10" tabindex="86" uicerrorcls="error"
+                                                    class="mandatory" style="width: auto;" name="MAIL_BODY" uicvalidator="REQ" id="cous_MAIL_BODY_id_input"></textarea></div>
+                                        <div class="spacer">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div class="control-holder formFieldBlock contact_us_form_actions clearfix">
+                                        <button id="cous_close_link" tabindex="87" class="form-button form-common-button">
+                                            <strong><em>Cancel</em> </strong>
+                                        </button>
+                                        <button id="cous_submit" tabindex="88" class="form-button form-common-button mail-button">
+                                            <strong><em>Send</em> </strong>
+                                        </button>
+                                        <img id="cous_throbber" class="throbber" src="http://www.amadeus.net/plnext/default/MEB_V1.3_44_120411/static/apps/meb/img/global/contact_us/throbber.gif"
+                                            style="visibility: hidden;" />
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">c._begRegSec('cous','');c.loader.loadFW('TextField','TextField',uic.factory,['cous',['cous_MAIL_NAME_id','cous_MAIL_FROM_id']]);c.loader.loadFW('TextArea','TextArea',uic.factory,['cous',['cous_MAIL_BODY_id']]);c.loader.loadFW('Select','Select',uic.factory,['cous',['cous_MAIL_SUBJECT_id']]);c.loader.loadFW('Check','Check',uic.factory,['cous',['cous_MAIL_FROM_id']]);c._endRegSec('cous','');</script>
+
+                </div>
+            </div>
+            <div class="ft">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://www.amadeus.net/plnext/js/MEB_V1.3_44_120411/ui/homepage.js"></script>
+
+</body>
+</html>

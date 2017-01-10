@@ -1,0 +1,57 @@
+.ImgStar {
+	BACKGROUND-IMAGE: url(../img/holiday/star.gif)
+}
+.ImgHoliday {
+	BACKGROUND-IMAGE: url(../img/holiday/section_holiday.gif)
+}
+UL.headerSection LI.rgt A.btt {
+	BACKGROUND-IMAGE: url(../img/icon_arrow_up.gif)
+}
+.flight_title TH.dep {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_outbound.gif)
+}
+.flight_title TH.ret {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_inbound.gif)
+}
+#fare_wrn {
+	BACKGROUND-IMAGE: url(../img/holiday/warning.gif)
+}
+.purc_table TD.line_dots {
+	BACKGROUND-IMAGE: url(../img/lineDots.gif)
+}
+UL.headerSection LI#print {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_printer1.gif)
+}
+UL.headerSection LI#email {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_email1.gif)
+}
+UL.headerSection LI#print_footer {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_printer1.gif)
+}
+UL.headerSection LI#booking {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_newres.gif)
+}
+UL.headerSection LI#cancel {
+	BACKGROUND-IMAGE: url(../img/holiday/icon_cancelres.gif)
+}
+.headerSub LI#traveller {
+	BACKGROUND-IMAGE: url(../img/holiday/section_pax.gif)
+}
+.headerSub LI#flight {
+	BACKGROUND-IMAGE: url(../img/holiday/section_flight.gif)
+}
+.headerSub LI#car {
+	BACKGROUND-IMAGE: url(../img/search_cars.gif)
+}
+.headerSub LI#hotel {
+	BACKGROUND-IMAGE: url(../img/holiday/section_hotel.gif)
+}
+.meal {
+	BACKGROUND-IMAGE: url(../img/icon_meal.gif)
+}
+.planeChange {
+	BACKGROUND-IMAGE: url(../img/connection_flights.gif)
+}
+A#pu_pd_photo {
+	BACKGROUND-IMAGE: url(../img/icon_arrow.gif)
+}

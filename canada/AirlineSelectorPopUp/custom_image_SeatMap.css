@@ -1,0 +1,48 @@
+.tabPlane TD.plane {
+	BACKGROUND-IMAGE: url(../img/Plane.gif)
+}
+.ImgSeatOccupied {
+	BACKGROUND-IMAGE: url(../img/OccupiedSeat.gif)
+}
+.ImgSeatSelected {
+	BACKGROUND-IMAGE: url(../img/SelectedSeat.gif)
+}
+.ImgSeatAvailable {
+	BACKGROUND-IMAGE: url(../img/EmptySeat.gif)
+}
+.ImgToilet {
+	BACKGROUND-IMAGE: url(../img/Toilet.gif)
+}
+.tabSeatM TD.TitleStartWingsLeft {
+	BACKGROUND-IMAGE: url(../img/StartLeftWing.gif)
+}
+.tabSeatM TD.TitleEndWingsLeft {
+	BACKGROUND-IMAGE: url(../img/EndLeftWing.gif)
+}
+.tabSeatM TD.TitleStartWingsRight {
+	BACKGROUND-IMAGE: url(../img/StartRightWing.gif)
+}
+.tabSeatM TD.TitleEndWingsRight {
+	BACKGROUND-IMAGE: url(../img/EndRightWing.gif)
+}
+.tabSeatM TD.UnavailableSeat {
+	BACKGROUND-IMAGE: url(../img/OccupiedSeat.gif)
+}
+.tabSeatM DIV.SelectedSeat {
+	BACKGROUND-IMAGE: url(../img/SelectedSeat.gif)
+}
+.tabSeatM DIV.AvailableSeat {
+	BACKGROUND-IMAGE: url(../img/EmptySeat.gif)
+}
+.tabSeatM TD.Toilets {
+	BACKGROUND-IMAGE: url(../img/Toilet.gif)
+}
+.tabSeatM TD.LeftWall {
+	BACKGROUND-IMAGE: url(../img/LeftWall.gif)
+}
+.tabSeatM TD.RightWall {
+	BACKGROUND-IMAGE: url(../img/RightWall.gif)
+}
+.tabSeatM TD.ExitWall {
+	BACKGROUND-IMAGE: url(../img/ExitWall.gif)
+}

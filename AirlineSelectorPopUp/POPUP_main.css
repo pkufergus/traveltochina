@@ -1,0 +1,201 @@
+HTML {
+	HEIGHT: 100%; TEXT-ALIGN: left
+}
+BODY#popup {
+	HEIGHT: 100%; TEXT-ALIGN: left
+}
+#mainCont {
+	BORDER-RIGHT: #cc9 1px solid; MIN-HEIGHT: 100%; BORDER-LEFT: #cc9 1px solid; BACKGROUND-COLOR: #fff
+}
+* HTML #mainCont {
+	HEIGHT: 100%
+}
+.borderPurcCon {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; BORDER-LEFT: #b0ccd0 1px solid; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5
+}
+.tableFareBasis {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; BORDER-LEFT: #b0ccd0 1px solid; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5
+}
+.divPopUpScrollCurrency {
+	LEFT: 40px; MARGIN-BOTTOM: 15px; OVERFLOW: auto; WIDTH: 275px; MARGIN-RIGHT: 10px; HEIGHT: 270px
+}
+.divPopUpScrollCurrency3 {
+	LEFT: 40px; MARGIN-BOTTOM: 15px; OVERFLOW: auto; WIDTH: 275px; MARGIN-RIGHT: 10px; HEIGHT: 270px
+}
+.divPopUpScrollCurrency {
+	HEIGHT: 190px
+}
+UL.popUpMenu {
+	BORDER-RIGHT: #b0ccd0 1px solid; PADDING-RIGHT: 0px; LIST-STYLE: none none outside; BORDER-TOP: #b0ccd0 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #b0ccd0 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #b0ccd0 1px solid
+}
+.popUpMenu LI A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; WIDTH: auto! important; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+.popUpMenu LI A:hover {
+	BACKGROUND-COLOR: #f5f5f5
+}
+.popUpMenu LI.selected A {
+	BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.popUpMenu LI.selected A:hover {
+	BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.purchaseConditions {
+	FONT-SIZE: 100%; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+.tableFlightConf {
+	MARGIN-LEFT: 15px; WIDTH: 572px
+}
+.tableTrainConf {
+	MARGIN-LEFT: 15px; WIDTH: 572px
+}
+.tableFlightConf {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; BORDER-LEFT: #b0ccd0 1px solid; BORDER-BOTTOM: #b0ccd0 1px solid
+}
+.tableFlightConf TH {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5; TEXT-ALIGN: left
+}
+.tableTrainConf TH {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5; TEXT-ALIGN: left
+}
+.tableFlightConf TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: top; PADDING-TOP: 1px
+}
+.tableTrainConf TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: top; PADDING-TOP: 1px
+}
+.tableFlightConf TD.space {
+	HEIGHT: 10px
+}
+.tableHotelConf TD.space {
+	HEIGHT: 10px
+}
+.tableCarConf TD.space {
+	HEIGHT: 10px
+}
+.tableTrainConf TD.space {
+	HEIGHT: 10px
+}
+.tableGroundConf TD.space {
+	HEIGHT: 10px
+}
+.tableTourConf TD.space {
+	HEIGHT: 10px
+}
+.tableCruiseConf TD.space {
+	HEIGHT: 10px
+}
+.tableFlightConf TD.flight {
+	WIDTH: 17%
+}
+.tableFlightPerfInd {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-LEFT: 10px; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 5%; BORDER-BOTTOM: #b0ccd0 1px solid
+}
+.textRemarked {
+	COLOR: #ff9900; TEXT-ALIGN: center
+}
+.textFlightPerfInd {
+	TEXT-ALIGN: center
+}
+.divPopUpLookUp {
+	MARGIN-BOTTOM: 15px; OVERFLOW: auto; HEIGHT: 210px
+}
+.borderPurcCon TH {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left
+}
+.bgrdWhite {
+	BACKGROUND-COLOR: #ffffff
+}
+#mainCont {
+	BORDER-RIGHT: #cccc99 1px solid; MIN-HEIGHT: 100%; BORDER-LEFT: #cccc99 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#pop_head {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 120%; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px solid; LETTER-SPACING: 0.05em; BACKGROUND-COLOR: #e8f0f1
+}
+#footer {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: -35px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; POSITION: relative; HEIGHT: 18px! important; BACKGROUND-COLOR: #ffffff
+}
+#pop_head A {
+	FONT-WEIGHT: bold; FLOAT: right; LETTER-SPACING: 0em
+}
+#footer A {
+	FONT-WEIGHT: bold; FLOAT: right; LETTER-SPACING: 0em
+}
+#pop_head A {
+	FONT-SIZE: 80%
+}
+#pop_body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#scrollHotelDetails {
+	OVERFLOW: auto
+}
+#scrollPurcCond {
+	OVERFLOW: auto
+}
+#scrollPriceVar {
+	OVERFLOW: auto
+}
+#scrollCarExample {
+	OVERFLOW: auto
+}
+#scrollLocationDetails {
+	OVERFLOW: auto
+}
+#scrollPriceDetails {
+	OVERFLOW: auto
+}
+#scrollInariPackDetails {
+	OVERFLOW: auto
+}
+#scrollPurcCond {
+	HEIGHT: 422px
+}
+.tableInfoTextPU {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-LEFT: 25px; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 90%; BORDER-BOTTOM: #b0ccd0 1px solid; BACKGROUND-COLOR: #f5f5f5
+}
+.tableInfoTextPU TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.divRecap {
+	FLOAT: left
+}
+.tableRecapWide {
+	MARGIN-LEFT: 25px
+}
+#popup .tableRecapWide {
+	MARGIN: 0pt 0pt 10px
+}
+.tableRecap TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.tableRecapWide TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.tablePopUp TD.spacer2 {
+	HEIGHT: 5px
+}
+.tableFlightConf TD.border {
+	PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px dotted; PADDING-LEFT: 120px; PADDING-BOTTOM: 0px; COLOR: #6a7b80; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+.textChangeAirport {
+	PADDING-TOP: 0.15em
+}
+.textChangeAirportTextBold {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.tableFlightPerfInd {
+	BORDER-RIGHT: #b0ccd0 1px solid; BORDER-TOP: #b0ccd0 1px solid; MARGIN-LEFT: 10px; BORDER-LEFT: #b0ccd0 1px solid; WIDTH: 5%; BORDER-BOTTOM: #b0ccd0 1px solid
+}
+.textRemarked {
+	COLOR: #ff9900; TEXT-ALIGN: center
+}
+.textFlightPerfInd {
+	TEXT-ALIGN: center
+}
+.ydlg-dlg-body {
+	POSITION: absolute
+}
+.areaComments {
+	WIDTH: 95%; resize: none
+}
