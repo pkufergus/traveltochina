@@ -2,9 +2,9 @@
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" lang="zh" xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>纽约至上海特价机票,纽约至上海特价机票-美中机票网,北美华人购买机票首选网站</title>
+<title>纽约至上海特价机票，纽约至上海航班时刻表</title>
 <meta name="Description" content="www.e-traveltochina.com （美中机票网）以批发价格提供纽约至上海特价机票" />
- <meta name="Keywords" content="纽约至上海特价机票,纽约至上海特价机票-美中机票网,北美华人购买机票首选网站 />
+ <meta name="Keywords" content="纽约至上海特价机票,纽约至上海特价机票-美中机票网,纽约至上海航班时刻表" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 html, body, div, iframe { margin:0; padding:0; height:100%; }
@@ -12,7 +12,7 @@ html, body, div, iframe { margin:0; padding:0; height:100%; }
 </head>
 <body scroll="no" >
 <div>
-<iframe src="../nyc_sha_price.php?fromCode=NYC&toCode=SHA&fromP=纽约&toP=上海&country=USA" frameBorder="0"  height="100%" width="100%" scroll="no" >
+<iframe src="../NYC_SHA_cheap_common_request.php?fromCode=NYC&toCode=SHA&fromP=纽约&toP=上海" frameBorder="0"  height="100%" width="100%" scroll="no" >
 </iframe>
 </div>
 </body>
