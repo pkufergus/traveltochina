@@ -69,8 +69,10 @@ function GetPrice($Departure,$Arrival,$DepartureDate,$ReturnDate,$Stops)
 		return $res;
 	} else {
 		$tmp=$AllPrice[$city_key][$DepartureDate];
-		#$res='<a style="margin:0; padding:0;" target="_blank" href="'.$tmp[1].'">'.(intval($tmp[0])).'</a>';
+		//$res='<a style="margin:0; padding:0;" target="_blank" href="'.$tmp[1].'">'.(intval($tmp[0])).'</a>';
+		//$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" onclick="window.open(this.href);return false">'.(intval($tmp[0])).'</a>';
 		$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" target="_blank" >'.(intval($tmp[0])).'</a>';
+		//$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" onclick="window.open(this.href);return true">'.(intval($tmp[0])).'</a>';
 	}
 	//echo "<br/><div>res=".$res."</div><br/>";
 	return $res;
@@ -122,10 +124,6 @@ function DivideAndSort($month, $year, $Departure,$Arrival,$Staydays,$Stops)
                         #file_put_contents("test.txt", $out, FILE_APPEND);
                         $SortedPrice[$m][$d]=intval($price);
                 }
-				$c=count($SortedPrice[$m]);
-				if ($c<1) {
-					continue;
-				}
                 $SortedPrice[$m]=array_unique($SortedPrice[$m]);
                 sort($SortedPrice[$m]);
         } 
@@ -137,7 +135,7 @@ function GetPos($day, $price)
         $month=intval(date("m", $day));
         $num=count($SortedPrice[$month]);
         #file_put_contents("test.txt", "GetPos year=".date("Y-m-d", $day)."month=".$month." num=".$num." price=".intval($price)."\n", FILE_APPEND);
-        if ($num < 1) {
+        if ($num <= 0) {
                 return 1;
         }
         if ($price <= $SortedPrice[$month][0]) {
@@ -221,17 +219,9 @@ if(isset($_GET["stops"]))
 }
 if(isset($_GET["lan"]))
 {
-	//$lan = $_GET["lan"];
-	//$lan = null; 
+	$lan = $_GET["lan"];
 }
-if (!isset($from) && !isset($to)) {
-	$last_url=$_SERVER['HTTP_REFERER'];
-	$last_url=$_SERVER['PHP_SELF'];
-	header('Location: /us ');
-	?>
-	<?php
-}
-							
+
 $week=getWeek($year,$month,1);
 $beforedays = 0;
 if($week ==0)
@@ -261,6 +251,9 @@ DivideAndSort($month, $year, $from,$to,$staydays,$stops);
 <?php 
 include('cache.class.php'); 
 $cache=new cache(); 
+if ($cache->readCache($_SERVER["REQUEST_URI"])) { 
+	echo $cache->readCache($_SERVER["REQUEST_URI"]);
+}else { 
 	ob_start(); 
 	ob_implicit_flush(0); 
 ?> 
@@ -273,6 +266,14 @@ $cache=new cache();
     <link rel="stylesheet" type="text/css" href="./css/calendar.css" />
 </head>
 <body>
+<?php
+if (!isset($from) && !isset($to)) {
+    header('Location: /us/');
+    //$last_url=$_SERVER['PHP_SELF'];
+    //echo "<script type=text/javascript>console.log(\"url=\"+\"$last_url\")</script>";
+}
+?>
+                            
 <table border='0' cellspacing='0' cellpadding='0'>
 <tr>
 	<td>
@@ -1206,8 +1207,8 @@ $cache=new cache();
 </body>
 </html>
 <?php 
-//	$template = ob_get_contents(); 
-//	$cache->clearCache("calendar");
-//	$cache->writeCache($_SERVER["REQUEST_URI"],$template);
+	$template = ob_get_contents(); 
+	$cache->clearCache("calendar");
+	$cache->writeCache($_SERVER["REQUEST_URI"],$template);
+} 
 ?> 
-
