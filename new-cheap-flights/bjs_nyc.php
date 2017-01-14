@@ -12,7 +12,7 @@ html, body, div, iframe { margin:0; padding:0; height:100%; }
 </head>
 <body scroll="no" >
 <div>
-<iframe src="../bjs_nyc_price.php?fromCode=BJS&toCode=NYC&fromP=北京&toP=纽约&country=CN" frameBorder="0"  height="100%" width="100%" scroll="no" >
+<iframe src="../BJS_NYC_cheap_common_request.php?fromCode=BJS&toCode=NYC&fromP=北京&toP=纽约" frameBorder="0"  height="100%" width="100%" scroll="no" >
 </iframe>
 </div>
 </body>
