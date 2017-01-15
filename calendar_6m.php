@@ -1,3 +1,5 @@
+<script src="js/lib/store.min.js"></script>
+<script src="js/page/control.js"></script>
 <?php 
 include_once "./shared/ez_sql_core.php";
 include_once "./mysql/ez_sql_mysql.php";
@@ -71,7 +73,7 @@ function GetPrice($Departure,$Arrival,$DepartureDate,$ReturnDate,$Stops)
 		$tmp=$AllPrice[$city_key][$DepartureDate];
 		//$res='<a style="margin:0; padding:0;" target="_blank" href="'.$tmp[1].'">'.(intval($tmp[0])).'</a>';
 		//$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" onclick="window.open(this.href);return false">'.(intval($tmp[0])).'</a>';
-		$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" target="_blank" >'.(intval($tmp[0])).'</a>';
+		$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" target="_blank" onclick="PageControlModule.onClick(this)">'.(intval($tmp[0])).'</a>';
 		//$res='<a style="margin:0; padding:0;" href="'.$tmp[1].'" onclick="window.open(this.href);return true">'.(intval($tmp[0])).'</a>';
 	}
 	//echo "<br/><div>res=".$res."</div><br/>";
@@ -268,9 +270,20 @@ if ($cache->readCache($_SERVER["REQUEST_URI"])) {
 <body>
 <?php
 if (!isset($from) && !isset($to)) {
-    header('Location: /us/');
-    //$last_url=$_SERVER['PHP_SELF'];
-    //echo "<script type=text/javascript>console.log(\"url=\"+\"$last_url\")</script>";
+?>
+    <script type=text/javascript>
+        var last_url = PageControlModule.readUrl();
+        console.log("read_url="+last_url);
+        console.log("read_url2="+last_url);
+        if (last_url == null || last_url == "" || last_url.length < 10) {
+            location.href="/us/";
+        } else {
+            location.href=last_url;
+            /* console.log("read_url3="+last_url); */
+            /* window.history.back(); */
+        }
+    </script>
+<?php
 }
 ?>
                             
