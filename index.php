@@ -102,7 +102,91 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-</script>
+  navigator.sayswho = (function () {
+      var ua = navigator.userAgent, tem,
+          M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+      if (/trident/i.test(M[1])) {
+          tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+          return 'IE ' + (tem[1] || '');
+      }
+      if (M[1] === 'Chrome') {
+          tem = ua.match(/\b(OPR|Edge)\/(\d+)/);
+          if (tem != null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+      }
+      M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+      if ((tem = ua.match(/version\/(\d+)/i)) != null) M.splice(1, 1, tem[1]);
+      return M.join(' ');
+  })();
+  function createIframe(){
+      var i = document.createElement("iframe");
+      var today = new Date();
+      var year = today.getFullYear();
+      var m = today.getMonth();
+      var fromM = m + 2;
+      var toM= fromM + 1;
+      if (fromM >= 12) {
+          year = year + 1;
+          fromM = fromM - 12;
+          toM = fromM + 1;
+      }
+      var fm = "";
+      if (fromM>=10) {
+          fm = ""+fromM;
+      } else {
+          fm = "0"+fromM;
+      }
+      var tm = "";
+      if (toM>=10) {
+          tm = ""+toM;
+      } else {
+          tm = "0"+toM;
+      }
+      var url="https://www-amer.epower.amadeus.com/etraveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
+      i.style.display="none";
+      i.src = url;
+      i.scrolling = "auto";
+      i.width = "1px";
+      i.height = "1px";
+      i.frameborder = "0";
+      document.body.appendChild(i);
+  };
+  (function() {
+      console.log("navi="+navigator.sayswho);
+      var navi = navigator.sayswho.toLowerCase();
+      var today = new Date();
+      var year = today.getFullYear();
+      var m = today.getMonth();
+      var fromM = m + 2;
+      var toM= fromM + 1;
+      if (fromM >= 12) {
+          year = year + 1;
+          fromM = fromM - 12;
+          toM = fromM + 1;
+      }
+      var fm = "";
+      if (fromM>=10) {
+          fm = ""+fromM;
+      } else {
+          fm = "0"+fromM;
+      }
+      var tm = "";
+      if (toM>=10) {
+          tm = ""+toM;
+      } else {
+          tm = "0"+toM;
+      }
+    var url="https://www-amer.epower.amadeus.com/etraveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
+      if (navigator.sayswho == "" || navi.indexOf("safari") >= 0) {
+         if (window.addEventListener) {
+             window.addEventListener("load",createIframe,false);
+         } else if(window.attachEvent) {
+             window.attachEvent("onload",createIframe);
+         } else {
+             window.onload = createIframe;
+         }
+      }
+      })();
+      </script>
 </html>
 
 
