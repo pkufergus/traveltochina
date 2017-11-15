@@ -81,6 +81,7 @@ class cache
      */
     public function readCache($cache_name)
     {
+		return false;
         $cache_key = $this->getCacheKey($cache_name);
         if (!$this->checkLifeTime($cache_key)) {
             return false;

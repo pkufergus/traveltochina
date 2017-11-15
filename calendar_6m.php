@@ -252,12 +252,12 @@ DivideAndSort($month, $year, $from,$to,$staydays,$stops);
 ?>
 <?php 
 include('cache.class.php'); 
-//$cache=new cache(); 
-//if ($cache->readCache($_SERVER["REQUEST_URI"])) { 
-//	//echo $cache->readCache($_SERVER["REQUEST_URI"]);
-//}else { 
-//	ob_start(); 
-//	ob_implicit_flush(0); 
+$cache=new cache(); 
+if ($cache->readCache($_SERVER["REQUEST_URI"])) { 
+	echo $cache->readCache($_SERVER["REQUEST_URI"]);
+}else { 
+	ob_start(); 
+	ob_implicit_flush(0); 
 ?> 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -1220,8 +1220,8 @@ if (!isset($from) && !isset($to)) {
 </body>
 </html>
 <?php 
-	/* $template = ob_get_contents(); */ 
-	/* $cache->clearCache("calendar"); */
-	/* $cache->writeCache($_SERVER["REQUEST_URI"],$template); */
-/* } */ 
+	$template = ob_get_contents();
+	$cache->clearCache("calendar");
+	$cache->writeCache($_SERVER["REQUEST_URI"],$template);
+}
 ?> 
