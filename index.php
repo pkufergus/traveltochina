@@ -141,7 +141,7 @@
       } else {
           tm = "0"+toM;
       }
-      var url="https://www-amer.epower.amadeus.com/etraveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
+      var url="https://www-amer.epower.amadeus.com/traveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
       i.style.display="none";
       i.src = url;
       i.scrolling = "auto";
@@ -175,7 +175,7 @@
       } else {
           tm = "0"+toM;
       }
-    var url="https://www-amer.epower.amadeus.com/etraveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
+    var url="https://www-amer.epower.amadeus.com/traveltochina/#AdtCount=1&Culture=zh-CN&DepartureDate="+ fm +"/01/"+year+"&From=LAX&ManualCostAmount=&ManualCostType=none&Method=Search&QFrom=C&QTo=C&ReturnDate="+tm+"/01/"+year+"&To=HKG&ArrivalFlexibleDate=&DepartureFlexibleDate=&CabinClass=Y&DirectFlightsOnly=false&FamilyCardDiscount=&FamilyDiscount=&IsMajorCabin=";
       if (navigator.sayswho == "" || navi.indexOf("safari") >= 0) {
          if (window.addEventListener) {
              window.addEventListener("load",createIframe,false);

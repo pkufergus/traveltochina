@@ -3,7 +3,7 @@
  */
 // var baseUrl = "https://staging.epower.amadeus.com/etraveltochina/";
 var countryEnd = "USA";
-var baseUrl = "https://www-amer.epower.amadeus.com/etraveltochina/";
+var baseUrl = "https://www-amer.epower.amadeus.com/traveltochina/";
 $(function() {
 	 
 	
