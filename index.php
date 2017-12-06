@@ -7,6 +7,13 @@
     <meta name="关键字" content="航班查询信息,航班,航班时间表,航班时刻表,便宜航班, 航班状态,酒店搜索,汽车租赁,商务旅行,旅行指南,世界时钟,世界时间,E-travel" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<script src="js/jquery-1.4.2.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-6880550990035795",
+        enable_page_level_ads: true
+        });
+    </script>
 </head>
 <body>
 <?php
