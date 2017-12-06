@@ -10,8 +10,8 @@
 </head>
 <body>
 <?php
-	$locat=$_GET['location'];
-	$aboutForm=$_GET['location'];
+	$locat = isset($_GET['location']) ? $_GET['location'] : "USA";
+	$aboutForm = $locat;
 	 
 ?>
 <a name=FLIGHT></a>
@@ -25,8 +25,8 @@
             	<td style="width:240px;" valign="top" style=" vertical-align:top;">
                 <?php $language = '0'; 
                 $param_test = $locat;
-                $from_param = $_GET['fromCode'];
-                $to_param = $_GET['toCode'];
+                $from_param = isset($_GET['fromCode']) ? $_GET['fromCode'] : "USA";
+                $to_param = isset($_GET['toCode']) ? $_GET['toCode'] : "USA";
                 require("menu.php");
                  
                 ?>
